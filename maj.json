@@ -1,0 +1,13 @@
+{
+ "version": "1.0.1",
+ "date": "2026-10-30 21:45",
+ "nouveautes": "- Test du système de mise à jour",
+ "fichiers": [
+  {
+   "chemin": "NOUVEAUTES.txt",
+   "taille": 279,
+   "crc": 2579568551
+  }
+ ],
+ "supprimer": []
+}
