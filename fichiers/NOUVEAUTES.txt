@@ -1,0 +1,9 @@
+POKÉMON LYCARIS - NOUVEAUTÉS
+============================
+
+Version 1.0.1
+- Première mise à jour automatique (test du système de mise à jour).
+- Ajout de ce fichier, qui liste les nouveautés de chaque version.
+
+Version 1.0
+- Première version de Pokémon Lycaris.
