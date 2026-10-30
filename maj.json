@@ -1,14 +1,14 @@
 {
- "version": "1.0.2",
- "date": "2026-10-31 00:07",
- "nouveautes": "- Beaucoup de textes restés en espagnol sont maintenant en français.\n- Phrases des dresseurs au féminin si tu joues une fille.\n- Message clair en français si le jeu plante.",
+ "version": "1.0.3",
+ "date": "2026-10-31 00:18",
+ "nouveautes": "- Correction d'un plantage avec le Pokémon qui te suit (surtout en surf).\n- Correction d'un plantage possible en fin de tour de combat.",
  "encodage": "base64",
  "fichiers": [
   {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1202830,
-   "crc": 838722705,
-   "crc32": "31fde491"
+   "taille": 1203034,
+   "crc": 1046296512,
+   "crc32": "3e5d37c0"
   },
   {
    "chemin": "Data/Scripts.rxdata",
@@ -30,9 +30,9 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 799,
-   "crc": 2205046835,
-   "crc32": "836e5833"
+   "taille": 1018,
+   "crc": 1155657960,
+   "crc32": "44e1f0e8"
   },
   {
    "chemin": "Plugins/Box Auto-Sort/002_BoxIntegration.rb",
@@ -53,10 +53,22 @@
    "crc32": "0f544c9d"
   },
   {
+   "chemin": "Plugins/Deluxe Battle Kit/[002] Midbattle Scripting/[001] Midbattle Overwrites.rb",
+   "taille": 41015,
+   "crc": 2793230628,
+   "crc32": "a67d5124"
+  },
+  {
    "chemin": "Plugins/Export to Showdown/ExportToShowdown.rb",
    "taille": 5896,
    "crc": 3684979191,
    "crc32": "dba451f7"
+  },
+  {
+   "chemin": "Plugins/Following Pokemon EX/Main Module/Event_Sprite Commands.rb",
+   "taille": 8613,
+   "crc": 1604601814,
+   "crc32": "5fa447d6"
   },
   {
    "chemin": "Plugins/Lycaris Erreurs/erreurs_lycaris.rb",
