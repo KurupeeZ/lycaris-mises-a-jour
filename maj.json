@@ -1,14 +1,80 @@
 {
- "version": "1.0.1",
- "date": "2026-10-30 22:47",
- "nouveautes": "- Test mise à jour",
+ "version": "1.0.2",
+ "date": "2026-10-31 00:07",
+ "nouveautes": "- Beaucoup de textes restés en espagnol sont maintenant en français.\n- Phrases des dresseurs au féminin si tu joues une fille.\n- Message clair en français si le jeu plante.",
  "encodage": "base64",
  "fichiers": [
   {
+   "chemin": "Data/PluginScripts.rxdata",
+   "taille": 1202830,
+   "crc": 838722705,
+   "crc32": "31fde491"
+  },
+  {
+   "chemin": "Data/Scripts.rxdata",
+   "taille": 1284685,
+   "crc": 3616983834,
+   "crc32": "d796cb1a"
+  },
+  {
+   "chemin": "Data/messages_french_game.dat",
+   "taille": 2405437,
+   "crc": 768175051,
+   "crc32": "2dc96bcb"
+  },
+  {
+   "chemin": "LISEZ-MOI.txt",
+   "taille": 3279,
+   "crc": 2088363477,
+   "crc32": "7c79e5d5"
+  },
+  {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 279,
-   "crc": 2579568551,
-   "crc32": "99c117a7"
+   "taille": 799,
+   "crc": 2205046835,
+   "crc32": "836e5833"
+  },
+  {
+   "chemin": "Plugins/Box Auto-Sort/002_BoxIntegration.rb",
+   "taille": 6879,
+   "crc": 1363045589,
+   "crc32": "513e6cd5"
+  },
+  {
+   "chemin": "Plugins/Cable Club/[001] Cable Club Client/006_CableClub_UI.rb",
+   "taille": 49173,
+   "crc": 2958045302,
+   "crc32": "b0503076"
+  },
+  {
+   "chemin": "Plugins/Challenge Modes/002_Rule Select.rb",
+   "taille": 14855,
+   "crc": 257182877,
+   "crc32": "0f544c9d"
+  },
+  {
+   "chemin": "Plugins/Export to Showdown/ExportToShowdown.rb",
+   "taille": 5896,
+   "crc": 3684979191,
+   "crc32": "dba451f7"
+  },
+  {
+   "chemin": "Plugins/Lycaris Erreurs/erreurs_lycaris.rb",
+   "taille": 4833,
+   "crc": 3320363354,
+   "crc32": "c5e8b95a"
+  },
+  {
+   "chemin": "Plugins/Lycaris Erreurs/meta.txt",
+   "taille": 88,
+   "crc": 3627971105,
+   "crc32": "d83e7221"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/013_Punch Bag Minigame.rb",
+   "taille": 23817,
+   "crc": 149258707,
+   "crc32": "08e581d3"
   }
  ],
  "supprimer": []
