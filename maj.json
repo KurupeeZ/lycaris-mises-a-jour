@@ -1,14 +1,38 @@
 {
- "version": "1.0.3",
- "date": "2026-10-31 00:18",
- "nouveautes": "- Correction d'un plantage avec le Pokémon qui te suit (surtout en surf).\n- Correction d'un plantage possible en fin de tour de combat.",
+ "version": "1.0.4",
+ "date": "2026-10-31 17:22",
+ "nouveautes": "- L’Experte en Talents demande maintenant 5000 Pokédollars au lieu d’un Mini Champi\n- Défi Monotype : Mode Random automatique avec plus de Pokémon du type choisi\n- PC de la chambre et salle des créateurs de Céladopole mis à jour\n- Nouvel objet : la Capsule EV, qui remet à 0 les EV d’un Pokémon (donnée par le Prof. Chen)",
  "encodage": "base64",
  "fichiers": [
   {
+   "chemin": "Data/Map002.rxdata",
+   "taille": 71053,
+   "crc": 1445567252,
+   "crc32": "56299b14"
+  },
+  {
+   "chemin": "Data/Map029.rxdata",
+   "taille": 106003,
+   "crc": 3506701037,
+   "crc32": "d10402ed"
+  },
+  {
+   "chemin": "Data/Map080.rxdata",
+   "taille": 45432,
+   "crc": 3419755069,
+   "crc32": "cbd5523d"
+  },
+  {
+   "chemin": "Data/Map202.rxdata",
+   "taille": 25938,
+   "crc": 407047371,
+   "crc32": "18430ccb"
+  },
+  {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1203034,
-   "crc": 1046296512,
-   "crc32": "3e5d37c0"
+   "taille": 1204851,
+   "crc": 336633616,
+   "crc32": "14109f10"
   },
   {
    "chemin": "Data/Scripts.rxdata",
@@ -17,10 +41,34 @@
    "crc32": "d796cb1a"
   },
   {
+   "chemin": "Data/items.dat",
+   "taille": 199458,
+   "crc": 1331334450,
+   "crc32": "4f5a8d32"
+  },
+  {
    "chemin": "Data/messages_french_game.dat",
-   "taille": 2405437,
-   "crc": 768175051,
-   "crc32": "2dc96bcb"
+   "taille": 2404840,
+   "crc": 19393043,
+   "crc32": "0127ea13"
+  },
+  {
+   "chemin": "Graphics/Items/CAPSULEEV.png",
+   "taille": 4059,
+   "crc": 3271608024,
+   "crc32": "c300c6d8"
+  },
+  {
+   "chemin": "Graphics/Items/Key items/CAPSULEEV_key.png",
+   "taille": 5288,
+   "crc": 4000934205,
+   "crc32": "ee79693d"
+  },
+  {
+   "chemin": "Graphics/Items/Key items/CHAPADORADA_key.png",
+   "taille": 5395,
+   "crc": 1487703999,
+   "crc32": "58ac8fbf"
   },
   {
    "chemin": "LISEZ-MOI.txt",
@@ -30,9 +78,21 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 1018,
-   "crc": 1155657960,
-   "crc32": "44e1f0e8"
+   "taille": 1637,
+   "crc": 3535109460,
+   "crc32": "d2b57d54"
+  },
+  {
+   "chemin": "PBS/items.txt",
+   "taille": 224736,
+   "crc": 4229625247,
+   "crc32": "fc1af59f"
+  },
+  {
+   "chemin": "Plugins/BW Key Items/BW Key Item.rb",
+   "taille": 6329,
+   "crc": 2597485910,
+   "crc32": "9ad27d56"
   },
   {
    "chemin": "Plugins/Box Auto-Sort/002_BoxIntegration.rb",
@@ -51,6 +111,12 @@
    "taille": 14855,
    "crc": 257182877,
    "crc32": "0f544c9d"
+  },
+  {
+   "chemin": "Plugins/Chapas/Chapas.rb",
+   "taille": 6891,
+   "crc": 1927584675,
+   "crc32": "72e49ba3"
   },
   {
    "chemin": "Plugins/Deluxe Battle Kit/[002] Midbattle Scripting/[001] Midbattle Overwrites.rb",
@@ -83,10 +149,34 @@
    "crc32": "d83e7221"
   },
   {
+   "chemin": "Plugins/Lycaris Nouvelle Partie/ecran_partie.rb",
+   "taille": 15964,
+   "crc": 1942956828,
+   "crc32": "73cf2b1c"
+  },
+  {
    "chemin": "Plugins/Misc Scripts Lycaris/013_Punch Bag Minigame.rb",
    "taille": 23817,
    "crc": 149258707,
    "crc32": "08e581d3"
+  },
+  {
+   "chemin": "Plugins/Random Pokemon & Moves + Randomizer EX (Abilities)/001_Main.rb",
+   "taille": 32467,
+   "crc": 3302844972,
+   "crc32": "c4dd6a2c"
+  },
+  {
+   "chemin": "Plugins/Random Pokemon & Moves + Randomizer EX (Abilities)/011_Salvajes_Coherentes.rb",
+   "taille": 10238,
+   "crc": 1428136360,
+   "crc32": "551fa1a8"
+  },
+  {
+   "chemin": "Plugins/[DBK] Animated Pokémon System/[005] Pokemon Sprites.rb",
+   "taille": 13492,
+   "crc": 76003345,
+   "crc32": "0487b811"
   }
  ],
  "supprimer": []
