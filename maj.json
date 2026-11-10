@@ -1,20 +1,116 @@
 {
- "version": "1.0.4",
- "date": "2026-10-31 17:22",
- "nouveautes": "- L’Experte en Talents demande maintenant 5000 Pokédollars au lieu d’un Mini Champi\n- Défi Monotype : Mode Random automatique avec plus de Pokémon du type choisi\n- PC de la chambre et salle des créateurs de Céladopole mis à jour\n- Nouvel objet : la Capsule EV, qui remet à 0 les EV d’un Pokémon (donnée par le Prof. Chen)",
+ "version": "1.1",
+ "date": "2026-11-10 01:42",
+ "nouveautes": "- Pokédex de Lycaris : un seul Pokédex régional, le National disparaît.\n- Plus de 35 lignées en forme Lycaris, avec de nouveaux types et designs.\n- 22 nouvelles Méga-Évolutions, avec leurs Méga-Gemmes.\n- Nouvelles évolutions : Spectrali, Migalarque et Volcartor.\n- Team Galaxie : Mars, Jupiter et Saturne gardent les oiseaux légendaires, final au sommet de la Tour Pokémon.\n- 96 animations d'attaques modernes avec de nouveaux sons.\n- Dresseurs et Pokémon sauvages refaits avec les Pokémon de Lycaris.\n- Nouvelle personnage jouable : Banish. Écrans VS en HD.\n- Starter (Kanto ou Sinnoh) et réglages de partie juste après l'intro.",
  "encodage": "base64",
  "fichiers": [
   {
+   "chemin": "Audio/BGM/CombateComandanteGalaxia.ogg",
+   "taille": 1632901,
+   "crc": 820585183,
+   "crc32": "30e922df"
+  },
+  {
+   "chemin": "Audio/BGM/CombateHelios.ogg",
+   "taille": 3290254,
+   "crc": 88887091,
+   "crc32": "054c4f33"
+  },
+  {
+   "chemin": "Audio/BGM/EncuentroGalaxia.ogg",
+   "taille": 515995,
+   "crc": 3109140450,
+   "crc32": "b951b7e2"
+  },
+  {
+   "chemin": "Audio/BGM/VictoriaGalaxia.ogg",
+   "taille": 281768,
+   "crc": 923173276,
+   "crc32": "3706819c"
+  },
+  {
+   "chemin": "Audio/SE/Cries/MIGALARQUE.ogg",
+   "taille": 10014,
+   "crc": 1328036372,
+   "crc32": "4f283a14"
+  },
+  {
+   "chemin": "Audio/SE/Cries/SPECTRALI.ogg",
+   "taille": 10281,
+   "crc": 1215635652,
+   "crc32": "487520c4"
+  },
+  {
+   "chemin": "Audio/SE/Cries/VOLCARTOR.ogg",
+   "taille": 8504,
+   "crc": 3539219906,
+   "crc32": "d2f435c2"
+  },
+  {
+   "chemin": "Data/CommonEvents.rxdata",
+   "taille": 234883,
+   "crc": 4075461551,
+   "crc32": "f2ea9baf"
+  },
+  {
    "chemin": "Data/Map002.rxdata",
-   "taille": 71053,
-   "crc": 1445567252,
-   "crc32": "56299b14"
+   "taille": 76081,
+   "crc": 822101078,
+   "crc32": "31004456"
+  },
+  {
+   "chemin": "Data/Map004.rxdata",
+   "taille": 77227,
+   "crc": 3801652133,
+   "crc32": "e2989ba5"
+  },
+  {
+   "chemin": "Data/Map009.rxdata",
+   "taille": 80258,
+   "crc": 2185530390,
+   "crc32": "82448c16"
+  },
+  {
+   "chemin": "Data/Map015.rxdata",
+   "taille": 107889,
+   "crc": 4137455021,
+   "crc32": "f69c8dad"
+  },
+  {
+   "chemin": "Data/Map019.rxdata",
+   "taille": 79291,
+   "crc": 1403662300,
+   "crc32": "53aa2fdc"
+  },
+  {
+   "chemin": "Data/Map028.rxdata",
+   "taille": 29235,
+   "crc": 1692171151,
+   "crc32": "64dc7b8f"
   },
   {
    "chemin": "Data/Map029.rxdata",
-   "taille": 106003,
-   "crc": 3506701037,
-   "crc32": "d10402ed"
+   "taille": 105975,
+   "crc": 3451426615,
+   "crc32": "cdb89737"
+  },
+  {
+   "chemin": "Data/Map064.rxdata",
+   "taille": 92627,
+   "crc": 3493181651,
+   "crc32": "d035b8d3"
+  },
+  {
+   "chemin": "Data/Map065.rxdata",
+   "taille": 49532,
+   "crc": 3982704160,
+   "crc32": "ed633e20"
+  },
+  {
+   "chemin": "Data/Map076.rxdata",
+   "taille": 75585,
+   "crc": 2243419725,
+   "crc32": "85b7de4d"
   },
   {
    "chemin": "Data/Map080.rxdata",
@@ -23,28 +119,148 @@
    "crc32": "cbd5523d"
   },
   {
+   "chemin": "Data/Map087.rxdata",
+   "taille": 70687,
+   "crc": 2250144177,
+   "crc32": "861e79b1"
+  },
+  {
+   "chemin": "Data/Map091.rxdata",
+   "taille": 68403,
+   "crc": 1237663185,
+   "crc32": "49c53dd1"
+  },
+  {
+   "chemin": "Data/Map094.rxdata",
+   "taille": 73893,
+   "crc": 1824145927,
+   "crc32": "6cba4207"
+  },
+  {
+   "chemin": "Data/Map099.rxdata",
+   "taille": 78794,
+   "crc": 1136707489,
+   "crc32": "43c0c7a1"
+  },
+  {
+   "chemin": "Data/Map136.rxdata",
+   "taille": 46529,
+   "crc": 1054767057,
+   "crc32": "3ede77d1"
+  },
+  {
+   "chemin": "Data/Map141.rxdata",
+   "taille": 34963,
+   "crc": 552899170,
+   "crc32": "20f49262"
+  },
+  {
+   "chemin": "Data/Map150.rxdata",
+   "taille": 88308,
+   "crc": 1952371768,
+   "crc32": "745ed438"
+  },
+  {
+   "chemin": "Data/Map153.rxdata",
+   "taille": 44898,
+   "crc": 1271734629,
+   "crc32": "4bcd2165"
+  },
+  {
+   "chemin": "Data/Map157.rxdata",
+   "taille": 56885,
+   "crc": 4214029938,
+   "crc32": "fb2cfe72"
+  },
+  {
+   "chemin": "Data/Map162.rxdata",
+   "taille": 60396,
+   "crc": 1256911418,
+   "crc32": "4aeaf23a"
+  },
+  {
+   "chemin": "Data/Map163.rxdata",
+   "taille": 53171,
+   "crc": 3396490286,
+   "crc32": "ca72542e"
+  },
+  {
+   "chemin": "Data/Map167.rxdata",
+   "taille": 46805,
+   "crc": 1740734471,
+   "crc32": "67c18007"
+  },
+  {
+   "chemin": "Data/Map173.rxdata",
+   "taille": 37419,
+   "crc": 1507461063,
+   "crc32": "59da07c7"
+  },
+  {
+   "chemin": "Data/Map185.rxdata",
+   "taille": 38799,
+   "crc": 2335607988,
+   "crc32": "8b368cb4"
+  },
+  {
+   "chemin": "Data/Map199.rxdata",
+   "taille": 64432,
+   "crc": 1699703562,
+   "crc32": "654f6b0a"
+  },
+  {
    "chemin": "Data/Map202.rxdata",
    "taille": 25938,
    "crc": 407047371,
    "crc32": "18430ccb"
   },
   {
+   "chemin": "Data/Map216.rxdata",
+   "taille": 81501,
+   "crc": 2346227142,
+   "crc32": "8bd895c6"
+  },
+  {
+   "chemin": "Data/PkmnAnimations.rxdata",
+   "taille": 13470544,
+   "crc": 2733315108,
+   "crc32": "a2eb1424"
+  },
+  {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1204851,
-   "crc": 336633616,
-   "crc32": "14109f10"
+   "taille": 1225170,
+   "crc": 1370730207,
+   "crc32": "51b3aedf"
   },
   {
    "chemin": "Data/Scripts.rxdata",
-   "taille": 1284685,
-   "crc": 3616983834,
-   "crc32": "d796cb1a"
+   "taille": 1284767,
+   "crc": 592524842,
+   "crc32": "2351362a"
+  },
+  {
+   "chemin": "Data/System.rxdata",
+   "taille": 21903,
+   "crc": 3253329496,
+   "crc32": "c1e9de58"
+  },
+  {
+   "chemin": "Data/abilities.dat",
+   "taille": 53790,
+   "crc": 2072800291,
+   "crc32": "7b8c6c23"
+  },
+  {
+   "chemin": "Data/encounters.dat",
+   "taille": 19666,
+   "crc": 119239396,
+   "crc32": "071b72e4"
   },
   {
    "chemin": "Data/items.dat",
-   "taille": 199458,
-   "crc": 1331334450,
-   "crc32": "4f5a8d32"
+   "taille": 201228,
+   "crc": 695567637,
+   "crc32": "29758515"
   },
   {
    "chemin": "Data/messages_french_game.dat",
@@ -53,10 +269,2062 @@
    "crc32": "0127ea13"
   },
   {
+   "chemin": "Data/player_metadata.dat",
+   "taille": 4656,
+   "crc": 4118692766,
+   "crc32": "f57e439e"
+  },
+  {
+   "chemin": "Data/regional_dexes.dat",
+   "taille": 5930,
+   "crc": 3317915216,
+   "crc32": "c5c35e50"
+  },
+  {
+   "chemin": "Data/species.dat",
+   "taille": 1315832,
+   "crc": 3146073356,
+   "crc32": "bb85450c"
+  },
+  {
+   "chemin": "Data/species_metrics.dat",
+   "taille": 149548,
+   "crc": 659204061,
+   "crc32": "274aa7dd"
+  },
+  {
+   "chemin": "Data/trainer_types.dat",
+   "taille": 18508,
+   "crc": 4027150151,
+   "crc32": "f0096f47"
+  },
+  {
+   "chemin": "Data/trainers.dat",
+   "taille": 176768,
+   "crc": 3330490216,
+   "crc32": "c6833f68"
+  },
+  {
+   "chemin": "Graphics/Animations/abattage_moderne.png",
+   "taille": 206294,
+   "crc": 1309440734,
+   "crc32": "4e0c7ade"
+  },
+  {
+   "chemin": "Graphics/Animations/acide_malique_moderne.png",
+   "taille": 261237,
+   "crc": 2961402043,
+   "crc32": "b08368bb"
+  },
+  {
+   "chemin": "Graphics/Animations/ailes_psycho_moderne.png",
+   "taille": 249931,
+   "crc": 3523121251,
+   "crc32": "d1fe9063"
+  },
+  {
+   "chemin": "Graphics/Animations/aqua_breche_moderne.png",
+   "taille": 270945,
+   "crc": 3494313520,
+   "crc32": "d046fe30"
+  },
+  {
+   "chemin": "Graphics/Animations/aquatacle_moderne.png",
+   "taille": 264836,
+   "crc": 1458862745,
+   "crc32": "56f47a99"
+  },
+  {
+   "chemin": "Graphics/Animations/assaut_frontal_moderne.png",
+   "taille": 311409,
+   "crc": 3447455175,
+   "crc32": "cd7bfdc7"
+  },
+  {
+   "chemin": "Graphics/Animations/big_splash_moderne.png",
+   "taille": 249601,
+   "crc": 2484575400,
+   "crc32": "94179ca8"
+  },
+  {
+   "chemin": "Graphics/Animations/bise_glaciaire_moderne.png",
+   "taille": 224991,
+   "crc": 3293431393,
+   "crc32": "c44dc661"
+  },
+  {
+   "chemin": "Graphics/Animations/bond_moderne.png",
+   "taille": 209615,
+   "crc": 1398939524,
+   "crc32": "53621f84"
+  },
+  {
+   "chemin": "Graphics/Animations/boule_pollen_moderne.png",
+   "taille": 46377,
+   "crc": 3356590486,
+   "crc32": "c8118196"
+  },
+  {
+   "chemin": "Graphics/Animations/branchicrok_moderne.png",
+   "taille": 290693,
+   "crc": 2513938046,
+   "crc32": "95d7a67e"
+  },
+  {
+   "chemin": "Graphics/Animations/canon_blinde_moderne.png",
+   "taille": 298343,
+   "crc": 1007950308,
+   "crc32": "3c1419e4"
+  },
+  {
+   "chemin": "Graphics/Animations/canon_floral_moderne.png",
+   "taille": 307218,
+   "crc": 4255078021,
+   "crc32": "fd9f5685"
+  },
+  {
+   "chemin": "Graphics/Animations/cataclysme_moderne.png",
+   "taille": 338568,
+   "crc": 2287678456,
+   "crc32": "885b33f8"
+  },
+  {
+   "chemin": "Graphics/Animations/cavalerie_lourde_moderne.png",
+   "taille": 274047,
+   "crc": 1151631768,
+   "crc32": "44a48198"
+  },
+  {
+   "chemin": "Graphics/Animations/cent_rancunes_moderne.png",
+   "taille": 234057,
+   "crc": 2458569982,
+   "crc32": "928accfe"
+  },
+  {
+   "chemin": "Graphics/Animations/centrifugifle_moderne.png",
+   "taille": 193171,
+   "crc": 2107649166,
+   "crc32": "7da02c8e"
+  },
+  {
+   "chemin": "Graphics/Animations/champlification_moderne.png",
+   "taille": 242412,
+   "crc": 3855973622,
+   "crc32": "e5d57cf6"
+  },
+  {
+   "chemin": "Graphics/Animations/chant_flamboyant_moderne.png",
+   "taille": 302565,
+   "crc": 1804547965,
+   "crc32": "6b8f377d"
+  },
+  {
+   "chemin": "Graphics/Animations/choc_emotionnel_moderne.png",
+   "taille": 295000,
+   "crc": 4233309367,
+   "crc32": "fc532cb7"
+  },
+  {
+   "chemin": "Graphics/Animations/coeur_de_rancoeur_moderne.png",
+   "taille": 193873,
+   "crc": 2141851909,
+   "crc32": "7faa1105"
+  },
+  {
+   "chemin": "Graphics/Animations/croque_fort_moderne.png",
+   "taille": 201061,
+   "crc": 1642016068,
+   "crc32": "61df2d44"
+  },
+  {
+   "chemin": "Graphics/Animations/cryo_pirouette_moderne.png",
+   "taille": 190682,
+   "crc": 3009524928,
+   "crc32": "b361b4c0"
+  },
+  {
+   "chemin": "Graphics/Animations/danse_aquatique_moderne.png",
+   "taille": 279254,
+   "crc": 2471375423,
+   "crc32": "934e323f"
+  },
+  {
+   "chemin": "Graphics/Animations/derapage_moderne.png",
+   "taille": 252667,
+   "crc": 3700778780,
+   "crc32": "dc95671c"
+  },
+  {
+   "chemin": "Graphics/Animations/desherbaffe_moderne.png",
+   "taille": 200702,
+   "crc": 1244417917,
+   "crc32": "4a2c4f7d"
+  },
+  {
+   "chemin": "Graphics/Animations/dissonance_psy_moderne.png",
+   "taille": 248460,
+   "crc": 1583813759,
+   "crc32": "5e67147f"
+  },
+  {
+   "chemin": "Graphics/Animations/double_decharge_moderne.png",
+   "taille": 286545,
+   "crc": 1171448539,
+   "crc32": "45d2e2db"
+  },
+  {
+   "chemin": "Graphics/Animations/double_laser_moderne.png",
+   "taille": 224056,
+   "crc": 3104482254,
+   "crc32": "b90aa3ce"
+  },
+  {
+   "chemin": "Graphics/Animations/double_volee_moderne.png",
+   "taille": 208318,
+   "crc": 1200567224,
+   "crc32": "478f33b8"
+  },
+  {
+   "chemin": "Graphics/Animations/douche_froide_moderne.png",
+   "taille": 123702,
+   "crc": 3918741451,
+   "crc32": "e9933fcb"
+  },
+  {
+   "chemin": "Graphics/Animations/draco_marteau_moderne.png",
+   "taille": 238384,
+   "crc": 1118944763,
+   "crc32": "42b1bdfb"
+  },
+  {
+   "chemin": "Graphics/Animations/eau_revoir_moderne.png",
+   "taille": 255380,
+   "crc": 1672636324,
+   "crc32": "63b267a4"
+  },
+  {
+   "chemin": "Graphics/Animations/electrikipik_moderne.png",
+   "taille": 276225,
+   "crc": 3051463312,
+   "crc32": "b5e1a290"
+  },
+  {
+   "chemin": "Graphics/Animations/escarmouche_moderne.png",
+   "taille": 171839,
+   "crc": 1954659304,
+   "crc32": "7481bbe8"
+  },
+  {
+   "chemin": "Graphics/Animations/esprit_frappeur_moderne.png",
+   "taille": 299453,
+   "crc": 2560319809,
+   "crc32": "989b6141"
+  },
+  {
+   "chemin": "Graphics/Animations/estocorne_moderne.png",
+   "taille": 168762,
+   "crc": 2639681881,
+   "crc32": "9d565959"
+  },
+  {
+   "chemin": "Graphics/Animations/execu_son_moderne.png",
+   "taille": 182928,
+   "crc": 2352368950,
+   "crc32": "8c364d36"
+  },
+  {
+   "chemin": "Graphics/Animations/explo_brume_moderne.png",
+   "taille": 217742,
+   "crc": 1651253435,
+   "crc32": "626c20bb"
+  },
+  {
+   "chemin": "Graphics/Animations/feu_envieux_moderne.png",
+   "taille": 270646,
+   "crc": 4242109382,
+   "crc32": "fcd973c6"
+  },
+  {
+   "chemin": "Graphics/Animations/feuillage_moderne.png",
+   "taille": 127766,
+   "crc": 3014698061,
+   "crc32": "b3b0a44d"
+  },
+  {
+   "chemin": "Graphics/Animations/flamme_ultime_moderne.png",
+   "taille": 290887,
+   "crc": 862005237,
+   "crc32": "336127f5"
+  },
+  {
+   "chemin": "Graphics/Animations/force_mystique_moderne.png",
+   "taille": 299770,
+   "crc": 284802286,
+   "crc32": "10f9bcee"
+  },
+  {
+   "chemin": "Graphics/Animations/force_poigne_moderne.png",
+   "taille": 164684,
+   "crc": 3229164327,
+   "crc32": "c0792327"
+  },
+  {
+   "chemin": "Graphics/Animations/fouet_de_feu_moderne.png",
+   "taille": 275343,
+   "crc": 1800967365,
+   "crc32": "6b5894c5"
+  },
+  {
+   "chemin": "Graphics/Animations/fourbette_moderne.png",
+   "taille": 183762,
+   "crc": 91927688,
+   "crc32": "057ab488"
+  },
+  {
+   "chemin": "Graphics/Animations/fureur_ardente_moderne.png",
+   "taille": 360351,
+   "crc": 1944886241,
+   "crc32": "73ec9be1"
+  },
+  {
+   "chemin": "Graphics/Animations/furie_bond_moderne.png",
+   "taille": 209038,
+   "crc": 955589584,
+   "crc32": "38f523d0"
+  },
+  {
+   "chemin": "Graphics/Animations/gliss_herbe_moderne.png",
+   "taille": 190246,
+   "crc": 3238077420,
+   "crc32": "c10123ec"
+  },
+  {
+   "chemin": "Graphics/Animations/grand_courroux_moderne.png",
+   "taille": 299776,
+   "crc": 811629858,
+   "crc32": "30607d22"
+  },
+  {
+   "chemin": "Graphics/Animations/griffes_funestes_moderne.png",
+   "taille": 279324,
+   "crc": 240777792,
+   "crc32": "0e59fa40"
+  },
+  {
+   "chemin": "Graphics/Animations/hache_de_pierre_moderne.png",
+   "taille": 305843,
+   "crc": 207505210,
+   "crc32": "0c5e473a"
+  },
+  {
+   "chemin": "Graphics/Animations/harcelement_moderne.png",
+   "taille": 43278,
+   "crc": 1879484225,
+   "crc32": "7006a741"
+  },
+  {
+   "chemin": "Graphics/Animations/herblast_moderne.png",
+   "taille": 266378,
+   "crc": 845510162,
+   "crc32": "32657612"
+  },
+  {
+   "chemin": "Graphics/Animations/hommage_posthume_moderne.png",
+   "taille": 295172,
+   "crc": 3226080107,
+   "crc32": "c04a136b"
+  },
+  {
+   "chemin": "Graphics/Animations/hydrovapeur_moderne.png",
+   "taille": 280609,
+   "crc": 3350022316,
+   "crc32": "c7ad48ac"
+  },
+  {
+   "chemin": "Graphics/Animations/hyperceuse_moderne.png",
+   "taille": 244614,
+   "crc": 321016679,
+   "crc32": "13225367"
+  },
+  {
+   "chemin": "Graphics/Animations/indignition_moderne.png",
+   "taille": 284085,
+   "crc": 3530575134,
+   "crc32": "d2704d1e"
+  },
+  {
+   "chemin": "Graphics/Animations/ire_de_la_nature_moderne.png",
+   "taille": 309117,
+   "crc": 1518580662,
+   "crc32": "5a83b3b6"
+  },
+  {
+   "chemin": "Graphics/Animations/lame_solaire_moderne.png",
+   "taille": 206242,
+   "crc": 546766285,
+   "crc32": "2096fdcd"
+  },
+  {
+   "chemin": "Graphics/Animations/lame_tachyonique_moderne.png",
+   "taille": 219483,
+   "crc": 1118110270,
+   "crc32": "42a5023e"
+  },
+  {
+   "chemin": "Graphics/Animations/lance_flammes_moderne.png",
+   "taille": 350703,
+   "crc": 46912004,
+   "crc32": "02cbd204"
+  },
+  {
+   "chemin": "Graphics/Animations/laser_meteore_moderne.png",
+   "taille": 295334,
+   "crc": 3135064441,
+   "crc32": "badd4979"
+  },
+  {
+   "chemin": "Graphics/Animations/magie_florale_moderne.png",
+   "taille": 306957,
+   "crc": 3255500898,
+   "crc32": "c20b0062"
+  },
+  {
+   "chemin": "Graphics/Animations/marteau_de_glace_moderne.png",
+   "taille": 228466,
+   "crc": 91146685,
+   "crc32": "056ec9bd"
+  },
+  {
+   "chemin": "Graphics/Animations/metalaser_moderne.png",
+   "taille": 249476,
+   "crc": 1335922333,
+   "crc32": "4fa08e9d"
+  },
+  {
+   "chemin": "Graphics/Animations/metalliroue_moderne.png",
+   "taille": 273761,
+   "crc": 2964623713,
+   "crc32": "b0b49161"
+  },
+  {
+   "chemin": "Graphics/Animations/monte_tension_moderne.png",
+   "taille": 189613,
+   "crc": 1267182687,
+   "crc32": "4b87ac5f"
+  },
+  {
+   "chemin": "Graphics/Animations/multitoxik_moderne.png",
+   "taille": 223530,
+   "crc": 716199862,
+   "crc32": "2ab057b6"
+  },
+  {
+   "chemin": "Graphics/Animations/overdrive_moderne.png",
+   "taille": 345664,
+   "crc": 1905586008,
+   "crc32": "7194ef58"
+  },
+  {
+   "chemin": "Graphics/Animations/plaquage_moderne.png",
+   "taille": 214128,
+   "crc": 2696450323,
+   "crc32": "a0b89113"
+  },
+  {
+   "chemin": "Graphics/Animations/poing_sonique_moderne.png",
+   "taille": 251347,
+   "crc": 1687052898,
+   "crc32": "648e6262"
+  },
+  {
+   "chemin": "Graphics/Animations/prio_parade_moderne.png",
+   "taille": 193856,
+   "crc": 1079620267,
+   "crc32": "4059b2ab"
+  },
+  {
+   "chemin": "Graphics/Animations/prise_de_bec_moderne.png",
+   "taille": 287519,
+   "crc": 1185991050,
+   "crc32": "46b0c98a"
+  },
+  {
+   "chemin": "Graphics/Animations/rafale_ecailles_moderne.png",
+   "taille": 157387,
+   "crc": 1182189442,
+   "crc32": "4676c782"
+  },
+  {
+   "chemin": "Graphics/Animations/ravage_rampant_moderne.png",
+   "taille": 200997,
+   "crc": 475330862,
+   "crc32": "1c54f92e"
+  },
+  {
+   "chemin": "Graphics/Animations/rayon_spectral_moderne.png",
+   "taille": 235874,
+   "crc": 3314068852,
+   "crc32": "c588ad74"
+  },
+  {
+   "chemin": "Graphics/Animations/sable_ardent_moderne.png",
+   "taille": 250170,
+   "crc": 943239754,
+   "crc32": "3838b24a"
+  },
+  {
+   "chemin": "Graphics/Animations/salaison_moderne.png",
+   "taille": 203262,
+   "crc": 3380213795,
+   "crc32": "c979f823"
+  },
+  {
+   "chemin": "Graphics/Animations/talon_marteau_moderne.png",
+   "taille": 326427,
+   "crc": 1180984921,
+   "crc32": "46646659"
+  },
+  {
+   "chemin": "Graphics/Animations/tapotige_moderne.png",
+   "taille": 231428,
+   "crc": 4067993987,
+   "crc32": "f278a983"
+  },
+  {
+   "chemin": "Graphics/Animations/taurogne_moderne.png",
+   "taille": 245413,
+   "crc": 2194850092,
+   "crc32": "82d2c12c"
+  },
+  {
+   "chemin": "Graphics/Animations/tir_de_precision_moderne.png",
+   "taille": 288875,
+   "crc": 1919221207,
+   "crc32": "7264fdd7"
+  },
+  {
+   "chemin": "Graphics/Animations/tonnerre_moderne.png",
+   "taille": 223656,
+   "crc": 993142538,
+   "crc32": "3b32270a"
+  },
+  {
+   "chemin": "Graphics/Animations/toupie_eclat_moderne.png",
+   "taille": 320913,
+   "crc": 3240828811,
+   "crc32": "c12b1f8b"
+  },
+  {
+   "chemin": "Graphics/Animations/tranch_aqua_moderne.png",
+   "taille": 135231,
+   "crc": 2466163129,
+   "crc32": "92fea9b9"
+  },
+  {
+   "chemin": "Graphics/Animations/trepignement_moderne.png",
+   "taille": 297483,
+   "crc": 3797392426,
+   "crc32": "e2579c2a"
+  },
+  {
+   "chemin": "Graphics/Animations/triple_axel_moderne.png",
+   "taille": 145629,
+   "crc": 2844605328,
+   "crc32": "a98d3b90"
+  },
+  {
+   "chemin": "Graphics/Animations/triple_plongeon_moderne.png",
+   "taille": 283395,
+   "crc": 1383174103,
+   "crc32": "52718fd7"
+  },
+  {
+   "chemin": "Graphics/Animations/troquenard_moderne.png",
+   "taille": 222217,
+   "crc": 2097242246,
+   "crc32": "7d016086"
+  },
+  {
+   "chemin": "Graphics/Animations/vapeur_feerique_moderne.png",
+   "taille": 97790,
+   "crc": 56482300,
+   "crc32": "035dd9fc"
+  },
+  {
+   "chemin": "Graphics/Animations/vaste_pouvoir_moderne.png",
+   "taille": 218385,
+   "crc": 3974142432,
+   "crc32": "ece099e0"
+  },
+  {
+   "chemin": "Graphics/Animations/vif_eclair_moderne.png",
+   "taille": 277446,
+   "crc": 3890913725,
+   "crc32": "e7eaa1bd"
+  },
+  {
+   "chemin": "Graphics/Animations/vindicte_moderne.png",
+   "taille": 220968,
+   "crc": 845684952,
+   "crc32": "326820d8"
+  },
+  {
+   "chemin": "Graphics/Animations/voix_envoutante_moderne.png",
+   "taille": 223751,
+   "crc": 4236082460,
+   "crc32": "fc7d7d1c"
+  },
+  {
+   "chemin": "Graphics/Animations/volt_assaut_moderne.png",
+   "taille": 234191,
+   "crc": 3696149138,
+   "crc32": "dc4ec292"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ABRA.png",
+   "taille": 16115,
+   "crc": 3029828087,
+   "crc32": "b49781f7"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/AGGRON.png",
+   "taille": 21156,
+   "crc": 1041892841,
+   "crc32": "3e1a05e9"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ALAKAZAM.png",
+   "taille": 21908,
+   "crc": 2061936920,
+   "crc32": "7ae6a918"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ARBOK.png",
+   "taille": 33877,
+   "crc": 2840871457,
+   "crc32": "a9544221"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ARON.png",
+   "taille": 10942,
+   "crc": 1718174593,
+   "crc32": "66694381"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BAGON.png",
+   "taille": 6188,
+   "crc": 3965706432,
+   "crc32": "ec5fe0c0"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BELDUM.png",
+   "taille": 7981,
+   "crc": 2992269141,
+   "crc32": "b25a6755"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BLASTOISE.png",
+   "taille": 13526,
+   "crc": 211485167,
+   "crc32": "0c9b01ef"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BLITZLE.png",
+   "taille": 6782,
+   "crc": 3320887250,
+   "crc32": "c5f0b7d2"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BUIZEL.png",
+   "taille": 5397,
+   "crc": 1043253738,
+   "crc32": "3e2ec9ea"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BULBASAUR.png",
+   "taille": 3001,
+   "crc": 625347378,
+   "crc32": "25460b32"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BUNEARY.png",
+   "taille": 6851,
+   "crc": 1565380887,
+   "crc32": "5d4dd117"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/BUTTERFREE.png",
+   "taille": 30521,
+   "crc": 1212665263,
+   "crc32": "4847cdaf"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CAMERUPT.png",
+   "taille": 9439,
+   "crc": 2867446782,
+   "crc32": "aae9c3fe"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CATERPIE.png",
+   "taille": 5409,
+   "crc": 1844713548,
+   "crc32": "6df4184c"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CHARIZARD.png",
+   "taille": 18690,
+   "crc": 3017226331,
+   "crc32": "b3d7385b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CHARMANDER.png",
+   "taille": 4966,
+   "crc": 3160628909,
+   "crc32": "bc635ead"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CHARMELEON.png",
+   "taille": 8756,
+   "crc": 2279808162,
+   "crc32": "87e31ca2"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CHIMCHAR.png",
+   "taille": 6679,
+   "crc": 4197380020,
+   "crc32": "fa2eefb4"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/COMBEE.png",
+   "taille": 17129,
+   "crc": 1793722265,
+   "crc32": "6aea0799"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/COMBEE_1.png",
+   "taille": 17129,
+   "crc": 1793722265,
+   "crc32": "6aea0799"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/CROBAT.png",
+   "taille": 12637,
+   "crc": 2492633536,
+   "crc32": "949291c0"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/DIALGA.png",
+   "taille": 58974,
+   "crc": 3851724837,
+   "crc32": "e594a825"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/EKANS.png",
+   "taille": 22629,
+   "crc": 1796664515,
+   "crc32": "6b16ecc3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/EMPOLEON.png",
+   "taille": 29124,
+   "crc": 151769726,
+   "crc32": "090bd27e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ESPURR.png",
+   "taille": 6904,
+   "crc": 542225591,
+   "crc32": "2051b4b7"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/FLOATZEL.png",
+   "taille": 11471,
+   "crc": 1830054274,
+   "crc32": "6d146982"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/FLYGON.png",
+   "taille": 31447,
+   "crc": 1674324403,
+   "crc32": "63cc29b3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/GASTLY.png",
+   "taille": 21645,
+   "crc": 1267373060,
+   "crc32": "4b8a9404"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/GENGAR.png",
+   "taille": 12584,
+   "crc": 3210149586,
+   "crc32": "bf56fed2"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/GOLBAT.png",
+   "taille": 17461,
+   "crc": 4198756739,
+   "crc32": "fa43f183"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/GROTLE.png",
+   "taille": 8553,
+   "crc": 1059258368,
+   "crc32": "3f230000"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/GYARADOS.png",
+   "taille": 25637,
+   "crc": 1008344089,
+   "crc32": "3c1a1c19"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/GYARADOS_female.png",
+   "taille": 25637,
+   "crc": 1008344089,
+   "crc32": "3c1a1c19"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/HAUNTER.png",
+   "taille": 17787,
+   "crc": 3147288142,
+   "crc32": "bb97ce4e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/INFERNAPE.png",
+   "taille": 9340,
+   "crc": 3292231900,
+   "crc32": "c43b78dc"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/IVYSAUR.png",
+   "taille": 11501,
+   "crc": 3833680403,
+   "crc32": "e4815213"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/KADABRA.png",
+   "taille": 25609,
+   "crc": 2521788902,
+   "crc32": "964f71e6"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/LAIRON.png",
+   "taille": 15113,
+   "crc": 1255817654,
+   "crc32": "4ada41b6"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/LAPRAS.png",
+   "taille": 8351,
+   "crc": 3397953295,
+   "crc32": "ca88a70f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/LOPUNNY.png",
+   "taille": 8705,
+   "crc": 1255851340,
+   "crc32": "4adac54c"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/LUXIO.png",
+   "taille": 7764,
+   "crc": 301790388,
+   "crc32": "11fcf4b4"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/LUXRAY.png",
+   "taille": 9611,
+   "crc": 3333534152,
+   "crc32": "c6b1b1c8"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MACHAMP.png",
+   "taille": 20405,
+   "crc": 2896401453,
+   "crc32": "aca3942d"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MACHOKE.png",
+   "taille": 13225,
+   "crc": 850224264,
+   "crc32": "32ad6488"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MACHOP.png",
+   "taille": 6299,
+   "crc": 2774370494,
+   "crc32": "a55d88be"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MAGNEMITE.png",
+   "taille": 3064,
+   "crc": 272574083,
+   "crc32": "103f2683"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MAGNETON.png",
+   "taille": 13173,
+   "crc": 1439652851,
+   "crc32": "55cf5bf3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MAGNEZONE.png",
+   "taille": 13330,
+   "crc": 2480086237,
+   "crc32": "93d31cdd"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MEOWSTIC.png",
+   "taille": 28802,
+   "crc": 3135235914,
+   "crc32": "badfe74a"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MEOWSTIC_female.png",
+   "taille": 7794,
+   "crc": 1187834654,
+   "crc32": "46cceb1e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/METAGROSS.png",
+   "taille": 24868,
+   "crc": 514046244,
+   "crc32": "1ea3b924"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/METANG.png",
+   "taille": 5673,
+   "crc": 3498502711,
+   "crc32": "d086ea37"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/METAPOD.png",
+   "taille": 4807,
+   "crc": 2632252091,
+   "crc32": "9ce4fabb"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MIGALARQUE.png",
+   "taille": 16570,
+   "crc": 4090998272,
+   "crc32": "f3d7ae00"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MIGHTYENA.png",
+   "taille": 15121,
+   "crc": 2843156171,
+   "crc32": "a9771ecb"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MILOTIC.png",
+   "taille": 12856,
+   "crc": 2059807194,
+   "crc32": "7ac629da"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MONFERNO.png",
+   "taille": 25533,
+   "crc": 2965521447,
+   "crc32": "b0c24427"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/MUNCHLAX.png",
+   "taille": 10194,
+   "crc": 2951091736,
+   "crc32": "afe61618"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NIDOKING.png",
+   "taille": 12245,
+   "crc": 1963318112,
+   "crc32": "7505db60"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NIDOQUEEN.png",
+   "taille": 7542,
+   "crc": 1569444835,
+   "crc32": "5d8bd3e3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NIDORANfE.png",
+   "taille": 3694,
+   "crc": 1741503086,
+   "crc32": "67cd3a6e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NIDORANmA.png",
+   "taille": 7610,
+   "crc": 422946598,
+   "crc32": "1935a726"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NIDORINA.png",
+   "taille": 5984,
+   "crc": 1533316475,
+   "crc32": "5b648d7b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NIDORINO.png",
+   "taille": 6894,
+   "crc": 3400200483,
+   "crc32": "caaaf123"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/NUMEL.png",
+   "taille": 9860,
+   "crc": 3888639729,
+   "crc32": "e7c7eef1"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/PALKIA.png",
+   "taille": 67758,
+   "crc": 1076892924,
+   "crc32": "403014fc"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/PICHU.png",
+   "taille": 4915,
+   "crc": 932060798,
+   "crc32": "378e1e7e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/PIKACHU.png",
+   "taille": 12364,
+   "crc": 879511066,
+   "crc32": "346c461a"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/PIKACHU_female.png",
+   "taille": 19443,
+   "crc": 2991805457,
+   "crc32": "b2535411"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/PIPLUP.png",
+   "taille": 15769,
+   "crc": 3381589513,
+   "crc32": "c98ef609"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/POLITOED.png",
+   "taille": 22179,
+   "crc": 2541934133,
+   "crc32": "9782d635"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/POLIWAG.png",
+   "taille": 4702,
+   "crc": 503015981,
+   "crc32": "1dfb6a2d"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/POLIWHIRL.png",
+   "taille": 4586,
+   "crc": 1769761044,
+   "crc32": "697c6914"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/POLIWRATH.png",
+   "taille": 25557,
+   "crc": 1422968307,
+   "crc32": "54d0c5f3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/POOCHYENA.png",
+   "taille": 8326,
+   "crc": 2742825499,
+   "crc32": "a37c321b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/PRINPLUP.png",
+   "taille": 10773,
+   "crc": 2652809506,
+   "crc32": "9e1ea922"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/RAICHU.png",
+   "taille": 9085,
+   "crc": 1511867281,
+   "crc32": "5a1d4391"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SALAMENCE.png",
+   "taille": 26282,
+   "crc": 3561507167,
+   "crc32": "d448495f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SEVIPER.png",
+   "taille": 20764,
+   "crc": 1612988568,
+   "crc32": "60244098"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SHELGON.png",
+   "taille": 19434,
+   "crc": 3850268834,
+   "crc32": "e57e70a2"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SHINX.png",
+   "taille": 7908,
+   "crc": 1463047970,
+   "crc32": "57345722"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SLOWBRO.png",
+   "taille": 4777,
+   "crc": 3235859431,
+   "crc32": "c0df4be7"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SLOWKING.png",
+   "taille": 14009,
+   "crc": 972488948,
+   "crc32": "39f700f4"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SLOWPOKE.png",
+   "taille": 9850,
+   "crc": 3894036766,
+   "crc32": "e81a491e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SNORLAX.png",
+   "taille": 13529,
+   "crc": 3954662557,
+   "crc32": "ebb75c9d"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SPECTRALI.png",
+   "taille": 7779,
+   "crc": 1336578649,
+   "crc32": "4faa9259"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/SQUIRTLE.png",
+   "taille": 11151,
+   "crc": 3760651080,
+   "crc32": "e026fb48"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/TORTERRA.png",
+   "taille": 18290,
+   "crc": 271212491,
+   "crc32": "102a5fcb"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/TRAPINCH.png",
+   "taille": 2585,
+   "crc": 1972393064,
+   "crc32": "75905468"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/TURTWIG.png",
+   "taille": 4506,
+   "crc": 9487534,
+   "crc32": "0090c4ae"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/VENUSAUR.png",
+   "taille": 19647,
+   "crc": 2043178320,
+   "crc32": "79c86d50"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/VENUSAUR_female.png",
+   "taille": 19647,
+   "crc": 2043178320,
+   "crc32": "79c86d50"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/VESPIQUEN.png",
+   "taille": 33866,
+   "crc": 431687319,
+   "crc32": "19bb0697"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/VIBRAVA.png",
+   "taille": 8392,
+   "crc": 1258261740,
+   "crc32": "4aff8cec"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/VOLCARTOR.png",
+   "taille": 13296,
+   "crc": 733404462,
+   "crc32": "2bb6dd2e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/WAILMER.png",
+   "taille": 10384,
+   "crc": 4177701340,
+   "crc32": "f902a9dc"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/WAILORD.png",
+   "taille": 25389,
+   "crc": 1173996411,
+   "crc32": "45f9c37b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/WARTORTLE.png",
+   "taille": 8123,
+   "crc": 3876681347,
+   "crc32": "e7117683"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ZANGOOSE.png",
+   "taille": 14043,
+   "crc": 1205776563,
+   "crc32": "47deb0b3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ZEBSTRIKA.png",
+   "taille": 11301,
+   "crc": 3642798468,
+   "crc32": "d920b184"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/ZUBAT.png",
+   "taille": 14128,
+   "crc": 2145947834,
+   "crc32": "7fe890ba"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ABRA.png",
+   "taille": 15847,
+   "crc": 3047255287,
+   "crc32": "b5a16cf7"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/AGGRON.png",
+   "taille": 21384,
+   "crc": 103303672,
+   "crc32": "062849f8"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ALAKAZAM.png",
+   "taille": 21634,
+   "crc": 2039539917,
+   "crc32": "7990e8cd"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ARBOK.png",
+   "taille": 36707,
+   "crc": 3644757209,
+   "crc32": "d93e94d9"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ARON.png",
+   "taille": 10991,
+   "crc": 3740818089,
+   "crc32": "def85aa9"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BAGON.png",
+   "taille": 6448,
+   "crc": 1830511271,
+   "crc32": "6d1b62a7"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BELDUM.png",
+   "taille": 8145,
+   "crc": 2882400896,
+   "crc32": "abcdf280"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BLASTOISE.png",
+   "taille": 13524,
+   "crc": 1605298222,
+   "crc32": "5faee82e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BLITZLE.png",
+   "taille": 6898,
+   "crc": 80594187,
+   "crc32": "04cdc50b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BUIZEL.png",
+   "taille": 5461,
+   "crc": 1159481262,
+   "crc32": "451c47ae"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BULBASAUR.png",
+   "taille": 2951,
+   "crc": 57820454,
+   "crc32": "03724526"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BUNEARY.png",
+   "taille": 6824,
+   "crc": 2712432547,
+   "crc32": "a1ac6fa3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/BUTTERFREE.png",
+   "taille": 30107,
+   "crc": 3454397195,
+   "crc32": "cde5eb0b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CAMERUPT.png",
+   "taille": 9401,
+   "crc": 707935150,
+   "crc32": "2a323bae"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CATERPIE.png",
+   "taille": 5399,
+   "crc": 1889113459,
+   "crc32": "70999573"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CHARIZARD.png",
+   "taille": 18358,
+   "crc": 3075029371,
+   "crc32": "b749397b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CHARMANDER.png",
+   "taille": 4941,
+   "crc": 407835021,
+   "crc32": "184f118d"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CHARMELEON.png",
+   "taille": 8703,
+   "crc": 4277780422,
+   "crc32": "fef9bfc6"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CHIMCHAR.png",
+   "taille": 6674,
+   "crc": 1050734051,
+   "crc32": "3ea0ede3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/COMBEE.png",
+   "taille": 17541,
+   "crc": 552123835,
+   "crc32": "20e8bdbb"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/COMBEE_1.png",
+   "taille": 17541,
+   "crc": 552123835,
+   "crc32": "20e8bdbb"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/CROBAT.png",
+   "taille": 12612,
+   "crc": 2445237003,
+   "crc32": "91bf5b0b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/DIALGA.png",
+   "taille": 59255,
+   "crc": 4155008865,
+   "crc32": "f7a86761"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/EKANS.png",
+   "taille": 23974,
+   "crc": 3490419262,
+   "crc32": "d00b923e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/EMPOLEON.png",
+   "taille": 29438,
+   "crc": 2219569694,
+   "crc32": "844bf21e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ESPURR.png",
+   "taille": 6910,
+   "crc": 857356467,
+   "crc32": "331a38b3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/FLOATZEL.png",
+   "taille": 11668,
+   "crc": 324850997,
+   "crc32": "135cd535"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/FLYGON.png",
+   "taille": 31134,
+   "crc": 29271510,
+   "crc32": "01bea5d6"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/GASTLY.png",
+   "taille": 22650,
+   "crc": 2610395216,
+   "crc32": "9b977850"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/GENGAR.png",
+   "taille": 12820,
+   "crc": 2546580036,
+   "crc32": "97c9ba44"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/GOLBAT.png",
+   "taille": 16985,
+   "crc": 2458175371,
+   "crc32": "9284c78b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/GROTLE.png",
+   "taille": 8619,
+   "crc": 1630412183,
+   "crc32": "612e1d97"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/GYARADOS.png",
+   "taille": 26539,
+   "crc": 2638771298,
+   "crc32": "9d487462"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/GYARADOS_female.png",
+   "taille": 26539,
+   "crc": 2638771298,
+   "crc32": "9d487462"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/HAUNTER.png",
+   "taille": 18196,
+   "crc": 2226976129,
+   "crc32": "84bcf581"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/INFERNAPE.png",
+   "taille": 9392,
+   "crc": 3781098729,
+   "crc32": "e15efce9"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/IVYSAUR.png",
+   "taille": 11378,
+   "crc": 549716318,
+   "crc32": "20c4015e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/KADABRA.png",
+   "taille": 24941,
+   "crc": 4288319371,
+   "crc32": "ff9a8f8b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/LAIRON.png",
+   "taille": 15054,
+   "crc": 2365769030,
+   "crc32": "8d02c546"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/LAPRAS.png",
+   "taille": 8580,
+   "crc": 1276772667,
+   "crc32": "4c1a013b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/LOPUNNY.png",
+   "taille": 8718,
+   "crc": 1612511574,
+   "crc32": "601cf956"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/LUXIO.png",
+   "taille": 7615,
+   "crc": 1242484376,
+   "crc32": "4a0ece98"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/LUXRAY.png",
+   "taille": 9678,
+   "crc": 108730853,
+   "crc32": "067b19e5"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MACHAMP.png",
+   "taille": 20390,
+   "crc": 818061501,
+   "crc32": "30c2a0bd"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MACHOKE.png",
+   "taille": 12891,
+   "crc": 2790409761,
+   "crc32": "a6524621"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MACHOP.png",
+   "taille": 6362,
+   "crc": 21991247,
+   "crc32": "014f8f4f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MAGNEMITE.png",
+   "taille": 3056,
+   "crc": 3168761348,
+   "crc32": "bcdf7604"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MAGNETON.png",
+   "taille": 13211,
+   "crc": 1542236628,
+   "crc32": "5beca9d4"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MAGNEZONE.png",
+   "taille": 13308,
+   "crc": 2031882515,
+   "crc32": "791c1113"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MEOWSTIC.png",
+   "taille": 28909,
+   "crc": 1832327525,
+   "crc32": "6d371965"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MEOWSTIC_female.png",
+   "taille": 7734,
+   "crc": 915176243,
+   "crc32": "368c7b33"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/METAGROSS.png",
+   "taille": 25060,
+   "crc": 229106723,
+   "crc32": "0da7e423"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/METANG.png",
+   "taille": 5722,
+   "crc": 3592504812,
+   "crc32": "d62145ec"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/METAPOD.png",
+   "taille": 4828,
+   "crc": 2479544907,
+   "crc32": "93cada4b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MIGALARQUE.png",
+   "taille": 16556,
+   "crc": 1499610581,
+   "crc32": "59623dd5"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MIGHTYENA.png",
+   "taille": 15859,
+   "crc": 1998271953,
+   "crc32": "771b35d1"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MILOTIC.png",
+   "taille": 12638,
+   "crc": 373534807,
+   "crc32": "1643b057"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MONFERNO.png",
+   "taille": 25479,
+   "crc": 2446332429,
+   "crc32": "91d0120d"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/MUNCHLAX.png",
+   "taille": 10237,
+   "crc": 680870294,
+   "crc32": "28954196"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NIDOKING.png",
+   "taille": 12252,
+   "crc": 1275418775,
+   "crc32": "4c055897"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NIDOQUEEN.png",
+   "taille": 7586,
+   "crc": 422777692,
+   "crc32": "1933135c"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NIDORANfE.png",
+   "taille": 3659,
+   "crc": 3912865583,
+   "crc32": "e939972f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NIDORANmA.png",
+   "taille": 7590,
+   "crc": 722605215,
+   "crc32": "2b12149f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NIDORINA.png",
+   "taille": 5982,
+   "crc": 919610036,
+   "crc32": "36d022b4"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NIDORINO.png",
+   "taille": 6880,
+   "crc": 751572102,
+   "crc32": "2ccc1486"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/NUMEL.png",
+   "taille": 9850,
+   "crc": 3279811564,
+   "crc32": "c37df3ec"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/PALKIA.png",
+   "taille": 67526,
+   "crc": 2260532239,
+   "crc32": "86bcfc0f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/PICHU.png",
+   "taille": 4893,
+   "crc": 1505282359,
+   "crc32": "59b8c937"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/PIKACHU.png",
+   "taille": 12281,
+   "crc": 3840259498,
+   "crc32": "e4e5b5aa"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/PIKACHU_female.png",
+   "taille": 19598,
+   "crc": 4282838012,
+   "crc32": "ff46ebfc"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/PIPLUP.png",
+   "taille": 15935,
+   "crc": 1430392360,
+   "crc32": "55420e28"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/POLITOED.png",
+   "taille": 22657,
+   "crc": 1759523974,
+   "crc32": "68e03486"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/POLIWAG.png",
+   "taille": 4747,
+   "crc": 1523157836,
+   "crc32": "5ac98b4c"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/POLIWHIRL.png",
+   "taille": 4564,
+   "crc": 350002220,
+   "crc32": "14dc9c2c"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/POLIWRATH.png",
+   "taille": 25827,
+   "crc": 1875051381,
+   "crc32": "6fc30375"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/POOCHYENA.png",
+   "taille": 8352,
+   "crc": 3201099025,
+   "crc32": "becce511"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/PRINPLUP.png",
+   "taille": 10631,
+   "crc": 367476688,
+   "crc32": "15e73fd0"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/RAICHU.png",
+   "taille": 9163,
+   "crc": 3914253433,
+   "crc32": "e94ec479"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SALAMENCE.png",
+   "taille": 26591,
+   "crc": 197245038,
+   "crc32": "0bc1b86e"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SEVIPER.png",
+   "taille": 20449,
+   "crc": 1675338693,
+   "crc32": "63dba3c5"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SHELGON.png",
+   "taille": 20998,
+   "crc": 2322963285,
+   "crc32": "8a759b55"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SHINX.png",
+   "taille": 4445,
+   "crc": 3040551088,
+   "crc32": "b53b20b0"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SLOWBRO.png",
+   "taille": 4682,
+   "crc": 1070112870,
+   "crc32": "3fc8a066"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SLOWKING.png",
+   "taille": 13968,
+   "crc": 3903220792,
+   "crc32": "e8a66c38"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SLOWPOKE.png",
+   "taille": 9890,
+   "crc": 781645858,
+   "crc32": "2e96f822"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SNORLAX.png",
+   "taille": 13432,
+   "crc": 1863402195,
+   "crc32": "6f1142d3"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SPECTRALI.png",
+   "taille": 8135,
+   "crc": 3926106777,
+   "crc32": "ea03a299"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/SQUIRTLE.png",
+   "taille": 11151,
+   "crc": 2351447437,
+   "crc32": "8c283d8d"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/TORTERRA.png",
+   "taille": 18172,
+   "crc": 1507150698,
+   "crc32": "59d54b6a"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/TRAPINCH.png",
+   "taille": 2590,
+   "crc": 3083302043,
+   "crc32": "b7c7749b"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/TURTWIG.png",
+   "taille": 4499,
+   "crc": 912505204,
+   "crc32": "3663b974"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/VENUSAUR.png",
+   "taille": 19339,
+   "crc": 1585392501,
+   "crc32": "5e7f2b75"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/VENUSAUR_female.png",
+   "taille": 19339,
+   "crc": 1585392501,
+   "crc32": "5e7f2b75"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/VESPIQUEN.png",
+   "taille": 34849,
+   "crc": 825816335,
+   "crc32": "3138f50f"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/VIBRAVA.png",
+   "taille": 8302,
+   "crc": 1802611448,
+   "crc32": "6b71aaf8"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/VOLCARTOR.png",
+   "taille": 12790,
+   "crc": 2261621422,
+   "crc32": "86cd9aae"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/WAILMER.png",
+   "taille": 10464,
+   "crc": 2920457926,
+   "crc32": "ae12a6c6"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/WAILORD.png",
+   "taille": 25273,
+   "crc": 3757845144,
+   "crc32": "dffc2a98"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/WARTORTLE.png",
+   "taille": 8241,
+   "crc": 562919661,
+   "crc32": "218d78ed"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ZANGOOSE.png",
+   "taille": 14159,
+   "crc": 3209644659,
+   "crc32": "bf4f4a73"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ZEBSTRIKA.png",
+   "taille": 11381,
+   "crc": 812351189,
+   "crc32": "306b7ed5"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/ZUBAT.png",
+   "taille": 14200,
+   "crc": 3036617189,
+   "crc32": "b4ff19e5"
+  },
+  {
+   "chemin": "Graphics/Characters/Nana.png",
+   "taille": 7109,
+   "crc": 2239002119,
+   "crc32": "85747607"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Banish.png",
+   "taille": 5456,
+   "crc": 3773321433,
+   "crc32": "e0e850d9"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Banish_2.png",
+   "taille": 6896,
+   "crc": 1747287242,
+   "crc32": "68257cca"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Banish_bike.png",
+   "taille": 6159,
+   "crc": 2045911371,
+   "crc32": "79f2214b"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Banish_fish_offset.png",
+   "taille": 8625,
+   "crc": 2595348893,
+   "crc32": "9ab1e19d"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Banish_run.png",
+   "taille": 6003,
+   "crc": 2023921216,
+   "crc32": "78a29640"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Banish_surf.png",
+   "taille": 5888,
+   "crc": 3068776505,
+   "crc32": "b6e9d039"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Liam.png",
+   "taille": 6624,
+   "crc": 377992723,
+   "crc32": "1687b613"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Liam_2.png",
+   "taille": 6624,
+   "crc": 377992723,
+   "crc32": "1687b613"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Liam_bike.png",
+   "taille": 7070,
+   "crc": 4003556634,
+   "crc32": "eea16d1a"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Liam_fish_offset.png",
+   "taille": 9231,
+   "crc": 4174425436,
+   "crc32": "f8d0ad5c"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Liam_run.png",
+   "taille": 6700,
+   "crc": 1209212050,
+   "crc32": "48131c92"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Liam_surf.png",
+   "taille": 7079,
+   "crc": 2181327329,
+   "crc32": "820469e1"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa.png",
+   "taille": 5676,
+   "crc": 2903851178,
+   "crc32": "ad1540aa"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa_2.png",
+   "taille": 5531,
+   "crc": 4279450299,
+   "crc32": "ff133abb"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa_bike.png",
+   "taille": 6312,
+   "crc": 3843602110,
+   "crc32": "e518b6be"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa_fish_offset.png",
+   "taille": 7836,
+   "crc": 3689358914,
+   "crc32": "dbe72642"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa_run.png",
+   "taille": 5665,
+   "crc": 2148536544,
+   "crc32": "801010e0"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa_surf.png",
+   "taille": 6255,
+   "crc": 185338291,
+   "crc32": "0b0c09b3"
+  },
+  {
+   "chemin": "Graphics/Characters/Z.png",
+   "taille": 6624,
+   "crc": 377992723,
+   "crc32": "1687b613"
+  },
+  {
+   "chemin": "Graphics/Characters/helios.png",
+   "taille": 4975,
+   "crc": 1764534014,
+   "crc32": "692ca6fe"
+  },
+  {
+   "chemin": "Graphics/Characters/jupiter.png",
+   "taille": 5044,
+   "crc": 1986509512,
+   "crc32": "7667bac8"
+  },
+  {
+   "chemin": "Graphics/Characters/mars.png",
+   "taille": 4813,
+   "crc": 2175362800,
+   "crc32": "81a966f0"
+  },
+  {
+   "chemin": "Graphics/Characters/saturne.png",
+   "taille": 4657,
+   "crc": 2287654531,
+   "crc32": "885ad683"
+  },
+  {
+   "chemin": "Graphics/Items/AGGRONITE.png",
+   "taille": 688,
+   "crc": 2084053409,
+   "crc32": "7c3821a1"
+  },
+  {
+   "chemin": "Graphics/Items/ALAKAZITE.png",
+   "taille": 646,
+   "crc": 2394738351,
+   "crc32": "8ebcceaf"
+  },
+  {
+   "chemin": "Graphics/Items/BLASTOISINITEX.png",
+   "taille": 587,
+   "crc": 3210908604,
+   "crc32": "bf6293bc"
+  },
+  {
+   "chemin": "Graphics/Items/BUTTERFREEITE.png",
+   "taille": 430,
+   "crc": 3679235697,
+   "crc32": "db4cae71"
+  },
+  {
+   "chemin": "Graphics/Items/CAMERUPTITE.png",
+   "taille": 527,
+   "crc": 1021894232,
+   "crc32": "3ce8de58"
+  },
+  {
    "chemin": "Graphics/Items/CAPSULEEV.png",
    "taille": 4059,
    "crc": 3271608024,
    "crc32": "c300c6d8"
+  },
+  {
+   "chemin": "Graphics/Items/CHARIZARDITEY.png",
+   "taille": 670,
+   "crc": 3826395678,
+   "crc32": "e4122a1e"
+  },
+  {
+   "chemin": "Graphics/Items/EMPOLEONITE.png",
+   "taille": 482,
+   "crc": 1954168892,
+   "crc32": "747a403c"
+  },
+  {
+   "chemin": "Graphics/Items/GENGARITEX.png",
+   "taille": 609,
+   "crc": 412564558,
+   "crc32": "18973c4e"
+  },
+  {
+   "chemin": "Graphics/Items/GYARADOSITE.png",
+   "taille": 739,
+   "crc": 3920385633,
+   "crc32": "e9ac5661"
+  },
+  {
+   "chemin": "Graphics/Items/HONCHKROWITE.png",
+   "taille": 655,
+   "crc": 2595693959,
+   "crc32": "9ab72587"
+  },
+  {
+   "chemin": "Graphics/Items/INFERNAPITE.png",
+   "taille": 614,
+   "crc": 2641262187,
+   "crc32": "9d6e766b"
+  },
+  {
+   "chemin": "Graphics/Items/KRICKETUNITE.png",
+   "taille": 646,
+   "crc": 2851342769,
+   "crc32": "a9f409b1"
   },
   {
    "chemin": "Graphics/Items/Key items/CAPSULEEV_key.png",
@@ -71,6 +2339,5892 @@
    "crc32": "58ac8fbf"
   },
   {
+   "chemin": "Graphics/Items/LAPRASITE.png",
+   "taille": 453,
+   "crc": 401653486,
+   "crc32": "17f0beee"
+  },
+  {
+   "chemin": "Graphics/Items/LOPUNNITE.png",
+   "taille": 546,
+   "crc": 2943797446,
+   "crc32": "af76c8c6"
+  },
+  {
+   "chemin": "Graphics/Items/MACHAMPITE.png",
+   "taille": 433,
+   "crc": 2599808150,
+   "crc32": "9af5ec96"
+  },
+  {
+   "chemin": "Graphics/Items/MEOWSTICITE.png",
+   "taille": 502,
+   "crc": 2067437387,
+   "crc32": "7b3a974b"
+  },
+  {
+   "chemin": "Graphics/Items/METAGROSSITE.png",
+   "taille": 521,
+   "crc": 400012835,
+   "crc32": "17d7b623"
+  },
+  {
+   "chemin": "Graphics/Items/PURUGLITE.png",
+   "taille": 619,
+   "crc": 513538868,
+   "crc32": "1e9bfb34"
+  },
+  {
+   "chemin": "Graphics/Items/RAICHUITEX.png",
+   "taille": 495,
+   "crc": 459568115,
+   "crc32": "1b6473f3"
+  },
+  {
+   "chemin": "Graphics/Items/RAICHUITEY.png",
+   "taille": 504,
+   "crc": 3258371495,
+   "crc32": "c236cda7"
+  },
+  {
+   "chemin": "Graphics/Items/SALAMENCITE.png",
+   "taille": 533,
+   "crc": 2511648913,
+   "crc32": "95b4b891"
+  },
+  {
+   "chemin": "Graphics/Items/SKUNTANITE.png",
+   "taille": 586,
+   "crc": 2413579573,
+   "crc32": "8fdc4d35"
+  },
+  {
+   "chemin": "Graphics/Items/SLOWBRONITE.png",
+   "taille": 523,
+   "crc": 458594384,
+   "crc32": "1b559850"
+  },
+  {
+   "chemin": "Graphics/Items/STARMINITE.png",
+   "taille": 447,
+   "crc": 4251622412,
+   "crc32": "fd6a9c0c"
+  },
+  {
+   "chemin": "Graphics/Items/TORTERRANITE.png",
+   "taille": 485,
+   "crc": 1114054639,
+   "crc32": "42671fef"
+  },
+  {
+   "chemin": "Graphics/Items/TOXICROAKITE.png",
+   "taille": 582,
+   "crc": 4122421670,
+   "crc32": "f5b729a6"
+  },
+  {
+   "chemin": "Graphics/Items/VENUSAURITEX.png",
+   "taille": 622,
+   "crc": 3112214753,
+   "crc32": "b980a0e1"
+  },
+  {
+   "chemin": "Graphics/Pictures/DP Pause Menu/rencontresA.png",
+   "taille": 352,
+   "crc": 568435294,
+   "crc32": "21e1a25e"
+  },
+  {
+   "chemin": "Graphics/Pictures/DP Pause Menu/rencontresB.png",
+   "taille": 357,
+   "crc": 1319534673,
+   "crc32": "4ea68051"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_0.png",
+   "taille": 604,
+   "crc": 714273955,
+   "crc32": "2a92f4a3"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_1.png",
+   "taille": 605,
+   "crc": 3808466203,
+   "crc32": "e300951b"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_2.png",
+   "taille": 644,
+   "crc": 2021338433,
+   "crc32": "787b2d41"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_3.png",
+   "taille": 607,
+   "crc": 958463202,
+   "crc32": "3920fce2"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_0.png",
+   "taille": 1510,
+   "crc": 2627059975,
+   "crc32": "9c95c107"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_1.png",
+   "taille": 3833,
+   "crc": 2796148713,
+   "crc32": "a6a9d7e9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_2.png",
+   "taille": 4384,
+   "crc": 3450393155,
+   "crc32": "cda8d243"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_3.png",
+   "taille": 4570,
+   "crc": 1074282341,
+   "crc32": "40083f65"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_4.png",
+   "taille": 4588,
+   "crc": 331716226,
+   "crc32": "13c59682"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_5.png",
+   "taille": 4093,
+   "crc": 3445266970,
+   "crc32": "cd5a9a1a"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_6.png",
+   "taille": 3556,
+   "crc": 2680565902,
+   "crc32": "9fc6308e"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/chaine_casse_7.png",
+   "taille": 341,
+   "crc": 2185224183,
+   "crc32": "823fdff7"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_A_0.png",
+   "taille": 16629,
+   "crc": 594742100,
+   "crc32": "23730b54"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_A_1.png",
+   "taille": 17238,
+   "crc": 1976387224,
+   "crc32": "75cd4698"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_A_2.png",
+   "taille": 16212,
+   "crc": 2194017365,
+   "crc32": "82c60c55"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_B_0.png",
+   "taille": 15857,
+   "crc": 2943635264,
+   "crc32": "af744f40"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_B_1.png",
+   "taille": 16523,
+   "crc": 260900737,
+   "crc32": "0f8d0781"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_B_2.png",
+   "taille": 15315,
+   "crc": 567283932,
+   "crc32": "21d010dc"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_C_0.png",
+   "taille": 16157,
+   "crc": 94782586,
+   "crc32": "05a6447a"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_C_1.png",
+   "taille": 16827,
+   "crc": 3909023622,
+   "crc32": "e8fef786"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_C_2.png",
+   "taille": 15741,
+   "crc": 3106931706,
+   "crc32": "b93003fa"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_D_0.png",
+   "taille": 14818,
+   "crc": 644225323,
+   "crc32": "2666192b"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_D_1.png",
+   "taille": 15504,
+   "crc": 2948470716,
+   "crc32": "afbe17bc"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/eclair_D_2.png",
+   "taille": 14351,
+   "crc": 1174039963,
+   "crc32": "45fa6d9b"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_0.png",
+   "taille": 150,
+   "crc": 3032626853,
+   "crc32": "b4c236a5"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_1.png",
+   "taille": 270,
+   "crc": 4056033481,
+   "crc32": "f1c228c9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_10.png",
+   "taille": 982,
+   "crc": 546309054,
+   "crc32": "209003be"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_11.png",
+   "taille": 981,
+   "crc": 2371073580,
+   "crc32": "8d53b62c"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_12.png",
+   "taille": 822,
+   "crc": 411211164,
+   "crc32": "1882959c"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_13.png",
+   "taille": 767,
+   "crc": 306466419,
+   "crc32": "12444e73"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_14.png",
+   "taille": 950,
+   "crc": 3334701391,
+   "crc32": "c6c3814f"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_15.png",
+   "taille": 856,
+   "crc": 2606943985,
+   "crc32": "9b62cef1"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_16.png",
+   "taille": 973,
+   "crc": 3437460916,
+   "crc32": "cce37db4"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_17.png",
+   "taille": 1013,
+   "crc": 260446175,
+   "crc32": "0f8617df"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_18.png",
+   "taille": 777,
+   "crc": 1649482600,
+   "crc32": "62511b68"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_19.png",
+   "taille": 240,
+   "crc": 1208223111,
+   "crc32": "48040587"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_2.png",
+   "taille": 443,
+   "crc": 1202423572,
+   "crc32": "47ab8714"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_3.png",
+   "taille": 530,
+   "crc": 893229450,
+   "crc32": "353d998a"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_4.png",
+   "taille": 644,
+   "crc": 3636847463,
+   "crc32": "d8c5e367"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_5.png",
+   "taille": 834,
+   "crc": 2039705849,
+   "crc32": "799370f9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_6.png",
+   "taille": 868,
+   "crc": 2514298519,
+   "crc32": "95dd2697"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_7.png",
+   "taille": 895,
+   "crc": 420111790,
+   "crc32": "190a65ae"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_8.png",
+   "taille": 1011,
+   "crc": 3987699910,
+   "crc32": "edaf78c6"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/energie_9.png",
+   "taille": 1055,
+   "crc": 2388040471,
+   "crc32": "8e569b17"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ARTICUNO_0.png",
+   "taille": 931,
+   "crc": 3396007849,
+   "crc32": "ca6af7a9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ARTICUNO_1.png",
+   "taille": 931,
+   "crc": 1168998591,
+   "crc32": "45ad80bf"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ARTICUNO_2.png",
+   "taille": 938,
+   "crc": 1864432123,
+   "crc32": "6f20f9fb"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ARTICUNO_3.png",
+   "taille": 938,
+   "crc": 2946898084,
+   "crc32": "afa618a4"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_MOLTRES_0.png",
+   "taille": 919,
+   "crc": 1626453201,
+   "crc32": "60f1b4d1"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_MOLTRES_1.png",
+   "taille": 919,
+   "crc": 4245870929,
+   "crc32": "fd12d951"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_MOLTRES_2.png",
+   "taille": 899,
+   "crc": 57730503,
+   "crc32": "0370e5c7"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_MOLTRES_3.png",
+   "taille": 898,
+   "crc": 913104701,
+   "crc32": "366cdf3d"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ZAPDOS_0.png",
+   "taille": 900,
+   "crc": 3126975553,
+   "crc32": "ba61dc41"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ZAPDOS_1.png",
+   "taille": 900,
+   "crc": 1518312662,
+   "crc32": "5a7f9cd6"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ZAPDOS_2.png",
+   "taille": 912,
+   "crc": 2644318059,
+   "crc32": "9d9d176b"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/oiseau_ZAPDOS_3.png",
+   "taille": 912,
+   "crc": 2262488137,
+   "crc32": "86dad449"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_artikodin_0.png",
+   "taille": 325,
+   "crc": 1682234199,
+   "crc32": "6444db57"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_artikodin_1.png",
+   "taille": 314,
+   "crc": 4020212875,
+   "crc32": "ef9f948b"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_artikodin_2.png",
+   "taille": 318,
+   "crc": 3688258213,
+   "crc32": "dbd65aa5"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_artikodin_3.png",
+   "taille": 308,
+   "crc": 2060547273,
+   "crc32": "7ad174c9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_electhor_0.png",
+   "taille": 329,
+   "crc": 405135122,
+   "crc32": "1825df12"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_electhor_1.png",
+   "taille": 322,
+   "crc": 3950446738,
+   "crc32": "eb770892"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_electhor_2.png",
+   "taille": 329,
+   "crc": 1801387281,
+   "crc32": "6b5efd11"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_electhor_3.png",
+   "taille": 311,
+   "crc": 1464176515,
+   "crc32": "57458f83"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_fusion_0.png",
+   "taille": 395,
+   "crc": 2823488925,
+   "crc32": "a84b059d"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_fusion_1.png",
+   "taille": 416,
+   "crc": 256134903,
+   "crc32": "0f444ef7"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_fusion_2.png",
+   "taille": 412,
+   "crc": 788082753,
+   "crc32": "2ef93041"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_fusion_3.png",
+   "taille": 386,
+   "crc": 3797248815,
+   "crc32": "e2556b2f"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_sulfura_0.png",
+   "taille": 313,
+   "crc": 64184409,
+   "crc32": "03d36059"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_sulfura_1.png",
+   "taille": 311,
+   "crc": 4051271913,
+   "crc32": "f17980e9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_sulfura_2.png",
+   "taille": 320,
+   "crc": 3608484897,
+   "crc32": "d7151c21"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/orbe_sulfura_3.png",
+   "taille": 314,
+   "crc": 878093865,
+   "crc32": "3456a629"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_0.png",
+   "taille": 3825,
+   "crc": 2069370218,
+   "crc32": "7b58156a"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_1.png",
+   "taille": 3716,
+   "crc": 2430944079,
+   "crc32": "90e5434f"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_10.png",
+   "taille": 3606,
+   "crc": 118314412,
+   "crc32": "070d55ac"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_11.png",
+   "taille": 3629,
+   "crc": 3455621445,
+   "crc32": "cdf89945"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_2.png",
+   "taille": 3488,
+   "crc": 550625593,
+   "crc32": "20d1e139"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_3.png",
+   "taille": 3537,
+   "crc": 1199700345,
+   "crc32": "4781f979"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_4.png",
+   "taille": 3419,
+   "crc": 2428528391,
+   "crc32": "90c06707"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_5.png",
+   "taille": 3498,
+   "crc": 1787559353,
+   "crc32": "6a8bfdb9"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_6.png",
+   "taille": 3526,
+   "crc": 1644559541,
+   "crc32": "6205fcb5"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_7.png",
+   "taille": 3352,
+   "crc": 321433622,
+   "crc32": "1328b016"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_8.png",
+   "taille": 3385,
+   "crc": 3983788557,
+   "crc32": "ed73ca0d"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/portail_9.png",
+   "taille": 3448,
+   "crc": 2363012027,
+   "crc32": "8cd8b3bb"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_AZELF_0.png",
+   "taille": 823,
+   "crc": 2988297084,
+   "crc32": "b21dcb7c"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_AZELF_1.png",
+   "taille": 823,
+   "crc": 73667855,
+   "crc32": "0464150f"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_AZELF_2.png",
+   "taille": 806,
+   "crc": 2049316132,
+   "crc32": "7a261524"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_AZELF_3.png",
+   "taille": 806,
+   "crc": 2979545334,
+   "crc32": "b19840f6"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_MESPRIT_0.png",
+   "taille": 838,
+   "crc": 2426437039,
+   "crc32": "90a07daf"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_MESPRIT_1.png",
+   "taille": 838,
+   "crc": 1610259310,
+   "crc32": "5ffa9b6e"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_MESPRIT_2.png",
+   "taille": 812,
+   "crc": 2280018100,
+   "crc32": "87e650b4"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_MESPRIT_3.png",
+   "taille": 812,
+   "crc": 691149832,
+   "crc32": "29321c08"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_UXIE_0.png",
+   "taille": 800,
+   "crc": 2154370335,
+   "crc32": "8069151f"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_UXIE_1.png",
+   "taille": 800,
+   "crc": 388005359,
+   "crc32": "17207def"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_UXIE_2.png",
+   "taille": 783,
+   "crc": 3502025761,
+   "crc32": "d0bcac21"
+  },
+  {
+   "chemin": "Graphics/Pictures/Galaxie/trio_UXIE_3.png",
+   "taille": 783,
+   "crc": 3290459778,
+   "crc32": "c4206e82"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ABRA.png",
+   "taille": 68756,
+   "crc": 1303431444,
+   "crc32": "4db0c914"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/AGGRON.png",
+   "taille": 61609,
+   "crc": 1001704808,
+   "crc32": "3bb4cd68"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/AGGRON_1.png",
+   "taille": 13263,
+   "crc": 3455382827,
+   "crc32": "cdf4f52b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ALAKAZAM.png",
+   "taille": 61639,
+   "crc": 1290276662,
+   "crc32": "4ce80f36"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ALAKAZAM_1.png",
+   "taille": 22258,
+   "crc": 464753153,
+   "crc32": "1bb39201"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ALAKAZAM_female.png",
+   "taille": 61639,
+   "crc": 1290276662,
+   "crc32": "4ce80f36"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ARBOK.png",
+   "taille": 42939,
+   "crc": 293802084,
+   "crc32": "11831064"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ARON.png",
+   "taille": 4798,
+   "crc": 2708705729,
+   "crc32": "a17391c1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BAGON.png",
+   "taille": 11592,
+   "crc": 3573212001,
+   "crc32": "d4fae361"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BELDUM.png",
+   "taille": 64777,
+   "crc": 3665385695,
+   "crc32": "da7958df"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BLASTOISE.png",
+   "taille": 118160,
+   "crc": 2541101256,
+   "crc32": "977620c8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BLASTOISE_1.png",
+   "taille": 49446,
+   "crc": 2378260162,
+   "crc32": "8dc15ec2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BLITZLE.png",
+   "taille": 38987,
+   "crc": 2880475111,
+   "crc32": "abb08fe7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BUIZEL.png",
+   "taille": 30150,
+   "crc": 163832198,
+   "crc32": "09c3e186"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BUIZEL_female.png",
+   "taille": 30150,
+   "crc": 163832198,
+   "crc32": "09c3e186"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BULBASAUR.png",
+   "taille": 17792,
+   "crc": 4005831240,
+   "crc32": "eec42248"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BUNEARY.png",
+   "taille": 45669,
+   "crc": 1331815850,
+   "crc32": "4f61e5aa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BUTTERFREE.png",
+   "taille": 25720,
+   "crc": 690468920,
+   "crc32": "2927b838"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BUTTERFREE_1.png",
+   "taille": 58670,
+   "crc": 3259214794,
+   "crc32": "c243abca"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/BUTTERFREE_female.png",
+   "taille": 25720,
+   "crc": 690468920,
+   "crc32": "2927b838"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CAMERUPT.png",
+   "taille": 42001,
+   "crc": 3980545550,
+   "crc32": "ed424e0e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CAMERUPT_1.png",
+   "taille": 10067,
+   "crc": 3731005493,
+   "crc32": "de62a035"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CATERPIE.png",
+   "taille": 10308,
+   "crc": 1003110825,
+   "crc32": "3bca41a9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CHARIZARD.png",
+   "taille": 183731,
+   "crc": 36327945,
+   "crc32": "022a5209"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CHARIZARD_2.png",
+   "taille": 27069,
+   "crc": 1519225471,
+   "crc32": "5a8d8a7f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CHARMANDER.png",
+   "taille": 17422,
+   "crc": 1711510882,
+   "crc32": "66039562"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CHARMELEON.png",
+   "taille": 26418,
+   "crc": 4003151236,
+   "crc32": "ee9b3d84"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CHIMCHAR.png",
+   "taille": 43219,
+   "crc": 3945741167,
+   "crc32": "eb2f3b6f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/COMBEE.png",
+   "taille": 11809,
+   "crc": 1701810233,
+   "crc32": "656f9039"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/COMBEE_female.png",
+   "taille": 11809,
+   "crc": 1701810233,
+   "crc32": "656f9039"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/CROBAT.png",
+   "taille": 55612,
+   "crc": 1293517789,
+   "crc32": "4d1983dd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/DIALGA.png",
+   "taille": 57370,
+   "crc": 4213689421,
+   "crc32": "fb27cc4d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/EKANS.png",
+   "taille": 16761,
+   "crc": 3031104949,
+   "crc32": "b4aafdb5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/EMPOLEON.png",
+   "taille": 54742,
+   "crc": 381532130,
+   "crc32": "16bdb7e2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/EMPOLEON_101.png",
+   "taille": 21748,
+   "crc": 3776546088,
+   "crc32": "e1198528"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ESPURR.png",
+   "taille": 6438,
+   "crc": 1017762361,
+   "crc32": "3ca9d239"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/FLOATZEL.png",
+   "taille": 68368,
+   "crc": 4075222464,
+   "crc32": "f2e6f5c0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/FLOATZEL_female.png",
+   "taille": 68368,
+   "crc": 4075222464,
+   "crc32": "f2e6f5c0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/FLYGON.png",
+   "taille": 116067,
+   "crc": 1538625487,
+   "crc32": "5bb58fcf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GASTLY.png",
+   "taille": 73168,
+   "crc": 4119389061,
+   "crc32": "f588e385"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GENGAR.png",
+   "taille": 84363,
+   "crc": 4184389305,
+   "crc32": "f968b6b9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GENGAR_1.png",
+   "taille": 16189,
+   "crc": 2699144694,
+   "crc32": "a0e1adf6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GOLBAT.png",
+   "taille": 18321,
+   "crc": 3890560707,
+   "crc32": "e7e53ec3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GOLBAT_female.png",
+   "taille": 32585,
+   "crc": 3214208026,
+   "crc32": "bf94ec1a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GROTLE.png",
+   "taille": 60802,
+   "crc": 1510258716,
+   "crc32": "5a04b81c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GYARADOS.png",
+   "taille": 27599,
+   "crc": 4204668955,
+   "crc32": "fa9e281b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GYARADOS_1.png",
+   "taille": 95549,
+   "crc": 1281127785,
+   "crc32": "4c5c7569"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/GYARADOS_female.png",
+   "taille": 27599,
+   "crc": 4204668955,
+   "crc32": "fa9e281b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/HAUNTER.png",
+   "taille": 33931,
+   "crc": 676268134,
+   "crc32": "284f0866"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/HONCHKROW_101.png",
+   "taille": 36844,
+   "crc": 2773034149,
+   "crc32": "a54924a5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/INFERNAPE.png",
+   "taille": 95837,
+   "crc": 1859308253,
+   "crc32": "6ed2cadd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/INFERNAPE_101.png",
+   "taille": 301496,
+   "crc": 4087916759,
+   "crc32": "f3a8a8d7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/IVYSAUR.png",
+   "taille": 31322,
+   "crc": 2593435301,
+   "crc32": "9a94aea5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/KADABRA.png",
+   "taille": 75604,
+   "crc": 2528336528,
+   "crc32": "96b35a90"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/KADABRA_female.png",
+   "taille": 75604,
+   "crc": 2528336528,
+   "crc32": "96b35a90"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/KRICKETUNE_101.png",
+   "taille": 58796,
+   "crc": 1414098516,
+   "crc32": "54496e54"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LAIRON.png",
+   "taille": 24684,
+   "crc": 2926241848,
+   "crc32": "ae6ae838"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LAPRAS.png",
+   "taille": 23212,
+   "crc": 3476344171,
+   "crc32": "cf34cd6b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LAPRAS_1.png",
+   "taille": 14530,
+   "crc": 2557084195,
+   "crc32": "986a0223"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LOPUNNY.png",
+   "taille": 48899,
+   "crc": 2367114891,
+   "crc32": "8d174e8b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LOPUNNY_1.png",
+   "taille": 18451,
+   "crc": 3189771819,
+   "crc32": "be200e2b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LUXIO.png",
+   "taille": 54110,
+   "crc": 3748811726,
+   "crc32": "df7253ce"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LUXIO_female.png",
+   "taille": 54110,
+   "crc": 3748811726,
+   "crc32": "df7253ce"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LUXRAY.png",
+   "taille": 74748,
+   "crc": 2493376945,
+   "crc32": "949de9b1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/LUXRAY_female.png",
+   "taille": 74748,
+   "crc": 2493376945,
+   "crc32": "949de9b1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MACHAMP.png",
+   "taille": 30460,
+   "crc": 569242984,
+   "crc32": "21edf568"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MACHAMP_1.png",
+   "taille": 23571,
+   "crc": 3929345405,
+   "crc32": "ea350d7d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MACHOKE.png",
+   "taille": 37617,
+   "crc": 1907095871,
+   "crc32": "71abf93f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MACHOP.png",
+   "taille": 34107,
+   "crc": 2640838768,
+   "crc32": "9d680070"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MAGNEMITE.png",
+   "taille": 10876,
+   "crc": 3020968051,
+   "crc32": "b4105073"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MAGNETON.png",
+   "taille": 53004,
+   "crc": 2768771887,
+   "crc32": "a5081b2f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MAGNEZONE.png",
+   "taille": 40121,
+   "crc": 1073761649,
+   "crc32": "40004d71"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MEOWSTIC.png",
+   "taille": 11161,
+   "crc": 3157483315,
+   "crc32": "bc335f33"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MEOWSTIC_1.png",
+   "taille": 34753,
+   "crc": 2016510483,
+   "crc32": "78318213"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MEOWSTIC_2.png",
+   "taille": 49147,
+   "crc": 762293225,
+   "crc32": "2d6fabe9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/METAGROSS.png",
+   "taille": 252050,
+   "crc": 2981017143,
+   "crc32": "b1aeb637"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/METAGROSS_1.png",
+   "taille": 59780,
+   "crc": 601493041,
+   "crc32": "23da0e31"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/METANG.png",
+   "taille": 408815,
+   "crc": 4218589296,
+   "crc32": "fb729070"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/METAPOD.png",
+   "taille": 23659,
+   "crc": 3090392710,
+   "crc32": "b833a686"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MIGALARQUE.png",
+   "taille": 18630,
+   "crc": 2739542425,
+   "crc32": "a34a1999"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MIGHTYENA.png",
+   "taille": 29899,
+   "crc": 744566510,
+   "crc32": "2c612eee"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MILOTIC.png",
+   "taille": 43716,
+   "crc": 3211929260,
+   "crc32": "bf7226ac"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MILOTIC_female.png",
+   "taille": 43716,
+   "crc": 3211929260,
+   "crc32": "bf7226ac"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MONFERNO.png",
+   "taille": 79612,
+   "crc": 1417667982,
+   "crc32": "547fe58e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/MUNCHLAX.png",
+   "taille": 27905,
+   "crc": 3991584682,
+   "crc32": "edeabfaa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NIDOKING.png",
+   "taille": 58085,
+   "crc": 34677282,
+   "crc32": "02112222"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NIDOQUEEN.png",
+   "taille": 55795,
+   "crc": 639998840,
+   "crc32": "26259b78"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NIDORANfE.png",
+   "taille": 10241,
+   "crc": 1921823569,
+   "crc32": "728cb351"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NIDORANmA.png",
+   "taille": 18866,
+   "crc": 2795202986,
+   "crc32": "a69b69aa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NIDORINA.png",
+   "taille": 15063,
+   "crc": 1762341843,
+   "crc32": "690b33d3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NIDORINO.png",
+   "taille": 34707,
+   "crc": 3494117483,
+   "crc32": "d044006b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/NUMEL.png",
+   "taille": 10024,
+   "crc": 2177370856,
+   "crc32": "81c80ae8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PALKIA.png",
+   "taille": 71463,
+   "crc": 794733534,
+   "crc32": "2f5eabde"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PICHU.png",
+   "taille": 22419,
+   "crc": 3079109644,
+   "crc32": "b7877c0c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PIKACHU.png",
+   "taille": 34996,
+   "crc": 2651733338,
+   "crc32": "9e0e3d5a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PIKACHU_female.png",
+   "taille": 24568,
+   "crc": 907212190,
+   "crc32": "3612f59e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PIPLUP.png",
+   "taille": 19283,
+   "crc": 1467908964,
+   "crc32": "577e8364"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/POLITOED.png",
+   "taille": 35917,
+   "crc": 494699524,
+   "crc32": "1d7c8404"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/POLIWAG.png",
+   "taille": 11436,
+   "crc": 1236582587,
+   "crc32": "49b4c0bb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/POLIWHIRL.png",
+   "taille": 23444,
+   "crc": 2301070873,
+   "crc32": "89278e19"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/POLIWRATH.png",
+   "taille": 24018,
+   "crc": 3277550783,
+   "crc32": "c35b74bf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/POOCHYENA.png",
+   "taille": 32937,
+   "crc": 1725377927,
+   "crc32": "66d72d87"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PRINPLUP.png",
+   "taille": 27833,
+   "crc": 3164548214,
+   "crc32": "bc9f2c76"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/PURUGLY_101.png",
+   "taille": 22920,
+   "crc": 2319426160,
+   "crc32": "8a3fa270"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/RAICHU.png",
+   "taille": 83864,
+   "crc": 2743631779,
+   "crc32": "a3887fa3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/RAICHU_2.png",
+   "taille": 43243,
+   "crc": 1919590160,
+   "crc32": "726a9f10"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/RAICHU_3.png",
+   "taille": 39262,
+   "crc": 721579010,
+   "crc32": "2b026c02"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/RAICHU_female.png",
+   "taille": 63188,
+   "crc": 886940735,
+   "crc32": "34dda43f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SALAMENCE.png",
+   "taille": 78404,
+   "crc": 1486572048,
+   "crc32": "589b4a10"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SALAMENCE_1.png",
+   "taille": 18710,
+   "crc": 759108409,
+   "crc32": "2d3f1339"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SEVIPER.png",
+   "taille": 48977,
+   "crc": 3390121716,
+   "crc32": "ca1126f4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SHELGON.png",
+   "taille": 12222,
+   "crc": 3369993254,
+   "crc32": "c8de0426"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SHINX.png",
+   "taille": 22436,
+   "crc": 1435277387,
+   "crc32": "558c984b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SHINX_female.png",
+   "taille": 22436,
+   "crc": 1435277387,
+   "crc32": "558c984b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SKUNTANK_101.png",
+   "taille": 25415,
+   "crc": 4009721292,
+   "crc32": "eeff7dcc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SLOWBRO.png",
+   "taille": 90778,
+   "crc": 36717069,
+   "crc32": "0230420d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SLOWBRO_2.png",
+   "taille": 16939,
+   "crc": 2219421295,
+   "crc32": "8449ae6f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SLOWKING.png",
+   "taille": 50266,
+   "crc": 379965286,
+   "crc32": "16a5cf66"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SLOWPOKE.png",
+   "taille": 20302,
+   "crc": 1352684311,
+   "crc32": "50a05317"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SNORLAX.png",
+   "taille": 11691,
+   "crc": 3201913374,
+   "crc32": "bed9521e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SPECTRALI.png",
+   "taille": 32896,
+   "crc": 1930142036,
+   "crc32": "730ba154"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/SQUIRTLE.png",
+   "taille": 11740,
+   "crc": 1176090595,
+   "crc32": "4619b7e3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/STARMIE_1.png",
+   "taille": 103828,
+   "crc": 4077343071,
+   "crc32": "f307515f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/TORTERRA.png",
+   "taille": 79937,
+   "crc": 2427635618,
+   "crc32": "90b2c7a2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/TORTERRA_101.png",
+   "taille": 26222,
+   "crc": 3479296558,
+   "crc32": "cf61da2e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/TOXICROAK_101.png",
+   "taille": 43830,
+   "crc": 3305588973,
+   "crc32": "c50748ed"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/TRAPINCH.png",
+   "taille": 6030,
+   "crc": 1851432629,
+   "crc32": "6e5a9eb5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/TURTWIG.png",
+   "taille": 10330,
+   "crc": 2132311543,
+   "crc32": "7f187df7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/VENUSAUR.png",
+   "taille": 100682,
+   "crc": 3926395073,
+   "crc32": "ea0808c1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/VENUSAUR_1.png",
+   "taille": 40289,
+   "crc": 2640901802,
+   "crc32": "9d68f6aa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/VENUSAUR_female.png",
+   "taille": 97106,
+   "crc": 2786275741,
+   "crc32": "a613319d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/VESPIQUEN.png",
+   "taille": 21848,
+   "crc": 1315721073,
+   "crc32": "4e6c4f71"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/VIBRAVA.png",
+   "taille": 30447,
+   "crc": 1237173645,
+   "crc32": "49bdc58d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/VOLCARTOR.png",
+   "taille": 62748,
+   "crc": 4008322532,
+   "crc32": "eeea25e4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/WAILMER.png",
+   "taille": 21739,
+   "crc": 3610662248,
+   "crc32": "d7365568"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/WAILORD.png",
+   "taille": 94541,
+   "crc": 1556361851,
+   "crc32": "5cc4327b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/WARTORTLE.png",
+   "taille": 55436,
+   "crc": 3699593212,
+   "crc32": "dc834ffc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ZANGOOSE.png",
+   "taille": 34592,
+   "crc": 1064177262,
+   "crc32": "3f6e0e6e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ZEBSTRIKA.png",
+   "taille": 55432,
+   "crc": 4029414823,
+   "crc32": "f02bfda7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ZUBAT.png",
+   "taille": 18996,
+   "crc": 1488687551,
+   "crc32": "58bb91bf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/ZUBAT_female.png",
+   "taille": 33640,
+   "crc": 444524519,
+   "crc32": "1a7ee7e7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ABRA.png",
+   "taille": 68135,
+   "crc": 2690436106,
+   "crc32": "a05ccc0a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/AGGRON.png",
+   "taille": 60272,
+   "crc": 3883913831,
+   "crc32": "e77fd267"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/AGGRON_1.png",
+   "taille": 12813,
+   "crc": 3745926557,
+   "crc32": "df464d9d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ALAKAZAM.png",
+   "taille": 62348,
+   "crc": 3576531178,
+   "crc32": "d52d88ea"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ALAKAZAM_1.png",
+   "taille": 22128,
+   "crc": 1685735048,
+   "crc32": "647a4688"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ALAKAZAM_female.png",
+   "taille": 62348,
+   "crc": 3576531178,
+   "crc32": "d52d88ea"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ARBOK.png",
+   "taille": 42861,
+   "crc": 4194547765,
+   "crc32": "fa03b835"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ARON.png",
+   "taille": 4826,
+   "crc": 3501865996,
+   "crc32": "d0ba3c0c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BAGON.png",
+   "taille": 11667,
+   "crc": 4241713342,
+   "crc32": "fcd368be"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BELDUM.png",
+   "taille": 66032,
+   "crc": 1280090182,
+   "crc32": "4c4ca046"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BLASTOISE.png",
+   "taille": 118042,
+   "crc": 2209555655,
+   "crc32": "83b324c7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BLASTOISE_1.png",
+   "taille": 49669,
+   "crc": 94982126,
+   "crc32": "05a94fee"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BLITZLE.png",
+   "taille": 39012,
+   "crc": 164314633,
+   "crc32": "09cb3e09"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BUIZEL.png",
+   "taille": 30532,
+   "crc": 674092908,
+   "crc32": "282dd76c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BUIZEL_female.png",
+   "taille": 30532,
+   "crc": 674092908,
+   "crc32": "282dd76c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BULBASAUR.png",
+   "taille": 17253,
+   "crc": 3840368920,
+   "crc32": "e4e76118"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BUNEARY.png",
+   "taille": 45286,
+   "crc": 608150620,
+   "crc32": "243fa45c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BUTTERFREE.png",
+   "taille": 25073,
+   "crc": 1160204261,
+   "crc32": "45274fe5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BUTTERFREE_1.png",
+   "taille": 60291,
+   "crc": 3295018678,
+   "crc32": "c465feb6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/BUTTERFREE_female.png",
+   "taille": 25073,
+   "crc": 1160204261,
+   "crc32": "45274fe5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CAMERUPT.png",
+   "taille": 40831,
+   "crc": 687952413,
+   "crc32": "2901521d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CAMERUPT_1.png",
+   "taille": 9901,
+   "crc": 120582820,
+   "crc32": "072ff2a4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CATERPIE.png",
+   "taille": 10326,
+   "crc": 352971383,
+   "crc32": "1509ea77"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CHARIZARD.png",
+   "taille": 182914,
+   "crc": 1381058755,
+   "crc32": "525148c3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CHARIZARD_2.png",
+   "taille": 26012,
+   "crc": 3878717172,
+   "crc32": "e73086f4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CHARMANDER.png",
+   "taille": 17849,
+   "crc": 3279687529,
+   "crc32": "c37c0f69"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CHARMELEON.png",
+   "taille": 25826,
+   "crc": 551163690,
+   "crc32": "20da172a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CHIMCHAR.png",
+   "taille": 43166,
+   "crc": 3262312175,
+   "crc32": "c272eeef"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/COMBEE.png",
+   "taille": 12043,
+   "crc": 2107111638,
+   "crc32": "7d97f8d6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/COMBEE_female.png",
+   "taille": 12043,
+   "crc": 2107111638,
+   "crc32": "7d97f8d6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/CROBAT.png",
+   "taille": 55358,
+   "crc": 4156118054,
+   "crc32": "f7b95426"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/DIALGA.png",
+   "taille": 57922,
+   "crc": 2475904388,
+   "crc32": "93934d84"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/EKANS.png",
+   "taille": 16765,
+   "crc": 1451632968,
+   "crc32": "56862948"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/EMPOLEON.png",
+   "taille": 54054,
+   "crc": 193951304,
+   "crc32": "0b8f7648"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/EMPOLEON_101.png",
+   "taille": 21092,
+   "crc": 609349381,
+   "crc32": "2451ef05"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ESPURR.png",
+   "taille": 6407,
+   "crc": 3545360511,
+   "crc32": "d351e87f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/FLOATZEL.png",
+   "taille": 68292,
+   "crc": 2785993985,
+   "crc32": "a60ee501"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/FLOATZEL_female.png",
+   "taille": 68292,
+   "crc": 2785993985,
+   "crc32": "a60ee501"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/FLYGON.png",
+   "taille": 120964,
+   "crc": 1214010505,
+   "crc32": "485c5489"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GASTLY.png",
+   "taille": 72680,
+   "crc": 1605777279,
+   "crc32": "5fb6377f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GENGAR.png",
+   "taille": 84981,
+   "crc": 2077353500,
+   "crc32": "7bd1e61c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GENGAR_1.png",
+   "taille": 16122,
+   "crc": 1676704007,
+   "crc32": "63f07907"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GOLBAT.png",
+   "taille": 18030,
+   "crc": 1266168192,
+   "crc32": "4b783180"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GOLBAT_female.png",
+   "taille": 32858,
+   "crc": 31840160,
+   "crc32": "01e5d7a0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GROTLE.png",
+   "taille": 61032,
+   "crc": 3441298071,
+   "crc32": "cd1e0a97"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GYARADOS.png",
+   "taille": 27822,
+   "crc": 3915737352,
+   "crc32": "e9656908"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GYARADOS_1.png",
+   "taille": 92872,
+   "crc": 3000332498,
+   "crc32": "b2d570d2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/GYARADOS_female.png",
+   "taille": 27822,
+   "crc": 3915737352,
+   "crc32": "e9656908"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/HAUNTER.png",
+   "taille": 33487,
+   "crc": 3773100857,
+   "crc32": "e0e4f339"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/HONCHKROW_101.png",
+   "taille": 36841,
+   "crc": 4083703542,
+   "crc32": "f3685ef6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/INFERNAPE.png",
+   "taille": 99782,
+   "crc": 2234034689,
+   "crc32": "8528aa01"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/INFERNAPE_101.png",
+   "taille": 302503,
+   "crc": 2331523924,
+   "crc32": "8af83b54"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/IVYSAUR.png",
+   "taille": 31386,
+   "crc": 2875899478,
+   "crc32": "ab6abe56"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/KADABRA.png",
+   "taille": 75460,
+   "crc": 3993629460,
+   "crc32": "ee09f314"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/KADABRA_female.png",
+   "taille": 75460,
+   "crc": 3993629460,
+   "crc32": "ee09f314"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/KRICKETUNE_101.png",
+   "taille": 57553,
+   "crc": 4060280602,
+   "crc32": "f202f71a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LAIRON.png",
+   "taille": 24602,
+   "crc": 1835627687,
+   "crc32": "6d6974a7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LAPRAS.png",
+   "taille": 23204,
+   "crc": 3183736287,
+   "crc32": "bdc3f5df"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LAPRAS_1.png",
+   "taille": 13825,
+   "crc": 1770557922,
+   "crc32": "698891e2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LOPUNNY.png",
+   "taille": 48660,
+   "crc": 4075842307,
+   "crc32": "f2f06b03"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LOPUNNY_1.png",
+   "taille": 18378,
+   "crc": 2499317207,
+   "crc32": "94f88dd7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LUXIO.png",
+   "taille": 53990,
+   "crc": 2194716019,
+   "crc32": "82d0b573"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LUXIO_female.png",
+   "taille": 53990,
+   "crc": 2194716019,
+   "crc32": "82d0b573"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LUXRAY.png",
+   "taille": 73938,
+   "crc": 2645472067,
+   "crc32": "9daeb343"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/LUXRAY_female.png",
+   "taille": 73938,
+   "crc": 2645472067,
+   "crc32": "9daeb343"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MACHAMP.png",
+   "taille": 29584,
+   "crc": 651430673,
+   "crc32": "26d40b11"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MACHAMP_1.png",
+   "taille": 22810,
+   "crc": 2250938190,
+   "crc32": "862a974e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MACHOKE.png",
+   "taille": 37846,
+   "crc": 4144873665,
+   "crc32": "f70dc0c1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MACHOP.png",
+   "taille": 34236,
+   "crc": 3064293777,
+   "crc32": "b6a56991"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MAGNEMITE.png",
+   "taille": 10679,
+   "crc": 231234412,
+   "crc32": "0dc85b6c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MAGNETON.png",
+   "taille": 53957,
+   "crc": 3776515366,
+   "crc32": "e1190d26"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MAGNEZONE.png",
+   "taille": 41510,
+   "crc": 1749201094,
+   "crc32": "6842b0c6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MEOWSTIC.png",
+   "taille": 10801,
+   "crc": 258155235,
+   "crc32": "0f6322e3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MEOWSTIC_1.png",
+   "taille": 34924,
+   "crc": 3177054980,
+   "crc32": "bd5e0304"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MEOWSTIC_2.png",
+   "taille": 47932,
+   "crc": 1364572536,
+   "crc32": "5155b978"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/METAGROSS.png",
+   "taille": 254612,
+   "crc": 3988628997,
+   "crc32": "edbda605"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/METAGROSS_1.png",
+   "taille": 59650,
+   "crc": 3614991559,
+   "crc32": "d77864c7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/METANG.png",
+   "taille": 416986,
+   "crc": 2285108761,
+   "crc32": "8833fe19"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/METAPOD.png",
+   "taille": 23809,
+   "crc": 807176460,
+   "crc32": "301c890c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MIGALARQUE.png",
+   "taille": 19003,
+   "crc": 1575679963,
+   "crc32": "5deaf7db"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MIGHTYENA.png",
+   "taille": 29896,
+   "crc": 860319817,
+   "crc32": "33477049"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MILOTIC.png",
+   "taille": 43988,
+   "crc": 2766378271,
+   "crc32": "a4e3951f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MILOTIC_female.png",
+   "taille": 43988,
+   "crc": 2766378271,
+   "crc32": "a4e3951f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MONFERNO.png",
+   "taille": 79610,
+   "crc": 3662579333,
+   "crc32": "da4e8685"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/MUNCHLAX.png",
+   "taille": 27919,
+   "crc": 1616222423,
+   "crc32": "605598d7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NIDOKING.png",
+   "taille": 58335,
+   "crc": 2159590159,
+   "crc32": "80b8bb0f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NIDOQUEEN.png",
+   "taille": 56101,
+   "crc": 1376050936,
+   "crc32": "5204def8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NIDORANfE.png",
+   "taille": 10240,
+   "crc": 3867774568,
+   "crc32": "e6898e68"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NIDORANmA.png",
+   "taille": 18838,
+   "crc": 3569287790,
+   "crc32": "d4bf026e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NIDORINA.png",
+   "taille": 15110,
+   "crc": 3689894810,
+   "crc32": "dbef539a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NIDORINO.png",
+   "taille": 34301,
+   "crc": 1902889593,
+   "crc32": "716bca79"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/NUMEL.png",
+   "taille": 10111,
+   "crc": 888384650,
+   "crc32": "34f3ac8a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PALKIA.png",
+   "taille": 71773,
+   "crc": 3509515530,
+   "crc32": "d12ef50a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PICHU.png",
+   "taille": 22537,
+   "crc": 2186430392,
+   "crc32": "825247b8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PIKACHU.png",
+   "taille": 34951,
+   "crc": 1064092049,
+   "crc32": "3f6cc191"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PIKACHU_female.png",
+   "taille": 24527,
+   "crc": 563712324,
+   "crc32": "21999144"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PIPLUP.png",
+   "taille": 18718,
+   "crc": 4274862336,
+   "crc32": "fecd3900"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/POLITOED.png",
+   "taille": 34678,
+   "crc": 1068894378,
+   "crc32": "3fb608aa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/POLIWAG.png",
+   "taille": 11516,
+   "crc": 2952984820,
+   "crc32": "b002f8f4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/POLIWHIRL.png",
+   "taille": 23302,
+   "crc": 1578901365,
+   "crc32": "5e1c1f75"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/POLIWRATH.png",
+   "taille": 23656,
+   "crc": 3555349254,
+   "crc32": "d3ea5306"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/POOCHYENA.png",
+   "taille": 32757,
+   "crc": 1838685397,
+   "crc32": "6d981cd5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PRINPLUP.png",
+   "taille": 28139,
+   "crc": 4260992121,
+   "crc32": "fdf99479"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/PURUGLY_101.png",
+   "taille": 24213,
+   "crc": 3413509350,
+   "crc32": "cb7604e6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/RAICHU.png",
+   "taille": 84781,
+   "crc": 3980181961,
+   "crc32": "ed3cc1c9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/RAICHU_2.png",
+   "taille": 41989,
+   "crc": 3649265382,
+   "crc32": "d9835ee6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/RAICHU_3.png",
+   "taille": 38921,
+   "crc": 1793485225,
+   "crc32": "6ae669a9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/RAICHU_female.png",
+   "taille": 63530,
+   "crc": 3361997781,
+   "crc32": "c86403d5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SALAMENCE.png",
+   "taille": 79583,
+   "crc": 708945740,
+   "crc32": "2a41a74c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SALAMENCE_1.png",
+   "taille": 19012,
+   "crc": 1904407217,
+   "crc32": "7182f2b1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SEVIPER.png",
+   "taille": 48888,
+   "crc": 3774673003,
+   "crc32": "e0fcf06b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SHELGON.png",
+   "taille": 12413,
+   "crc": 2436763978,
+   "crc32": "913e114a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SHINX.png",
+   "taille": 22362,
+   "crc": 2894796944,
+   "crc32": "ac8b1890"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SHINX_female.png",
+   "taille": 22362,
+   "crc": 2894796944,
+   "crc32": "ac8b1890"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SKUNTANK_101.png",
+   "taille": 25370,
+   "crc": 1925743879,
+   "crc32": "72c88507"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SLOWBRO.png",
+   "taille": 90220,
+   "crc": 3961792143,
+   "crc32": "ec24268f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SLOWBRO_2.png",
+   "taille": 17083,
+   "crc": 3615669536,
+   "crc32": "d782bd20"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SLOWKING.png",
+   "taille": 50041,
+   "crc": 2750723174,
+   "crc32": "a3f4b466"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SLOWPOKE.png",
+   "taille": 20454,
+   "crc": 3476782679,
+   "crc32": "cf3b7e57"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SNORLAX.png",
+   "taille": 11719,
+   "crc": 3187195504,
+   "crc32": "bdf8be70"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SPECTRALI.png",
+   "taille": 34045,
+   "crc": 3232810700,
+   "crc32": "c0b0c6cc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/SQUIRTLE.png",
+   "taille": 11752,
+   "crc": 688943027,
+   "crc32": "29106fb3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/STARMIE_1.png",
+   "taille": 105004,
+   "crc": 14000435,
+   "crc32": "00d5a133"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/TORTERRA.png",
+   "taille": 80251,
+   "crc": 3513124258,
+   "crc32": "d16605a2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/TORTERRA_101.png",
+   "taille": 26907,
+   "crc": 33825909,
+   "crc32": "02042475"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/TOXICROAK_101.png",
+   "taille": 43466,
+   "crc": 4061075040,
+   "crc32": "f20f1660"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/TRAPINCH.png",
+   "taille": 5947,
+   "crc": 1004920808,
+   "crc32": "3be5dfe8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/TURTWIG.png",
+   "taille": 10204,
+   "crc": 1738228600,
+   "crc32": "679b4378"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/VENUSAUR.png",
+   "taille": 101214,
+   "crc": 218847352,
+   "crc32": "0d0b5878"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/VENUSAUR_1.png",
+   "taille": 38397,
+   "crc": 74328099,
+   "crc32": "046e2823"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/VENUSAUR_female.png",
+   "taille": 97686,
+   "crc": 68327260,
+   "crc32": "0412975c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/VESPIQUEN.png",
+   "taille": 21620,
+   "crc": 962008695,
+   "crc32": "39571677"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/VIBRAVA.png",
+   "taille": 30131,
+   "crc": 968769381,
+   "crc32": "39be3f65"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/VOLCARTOR.png",
+   "taille": 62173,
+   "crc": 1677696614,
+   "crc32": "63ff9e66"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/WAILMER.png",
+   "taille": 21617,
+   "crc": 850382496,
+   "crc32": "32afcea0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/WAILORD.png",
+   "taille": 92913,
+   "crc": 3666837024,
+   "crc32": "da8f7e20"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/WARTORTLE.png",
+   "taille": 55487,
+   "crc": 1121485815,
+   "crc32": "42d883f7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ZANGOOSE.png",
+   "taille": 35205,
+   "crc": 1148850432,
+   "crc32": "447a1100"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ZEBSTRIKA.png",
+   "taille": 55888,
+   "crc": 691560492,
+   "crc32": "2938602c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ZUBAT.png",
+   "taille": 19010,
+   "crc": 629028893,
+   "crc32": "257e381d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/ZUBAT_female.png",
+   "taille": 33258,
+   "crc": 183991012,
+   "crc32": "0af77ae4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Footprints/MIGALARQUE.png",
+   "taille": 301,
+   "crc": 839081026,
+   "crc32": "32035c42"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Footprints/SPECTRALI.png",
+   "taille": 298,
+   "crc": 446358677,
+   "crc32": "1a9ae495"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Footprints/VOLCARTOR.png",
+   "taille": 359,
+   "crc": 1007834993,
+   "crc32": "3c125771"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ABRA.png",
+   "taille": 79208,
+   "crc": 2653082717,
+   "crc32": "9e22d45d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/AGGRON.png",
+   "taille": 62568,
+   "crc": 3520113727,
+   "crc32": "d1d0ac3f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/AGGRON_1.png",
+   "taille": 16823,
+   "crc": 1466504021,
+   "crc32": "57691355"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ALAKAZAM.png",
+   "taille": 70239,
+   "crc": 1963713288,
+   "crc32": "750be308"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ALAKAZAM_1.png",
+   "taille": 22862,
+   "crc": 372246926,
+   "crc32": "1630098e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ALAKAZAM_female.png",
+   "taille": 70239,
+   "crc": 1963713288,
+   "crc32": "750be308"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ARBOK.png",
+   "taille": 46198,
+   "crc": 1009466654,
+   "crc32": "3c2b3d1e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ARON.png",
+   "taille": 5560,
+   "crc": 153593717,
+   "crc32": "0927a775"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BAGON.png",
+   "taille": 12750,
+   "crc": 1363847056,
+   "crc32": "514aa790"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BELDUM.png",
+   "taille": 57170,
+   "crc": 4142504306,
+   "crc32": "f6e99972"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BLASTOISE.png",
+   "taille": 68918,
+   "crc": 340380579,
+   "crc32": "1449cba3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BLASTOISE_1.png",
+   "taille": 42036,
+   "crc": 840495557,
+   "crc32": "3218f1c5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BLITZLE.png",
+   "taille": 43434,
+   "crc": 3219934019,
+   "crc32": "bfec4b43"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BUIZEL.png",
+   "taille": 26736,
+   "crc": 2449360195,
+   "crc32": "91fe4543"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BUIZEL_female.png",
+   "taille": 26736,
+   "crc": 2449360195,
+   "crc32": "91fe4543"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BULBASAUR.png",
+   "taille": 16052,
+   "crc": 2471443141,
+   "crc32": "934f3ac5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BUNEARY.png",
+   "taille": 44537,
+   "crc": 3879564173,
+   "crc32": "e73d738d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BUTTERFREE.png",
+   "taille": 47108,
+   "crc": 987846522,
+   "crc32": "3ae1577a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BUTTERFREE_1.png",
+   "taille": 51002,
+   "crc": 1719096190,
+   "crc32": "6677537e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/BUTTERFREE_female.png",
+   "taille": 47108,
+   "crc": 987846522,
+   "crc32": "3ae1577a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CAMERUPT.png",
+   "taille": 36883,
+   "crc": 168592407,
+   "crc32": "0a0c8417"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CAMERUPT_1.png",
+   "taille": 13999,
+   "crc": 2788437885,
+   "crc32": "a6342f7d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CATERPIE.png",
+   "taille": 14530,
+   "crc": 647098172,
+   "crc32": "2691ef3c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CHARIZARD.png",
+   "taille": 165168,
+   "crc": 3012407015,
+   "crc32": "b38daee7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CHARIZARD_2.png",
+   "taille": 74105,
+   "crc": 602848739,
+   "crc32": "23eebde3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CHARMANDER.png",
+   "taille": 18013,
+   "crc": 4001215987,
+   "crc32": "ee7db5f3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CHARMELEON.png",
+   "taille": 29473,
+   "crc": 4174188790,
+   "crc32": "f8cd10f6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CHIMCHAR.png",
+   "taille": 47856,
+   "crc": 3852364728,
+   "crc32": "e59e6bb8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/COMBEE.png",
+   "taille": 10434,
+   "crc": 1046001769,
+   "crc32": "3e58b869"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/COMBEE_female.png",
+   "taille": 10475,
+   "crc": 1176929843,
+   "crc32": "46268633"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/CROBAT.png",
+   "taille": 51226,
+   "crc": 3370693597,
+   "crc32": "c8e8b3dd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/DIALGA.png",
+   "taille": 60372,
+   "crc": 2926019591,
+   "crc32": "ae678407"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/EKANS.png",
+   "taille": 21105,
+   "crc": 290215633,
+   "crc32": "114c56d1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/EMPOLEON.png",
+   "taille": 60561,
+   "crc": 2503505043,
+   "crc32": "95387493"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/EMPOLEON_101.png",
+   "taille": 25092,
+   "crc": 1637511965,
+   "crc32": "619a731d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ESPURR.png",
+   "taille": 11528,
+   "crc": 3552418822,
+   "crc32": "d3bd9c06"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/FLOATZEL.png",
+   "taille": 73561,
+   "crc": 1660024988,
+   "crc32": "62f1f89c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/FLOATZEL_female.png",
+   "taille": 73561,
+   "crc": 1660024988,
+   "crc32": "62f1f89c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/FLYGON.png",
+   "taille": 98506,
+   "crc": 2529174905,
+   "crc32": "96c02579"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GASTLY.png",
+   "taille": 82968,
+   "crc": 3027621046,
+   "crc32": "b475d4b6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GENGAR.png",
+   "taille": 69148,
+   "crc": 2651389397,
+   "crc32": "9e08fdd5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GENGAR_1.png",
+   "taille": 18446,
+   "crc": 3835978419,
+   "crc32": "e4a462b3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GOLBAT.png",
+   "taille": 23669,
+   "crc": 2923285435,
+   "crc32": "ae3dcbbb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GOLBAT_female.png",
+   "taille": 28850,
+   "crc": 1857945707,
+   "crc32": "6ebe006b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GROTLE.png",
+   "taille": 47650,
+   "crc": 3863341670,
+   "crc32": "e645ea66"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GYARADOS.png",
+   "taille": 31877,
+   "crc": 2731452159,
+   "crc32": "a2cea6ff"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GYARADOS_1.png",
+   "taille": 96795,
+   "crc": 1244909293,
+   "crc32": "4a33ceed"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/GYARADOS_female.png",
+   "taille": 31877,
+   "crc": 2731452159,
+   "crc32": "a2cea6ff"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/HAUNTER.png",
+   "taille": 41364,
+   "crc": 3116448269,
+   "crc32": "b9c13a0d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/HONCHKROW_101.png",
+   "taille": 35439,
+   "crc": 1253386765,
+   "crc32": "4ab52a0d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/INFERNAPE.png",
+   "taille": 95263,
+   "crc": 2540715789,
+   "crc32": "97703f0d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/INFERNAPE_101.png",
+   "taille": 431190,
+   "crc": 1867649005,
+   "crc32": "6f520fed"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/IVYSAUR.png",
+   "taille": 34899,
+   "crc": 1728390852,
+   "crc32": "670526c4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/KADABRA.png",
+   "taille": 79734,
+   "crc": 1561861214,
+   "crc32": "5d181c5e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/KADABRA_female.png",
+   "taille": 79734,
+   "crc": 1561861214,
+   "crc32": "5d181c5e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/KRICKETUNE_101.png",
+   "taille": 61597,
+   "crc": 2099010747,
+   "crc32": "7d1c5cbb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LAIRON.png",
+   "taille": 32254,
+   "crc": 1299183754,
+   "crc32": "4d6ff88a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LAPRAS.png",
+   "taille": 25002,
+   "crc": 1279115815,
+   "crc32": "4c3dc227"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LAPRAS_1.png",
+   "taille": 24156,
+   "crc": 3047389760,
+   "crc32": "b5a37a40"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LOPUNNY.png",
+   "taille": 38940,
+   "crc": 216636074,
+   "crc32": "0ce99aaa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LOPUNNY_1.png",
+   "taille": 54031,
+   "crc": 2247547906,
+   "crc32": "85f6dc02"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LUXIO.png",
+   "taille": 56023,
+   "crc": 971722671,
+   "crc32": "39eb4faf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LUXIO_female.png",
+   "taille": 56023,
+   "crc": 971722671,
+   "crc32": "39eb4faf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LUXRAY.png",
+   "taille": 77583,
+   "crc": 3518061446,
+   "crc32": "d1b15b86"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/LUXRAY_female.png",
+   "taille": 77583,
+   "crc": 3518061446,
+   "crc32": "d1b15b86"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MACHAMP.png",
+   "taille": 31996,
+   "crc": 2982775617,
+   "crc32": "b1c98b41"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MACHAMP_1.png",
+   "taille": 28120,
+   "crc": 3944471089,
+   "crc32": "eb1bda31"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MACHOKE.png",
+   "taille": 30585,
+   "crc": 3457559900,
+   "crc32": "ce162d5c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MACHOP.png",
+   "taille": 31723,
+   "crc": 880968703,
+   "crc32": "348283ff"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MAGNEMITE.png",
+   "taille": 10923,
+   "crc": 3980308434,
+   "crc32": "ed3eafd2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MAGNETON.png",
+   "taille": 80729,
+   "crc": 4003931695,
+   "crc32": "eea7262f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MAGNEZONE.png",
+   "taille": 43935,
+   "crc": 3092069996,
+   "crc32": "b84d3e6c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MEOWSTIC.png",
+   "taille": 12165,
+   "crc": 393096675,
+   "crc32": "176e2de3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MEOWSTIC_1.png",
+   "taille": 118323,
+   "crc": 3612603594,
+   "crc32": "d753f4ca"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MEOWSTIC_2.png",
+   "taille": 53142,
+   "crc": 2017060354,
+   "crc32": "7839e602"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MEOWSTIC_female.png",
+   "taille": 118323,
+   "crc": 3612603594,
+   "crc32": "d753f4ca"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/METAGROSS.png",
+   "taille": 298616,
+   "crc": 2309662815,
+   "crc32": "89aaa85f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/METAGROSS_1.png",
+   "taille": 122557,
+   "crc": 1094964200,
+   "crc32": "4143d3e8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/METANG.png",
+   "taille": 592738,
+   "crc": 325779415,
+   "crc32": "136affd7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/METAPOD.png",
+   "taille": 20493,
+   "crc": 978589166,
+   "crc32": "3a5415ee"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MIGALARQUE.png",
+   "taille": 20803,
+   "crc": 3310300283,
+   "crc32": "c54f2c7b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MIGHTYENA.png",
+   "taille": 31125,
+   "crc": 3643460189,
+   "crc32": "d92aca5d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MILOTIC.png",
+   "taille": 48591,
+   "crc": 1366131870,
+   "crc32": "516d849e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MILOTIC_female.png",
+   "taille": 48591,
+   "crc": 1366131870,
+   "crc32": "516d849e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MONFERNO.png",
+   "taille": 82800,
+   "crc": 4048784906,
+   "crc32": "f1538e0a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/MUNCHLAX.png",
+   "taille": 30542,
+   "crc": 4150589010,
+   "crc32": "f764f652"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NIDOKING.png",
+   "taille": 82544,
+   "crc": 1928711775,
+   "crc32": "72f5ce5f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NIDOQUEEN.png",
+   "taille": 69001,
+   "crc": 3329108846,
+   "crc32": "c66e2b6e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NIDORANfE.png",
+   "taille": 11989,
+   "crc": 332855266,
+   "crc32": "13d6f7e2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NIDORANmA.png",
+   "taille": 22257,
+   "crc": 2164802966,
+   "crc32": "81084596"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NIDORINA.png",
+   "taille": 16470,
+   "crc": 2468426393,
+   "crc32": "93213299"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NIDORINO.png",
+   "taille": 31362,
+   "crc": 2813280315,
+   "crc32": "a7af403b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/NUMEL.png",
+   "taille": 15993,
+   "crc": 3338469968,
+   "crc32": "c6fd0250"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PALKIA.png",
+   "taille": 75352,
+   "crc": 3911351097,
+   "crc32": "e9227b39"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PICHU.png",
+   "taille": 26844,
+   "crc": 597453372,
+   "crc32": "239c6a3c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PIKACHU.png",
+   "taille": 40432,
+   "crc": 410753526,
+   "crc32": "187b99f6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PIKACHU_female.png",
+   "taille": 28716,
+   "crc": 195301872,
+   "crc32": "0ba411f0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PIPLUP.png",
+   "taille": 20451,
+   "crc": 1710365327,
+   "crc32": "65f21a8f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/POLITOED.png",
+   "taille": 36956,
+   "crc": 1017985293,
+   "crc32": "3cad390d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/POLIWAG.png",
+   "taille": 13618,
+   "crc": 2629014978,
+   "crc32": "9cb395c2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/POLIWHIRL.png",
+   "taille": 24142,
+   "crc": 3586577634,
+   "crc32": "d5c6d4e2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/POLIWRATH.png",
+   "taille": 30030,
+   "crc": 2094492340,
+   "crc32": "7cd76ab4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/POOCHYENA.png",
+   "taille": 34486,
+   "crc": 4003424726,
+   "crc32": "ee9f69d6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PRINPLUP.png",
+   "taille": 32028,
+   "crc": 739307475,
+   "crc32": "2c10efd3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/PURUGLY_101.png",
+   "taille": 31351,
+   "crc": 2975764243,
+   "crc32": "b15e8f13"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/RAICHU.png",
+   "taille": 59749,
+   "crc": 687178144,
+   "crc32": "28f581a0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/RAICHU_2.png",
+   "taille": 56828,
+   "crc": 1158281550,
+   "crc32": "4509f94e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/RAICHU_3.png",
+   "taille": 56812,
+   "crc": 3429686641,
+   "crc32": "cc6cdd71"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/RAICHU_female.png",
+   "taille": 103888,
+   "crc": 1324590454,
+   "crc32": "4ef3a576"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SALAMENCE.png",
+   "taille": 85670,
+   "crc": 3397178803,
+   "crc32": "ca7cd5b3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SALAMENCE_1.png",
+   "taille": 101005,
+   "crc": 513682034,
+   "crc32": "1e9e2a72"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SEVIPER.png",
+   "taille": 69435,
+   "crc": 3425618332,
+   "crc32": "cc2ec99c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SHELGON.png",
+   "taille": 14459,
+   "crc": 2557214260,
+   "crc32": "986bfe34"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SHINX.png",
+   "taille": 20425,
+   "crc": 3662119922,
+   "crc32": "da4783f2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SHINX_female.png",
+   "taille": 20425,
+   "crc": 3662119922,
+   "crc32": "da4783f2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SKUNTANK_101.png",
+   "taille": 30592,
+   "crc": 477803782,
+   "crc32": "1c7ab506"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SLOWBRO.png",
+   "taille": 72660,
+   "crc": 1800034488,
+   "crc32": "6b4a58b8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SLOWBRO_2.png",
+   "taille": 53427,
+   "crc": 2097396619,
+   "crc32": "7d03bb8b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SLOWKING.png",
+   "taille": 66155,
+   "crc": 358932685,
+   "crc32": "1564e0cd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SLOWPOKE.png",
+   "taille": 30538,
+   "crc": 697576345,
+   "crc32": "29942b99"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SNORLAX.png",
+   "taille": 12690,
+   "crc": 86077410,
+   "crc32": "05216fe2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SPECTRALI.png",
+   "taille": 28637,
+   "crc": 1410564217,
+   "crc32": "54138079"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/SQUIRTLE.png",
+   "taille": 11712,
+   "crc": 3132452173,
+   "crc32": "bab56d4d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/STARMIE_1.png",
+   "taille": 100858,
+   "crc": 3684363672,
+   "crc32": "db9aed98"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/TORTERRA.png",
+   "taille": 107260,
+   "crc": 2490875703,
+   "crc32": "9477bf37"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/TORTERRA_101.png",
+   "taille": 37803,
+   "crc": 2217392450,
+   "crc32": "842ab942"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/TOXICROAK_101.png",
+   "taille": 58657,
+   "crc": 4130884990,
+   "crc32": "f6384d7e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/TRAPINCH.png",
+   "taille": 6578,
+   "crc": 3389894664,
+   "crc32": "ca0db008"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/TURTWIG.png",
+   "taille": 10045,
+   "crc": 707141012,
+   "crc32": "2a261d94"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/VENUSAUR.png",
+   "taille": 115351,
+   "crc": 298412532,
+   "crc32": "11c969f4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/VENUSAUR_1.png",
+   "taille": 49828,
+   "crc": 701382446,
+   "crc32": "29ce3f2e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/VENUSAUR_female.png",
+   "taille": 114566,
+   "crc": 935714515,
+   "crc32": "37c5ded3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/VESPIQUEN.png",
+   "taille": 114806,
+   "crc": 2605330414,
+   "crc32": "9b4a2fee"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/VIBRAVA.png",
+   "taille": 34128,
+   "crc": 1171773044,
+   "crc32": "45d7d674"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/VOLCARTOR.png",
+   "taille": 68014,
+   "crc": 2803676009,
+   "crc32": "a71cb369"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/WAILMER.png",
+   "taille": 40312,
+   "crc": 885430827,
+   "crc32": "34c69a2b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/WAILORD.png",
+   "taille": 100753,
+   "crc": 984591377,
+   "crc32": "3aafac11"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/WARTORTLE.png",
+   "taille": 66648,
+   "crc": 2157098462,
+   "crc32": "8092b5de"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ZANGOOSE.png",
+   "taille": 43958,
+   "crc": 3015624028,
+   "crc32": "b3bec55c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ZEBSTRIKA.png",
+   "taille": 72842,
+   "crc": 2733683074,
+   "crc32": "a2f0b182"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ZUBAT.png",
+   "taille": 57247,
+   "crc": 1807123406,
+   "crc32": "6bb683ce"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/ZUBAT_female.png",
+   "taille": 57613,
+   "crc": 1573339329,
+   "crc32": "5dc740c1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ABRA.png",
+   "taille": 78227,
+   "crc": 3438110514,
+   "crc32": "cced6732"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/AGGRON.png",
+   "taille": 62190,
+   "crc": 3131598724,
+   "crc32": "baa86784"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/AGGRON_1.png",
+   "taille": 17082,
+   "crc": 2402003328,
+   "crc32": "8f2ba980"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ALAKAZAM.png",
+   "taille": 70211,
+   "crc": 3811038471,
+   "crc32": "e327d507"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ALAKAZAM_1.png",
+   "taille": 22235,
+   "crc": 2544011079,
+   "crc32": "97a28747"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ALAKAZAM_female.png",
+   "taille": 70211,
+   "crc": 3811038471,
+   "crc32": "e327d507"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ARBOK.png",
+   "taille": 46242,
+   "crc": 2625769768,
+   "crc32": "9c821128"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ARON.png",
+   "taille": 5583,
+   "crc": 2619836796,
+   "crc32": "9c27897c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BAGON.png",
+   "taille": 12994,
+   "crc": 3268360931,
+   "crc32": "c2cf3ae3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BELDUM.png",
+   "taille": 58326,
+   "crc": 1965620802,
+   "crc32": "7528fe42"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BLASTOISE.png",
+   "taille": 68909,
+   "crc": 1777730477,
+   "crc32": "69f603ad"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BLASTOISE_1.png",
+   "taille": 42069,
+   "crc": 2544042923,
+   "crc32": "97a303ab"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BLITZLE.png",
+   "taille": 44098,
+   "crc": 2767971614,
+   "crc32": "a4fbe51e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BUIZEL.png",
+   "taille": 25149,
+   "crc": 3554916997,
+   "crc32": "d3e3ba85"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BUIZEL_female.png",
+   "taille": 25149,
+   "crc": 3554916997,
+   "crc32": "d3e3ba85"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BULBASAUR.png",
+   "taille": 16286,
+   "crc": 1846110418,
+   "crc32": "6e0968d2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BUNEARY.png",
+   "taille": 44001,
+   "crc": 68568020,
+   "crc32": "041643d4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BUTTERFREE.png",
+   "taille": 47176,
+   "crc": 2437741332,
+   "crc32": "914cfb14"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BUTTERFREE_1.png",
+   "taille": 50869,
+   "crc": 382983100,
+   "crc32": "16d3dbbc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/BUTTERFREE_female.png",
+   "taille": 47176,
+   "crc": 2437741332,
+   "crc32": "914cfb14"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CAMERUPT.png",
+   "taille": 37452,
+   "crc": 81238890,
+   "crc32": "04d79b6a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CAMERUPT_1.png",
+   "taille": 13503,
+   "crc": 913752631,
+   "crc32": "3676c237"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CATERPIE.png",
+   "taille": 14467,
+   "crc": 979172097,
+   "crc32": "3a5cfb01"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CHARIZARD.png",
+   "taille": 166358,
+   "crc": 2154974917,
+   "crc32": "80724ec5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CHARIZARD_2.png",
+   "taille": 74981,
+   "crc": 4115388052,
+   "crc32": "f54bd694"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CHARMANDER.png",
+   "taille": 18010,
+   "crc": 2479446895,
+   "crc32": "93c95b6f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CHARMELEON.png",
+   "taille": 29176,
+   "crc": 2800579891,
+   "crc32": "a6ed7533"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CHIMCHAR.png",
+   "taille": 48125,
+   "crc": 3578699325,
+   "crc32": "d54e9e3d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/COMBEE.png",
+   "taille": 10123,
+   "crc": 908467339,
+   "crc32": "36261c8b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/COMBEE_female.png",
+   "taille": 10173,
+   "crc": 2557545366,
+   "crc32": "98710b96"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/CROBAT.png",
+   "taille": 50069,
+   "crc": 3296338859,
+   "crc32": "c47a23ab"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/DIALGA.png",
+   "taille": 60391,
+   "crc": 1300938960,
+   "crc32": "4d8ac0d0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/EKANS.png",
+   "taille": 21362,
+   "crc": 3995668277,
+   "crc32": "ee290f35"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/EMPOLEON.png",
+   "taille": 61713,
+   "crc": 3078533919,
+   "crc32": "b77eb31f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/EMPOLEON_101.png",
+   "taille": 24937,
+   "crc": 2378463003,
+   "crc32": "8dc4771b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ESPURR.png",
+   "taille": 11319,
+   "crc": 53750071,
+   "crc32": "03342937"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/FLOATZEL.png",
+   "taille": 73154,
+   "crc": 500313764,
+   "crc32": "1dd22ea4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/FLOATZEL_female.png",
+   "taille": 73154,
+   "crc": 500313764,
+   "crc32": "1dd22ea4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/FLYGON.png",
+   "taille": 97658,
+   "crc": 3442971661,
+   "crc32": "cd37940d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GASTLY.png",
+   "taille": 83357,
+   "crc": 22645547,
+   "crc32": "01598b2b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GENGAR.png",
+   "taille": 70824,
+   "crc": 2548768380,
+   "crc32": "97eb1e7c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GENGAR_1.png",
+   "taille": 18821,
+   "crc": 3025285327,
+   "crc32": "b45230cf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GOLBAT.png",
+   "taille": 23259,
+   "crc": 282494687,
+   "crc32": "10d686df"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GOLBAT_female.png",
+   "taille": 30019,
+   "crc": 1159759557,
+   "crc32": "452086c5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GROTLE.png",
+   "taille": 48409,
+   "crc": 2869436325,
+   "crc32": "ab081fa5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GYARADOS.png",
+   "taille": 31298,
+   "crc": 1607572472,
+   "crc32": "5fd19bf8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GYARADOS_1.png",
+   "taille": 95772,
+   "crc": 1704770501,
+   "crc32": "659cbbc5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/GYARADOS_female.png",
+   "taille": 31298,
+   "crc": 1607572472,
+   "crc32": "5fd19bf8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/HAUNTER.png",
+   "taille": 42785,
+   "crc": 406529385,
+   "crc32": "183b2569"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/HONCHKROW_101.png",
+   "taille": 35462,
+   "crc": 4180346800,
+   "crc32": "f92b07b0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/INFERNAPE.png",
+   "taille": 92211,
+   "crc": 3873762885,
+   "crc32": "e6e4ee45"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/INFERNAPE_101.png",
+   "taille": 434067,
+   "crc": 471021995,
+   "crc32": "1c1339ab"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/IVYSAUR.png",
+   "taille": 34556,
+   "crc": 4228604164,
+   "crc32": "fc0b6104"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/KADABRA.png",
+   "taille": 80465,
+   "crc": 2065321114,
+   "crc32": "7b1a4c9a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/KADABRA_female.png",
+   "taille": 80465,
+   "crc": 2065321114,
+   "crc32": "7b1a4c9a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/KRICKETUNE_101.png",
+   "taille": 61013,
+   "crc": 2916684020,
+   "crc32": "add910f4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LAIRON.png",
+   "taille": 32271,
+   "crc": 264186104,
+   "crc32": "0fbf28f8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LAPRAS.png",
+   "taille": 26718,
+   "crc": 974786598,
+   "crc32": "3a1a1026"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LAPRAS_1.png",
+   "taille": 25258,
+   "crc": 4219306819,
+   "crc32": "fb7d8343"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LOPUNNY.png",
+   "taille": 39150,
+   "crc": 45162584,
+   "crc32": "02b12058"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LOPUNNY_1.png",
+   "taille": 53402,
+   "crc": 297478566,
+   "crc32": "11bb29a6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LUXIO.png",
+   "taille": 55211,
+   "crc": 3507604473,
+   "crc32": "d111cbf9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LUXIO_female.png",
+   "taille": 55211,
+   "crc": 3507604473,
+   "crc32": "d111cbf9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LUXRAY.png",
+   "taille": 77541,
+   "crc": 1899462822,
+   "crc32": "713780a6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/LUXRAY_female.png",
+   "taille": 77541,
+   "crc": 1899462822,
+   "crc32": "713780a6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MACHAMP.png",
+   "taille": 31599,
+   "crc": 1273491498,
+   "crc32": "4be7f02a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MACHAMP_1.png",
+   "taille": 26794,
+   "crc": 1914673642,
+   "crc32": "721f99ea"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MACHOKE.png",
+   "taille": 30575,
+   "crc": 1136153546,
+   "crc32": "43b853ca"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MACHOP.png",
+   "taille": 31641,
+   "crc": 1104301115,
+   "crc32": "41d24c3b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MAGNEMITE.png",
+   "taille": 11711,
+   "crc": 1685645710,
+   "crc32": "6478e98e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MAGNETON.png",
+   "taille": 80691,
+   "crc": 3277486206,
+   "crc32": "c35a787e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MAGNEZONE.png",
+   "taille": 43887,
+   "crc": 3735643222,
+   "crc32": "dea96456"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MEOWSTIC.png",
+   "taille": 12072,
+   "crc": 1333599123,
+   "crc32": "4f7d1b93"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MEOWSTIC_1.png",
+   "taille": 117240,
+   "crc": 1312991387,
+   "crc32": "4e42a89b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MEOWSTIC_2.png",
+   "taille": 51553,
+   "crc": 445758648,
+   "crc32": "1a91bcb8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/METAGROSS.png",
+   "taille": 301190,
+   "crc": 1647340418,
+   "crc32": "62306b82"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/METAGROSS_1.png",
+   "taille": 120481,
+   "crc": 1845303544,
+   "crc32": "6dfd18f8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/METANG.png",
+   "taille": 609577,
+   "crc": 1338104182,
+   "crc32": "4fc1d976"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/METAPOD.png",
+   "taille": 20575,
+   "crc": 1972011741,
+   "crc32": "758a82dd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MIGALARQUE.png",
+   "taille": 20157,
+   "crc": 1166909287,
+   "crc32": "458d9f67"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MIGHTYENA.png",
+   "taille": 31763,
+   "crc": 1605956379,
+   "crc32": "5fb8f31b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MILOTIC.png",
+   "taille": 48328,
+   "crc": 3527045552,
+   "crc32": "d23a71b0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MILOTIC_female.png",
+   "taille": 48328,
+   "crc": 3527045552,
+   "crc32": "d23a71b0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MONFERNO.png",
+   "taille": 86209,
+   "crc": 2976005514,
+   "crc32": "b1623d8a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/MUNCHLAX.png",
+   "taille": 30494,
+   "crc": 812125802,
+   "crc32": "30680e6a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NIDOKING.png",
+   "taille": 81289,
+   "crc": 4143667429,
+   "crc32": "f6fb58e5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NIDOQUEEN.png",
+   "taille": 68593,
+   "crc": 1141754109,
+   "crc32": "440dc8fd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NIDORANfE.png",
+   "taille": 11943,
+   "crc": 4121998504,
+   "crc32": "f5b0b4a8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NIDORANmA.png",
+   "taille": 21896,
+   "crc": 1709465105,
+   "crc32": "65e45e11"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NIDORINA.png",
+   "taille": 16007,
+   "crc": 1241760778,
+   "crc32": "4a03c40a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NIDORINO.png",
+   "taille": 30873,
+   "crc": 867476780,
+   "crc32": "33b4a52c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/NUMEL.png",
+   "taille": 15964,
+   "crc": 1995771805,
+   "crc32": "76f50f9d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PALKIA.png",
+   "taille": 75544,
+   "crc": 3105178682,
+   "crc32": "b915443a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PICHU.png",
+   "taille": 26663,
+   "crc": 1303416587,
+   "crc32": "4db08f0b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PIKACHU.png",
+   "taille": 40071,
+   "crc": 1733110173,
+   "crc32": "674d299d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PIKACHU_female.png",
+   "taille": 29252,
+   "crc": 4254678157,
+   "crc32": "fd993c8d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PIPLUP.png",
+   "taille": 20258,
+   "crc": 1361686093,
+   "crc32": "5129ae4d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/POLITOED.png",
+   "taille": 37644,
+   "crc": 2774653499,
+   "crc32": "a561da3b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/POLIWAG.png",
+   "taille": 13373,
+   "crc": 2670776580,
+   "crc32": "9f30d104"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/POLIWHIRL.png",
+   "taille": 24790,
+   "crc": 2116293103,
+   "crc32": "7e2411ef"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/POLIWRATH.png",
+   "taille": 30309,
+   "crc": 558168000,
+   "crc32": "2144f7c0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/POOCHYENA.png",
+   "taille": 34282,
+   "crc": 2790278572,
+   "crc32": "a65045ac"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PRINPLUP.png",
+   "taille": 32063,
+   "crc": 3458247574,
+   "crc32": "ce20ab96"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/PURUGLY_101.png",
+   "taille": 31542,
+   "crc": 1072449860,
+   "crc32": "3fec4944"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/RAICHU.png",
+   "taille": 59090,
+   "crc": 2900772600,
+   "crc32": "ace646f8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/RAICHU_2.png",
+   "taille": 58585,
+   "crc": 936689002,
+   "crc32": "37d4bd6a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/RAICHU_3.png",
+   "taille": 56103,
+   "crc": 816180362,
+   "crc32": "30a5ec8a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/RAICHU_female.png",
+   "taille": 102861,
+   "crc": 2208388390,
+   "crc32": "83a15526"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SALAMENCE.png",
+   "taille": 87493,
+   "crc": 593547422,
+   "crc32": "2360d09e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SALAMENCE_1.png",
+   "taille": 102254,
+   "crc": 2412767435,
+   "crc32": "8fcfe8cb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SEVIPER.png",
+   "taille": 69356,
+   "crc": 411478739,
+   "crc32": "1886aad3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SHELGON.png",
+   "taille": 15007,
+   "crc": 4238971559,
+   "crc32": "fca992a7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SHINX.png",
+   "taille": 20551,
+   "crc": 1711596047,
+   "crc32": "6604e20f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SHINX_female.png",
+   "taille": 20551,
+   "crc": 1711596047,
+   "crc32": "6604e20f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SKUNTANK_101.png",
+   "taille": 30128,
+   "crc": 1410853140,
+   "crc32": "5417e914"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SLOWBRO.png",
+   "taille": 73015,
+   "crc": 3038189840,
+   "crc32": "b5171910"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SLOWBRO_2.png",
+   "taille": 53433,
+   "crc": 414129954,
+   "crc32": "18af1f22"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SLOWKING.png",
+   "taille": 66363,
+   "crc": 1632291716,
+   "crc32": "614acb84"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SLOWPOKE.png",
+   "taille": 29184,
+   "crc": 3542843365,
+   "crc32": "d32b7fe5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SNORLAX.png",
+   "taille": 12483,
+   "crc": 2606233093,
+   "crc32": "9b57f605"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SPECTRALI.png",
+   "taille": 29073,
+   "crc": 1993235842,
+   "crc32": "76ce5d82"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/SQUIRTLE.png",
+   "taille": 11596,
+   "crc": 1733599263,
+   "crc32": "6754a01f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/STARMIE_1.png",
+   "taille": 101257,
+   "crc": 703980964,
+   "crc32": "29f5e5a4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/TORTERRA.png",
+   "taille": 108122,
+   "crc": 1524766046,
+   "crc32": "5ae2155e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/TORTERRA_101.png",
+   "taille": 37378,
+   "crc": 3631506113,
+   "crc32": "d87462c1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/TOXICROAK_101.png",
+   "taille": 58768,
+   "crc": 3364269976,
+   "crc32": "c886af98"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/TRAPINCH.png",
+   "taille": 6646,
+   "crc": 3949943955,
+   "crc32": "eb6f5c93"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/TURTWIG.png",
+   "taille": 9976,
+   "crc": 3173553017,
+   "crc32": "bd289379"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/VENUSAUR.png",
+   "taille": 114801,
+   "crc": 3543024488,
+   "crc32": "d32e4368"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/VENUSAUR_1.png",
+   "taille": 49814,
+   "crc": 218960701,
+   "crc32": "0d0d133d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/VENUSAUR_female.png",
+   "taille": 114403,
+   "crc": 2727319469,
+   "crc32": "a28f97ad"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/VESPIQUEN.png",
+   "taille": 114806,
+   "crc": 67770065,
+   "crc32": "040a16d1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/VIBRAVA.png",
+   "taille": 33985,
+   "crc": 2085336678,
+   "crc32": "7c4bb666"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/VOLCARTOR.png",
+   "taille": 68386,
+   "crc": 2052653433,
+   "crc32": "7a590179"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/WAILMER.png",
+   "taille": 40044,
+   "crc": 2601918707,
+   "crc32": "9b1620f3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/WAILORD.png",
+   "taille": 94770,
+   "crc": 96081329,
+   "crc32": "05ba15b1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/WARTORTLE.png",
+   "taille": 66624,
+   "crc": 312749282,
+   "crc32": "12a42ce2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ZANGOOSE.png",
+   "taille": 43888,
+   "crc": 2138221528,
+   "crc32": "7f72abd8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ZEBSTRIKA.png",
+   "taille": 73718,
+   "crc": 1092835808,
+   "crc32": "412359e0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ZUBAT.png",
+   "taille": 56320,
+   "crc": 1640575358,
+   "crc32": "61c9317e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/ZUBAT_female.png",
+   "taille": 57647,
+   "crc": 1238747622,
+   "crc32": "49d5c9e6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ABRA.png",
+   "taille": 1626,
+   "crc": 639145128,
+   "crc32": "261894a8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/AGGRON.png",
+   "taille": 4941,
+   "crc": 2225744888,
+   "crc32": "84aa2bf8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/AGGRON_1.png",
+   "taille": 4642,
+   "crc": 686427345,
+   "crc32": "28ea0cd1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ALAKAZAM.png",
+   "taille": 2242,
+   "crc": 2200335706,
+   "crc32": "8326755a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ALAKAZAM_1.png",
+   "taille": 2203,
+   "crc": 3297720258,
+   "crc32": "c48f37c2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ARBOK.png",
+   "taille": 4484,
+   "crc": 1332244637,
+   "crc32": "4f68709d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ARON.png",
+   "taille": 2821,
+   "crc": 2279012178,
+   "crc32": "87d6f752"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BAGON.png",
+   "taille": 2199,
+   "crc": 637383981,
+   "crc32": "25fdb52d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BELDUM.png",
+   "taille": 1050,
+   "crc": 2068055289,
+   "crc32": "7b4404f9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BLASTOISE.png",
+   "taille": 2000,
+   "crc": 3388516636,
+   "crc32": "c9f8a91c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BLASTOISE_1.png",
+   "taille": 2501,
+   "crc": 1795576022,
+   "crc32": "6b0650d6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BLITZLE.png",
+   "taille": 2604,
+   "crc": 1210471858,
+   "crc32": "482655b2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BUIZEL.png",
+   "taille": 1199,
+   "crc": 3878275164,
+   "crc32": "e729c85c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BULBASAUR.png",
+   "taille": 1485,
+   "crc": 2548859102,
+   "crc32": "97ec80de"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BUNEARY.png",
+   "taille": 1370,
+   "crc": 2403414248,
+   "crc32": "8f4130e8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BUTTERFREE.png",
+   "taille": 1248,
+   "crc": 627517851,
+   "crc32": "2567299b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/BUTTERFREE_1.png",
+   "taille": 1720,
+   "crc": 611825429,
+   "crc32": "2477b715"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CAMERUPT.png",
+   "taille": 4569,
+   "crc": 3176431028,
+   "crc32": "bd547db4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CAMERUPT_1.png",
+   "taille": 4262,
+   "crc": 1664101089,
+   "crc32": "63302ae1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CATERPIE.png",
+   "taille": 692,
+   "crc": 978956498,
+   "crc32": "3a59b0d2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CHARIZARD.png",
+   "taille": 1833,
+   "crc": 3505911737,
+   "crc32": "d0f7f7b9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CHARIZARD_2.png",
+   "taille": 2035,
+   "crc": 2389626146,
+   "crc32": "8e6ecd22"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CHARMANDER.png",
+   "taille": 1221,
+   "crc": 3110895947,
+   "crc32": "b96c814b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CHARMELEON.png",
+   "taille": 1617,
+   "crc": 907962878,
+   "crc32": "361e69fe"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CHIMCHAR.png",
+   "taille": 1689,
+   "crc": 4204297044,
+   "crc32": "fa987b54"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/COMBEE.png",
+   "taille": 1394,
+   "crc": 2968972207,
+   "crc32": "b0f6ebaf"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/COMBEE_female.png",
+   "taille": 1389,
+   "crc": 3507202282,
+   "crc32": "d10ba8ea"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/CROBAT.png",
+   "taille": 3634,
+   "crc": 1820548814,
+   "crc32": "6c835ece"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/DIALGA.png",
+   "taille": 6093,
+   "crc": 1786587419,
+   "crc32": "6a7d291b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/EKANS.png",
+   "taille": 3656,
+   "crc": 3570296541,
+   "crc32": "d4ce66dd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/EMPOLEON.png",
+   "taille": 4954,
+   "crc": 2566261621,
+   "crc32": "98f60b75"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/EMPOLEON_101.png",
+   "taille": 6044,
+   "crc": 2989939060,
+   "crc32": "b236d974"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ESPURR.png",
+   "taille": 998,
+   "crc": 2684466346,
+   "crc32": "a001b4aa"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/FLOATZEL.png",
+   "taille": 1399,
+   "crc": 1124126876,
+   "crc32": "4300d09c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/FLYGON.png",
+   "taille": 2394,
+   "crc": 3071328953,
+   "crc32": "b710c2b9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GASTLY.png",
+   "taille": 1060,
+   "crc": 2718381879,
+   "crc32": "a2073737"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GENGAR.png",
+   "taille": 1558,
+   "crc": 3126633725,
+   "crc32": "ba5ca4fd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GENGAR_1.png",
+   "taille": 2069,
+   "crc": 439417804,
+   "crc32": "1a30fbcc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GOLBAT.png",
+   "taille": 4142,
+   "crc": 2914366320,
+   "crc32": "adb5b370"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GROTLE.png",
+   "taille": 2260,
+   "crc": 1145014109,
+   "crc32": "443f875d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GYARADOS.png",
+   "taille": 4441,
+   "crc": 1266451917,
+   "crc32": "4b7c85cd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GYARADOS_1.png",
+   "taille": 10492,
+   "crc": 1709274909,
+   "crc32": "65e1771d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/GYARADOS_female.png",
+   "taille": 4441,
+   "crc": 1266451917,
+   "crc32": "4b7c85cd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/HAUNTER.png",
+   "taille": 1708,
+   "crc": 2199049296,
+   "crc32": "8312d450"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/HONCHKROW_101.png",
+   "taille": 5409,
+   "crc": 2830298914,
+   "crc32": "a8b2ef22"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/INFERNAPE.png",
+   "taille": 2585,
+   "crc": 634598354,
+   "crc32": "25d333d2"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/INFERNAPE_101.png",
+   "taille": 3672,
+   "crc": 4293056548,
+   "crc32": "ffe2d824"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/IVYSAUR.png",
+   "taille": 1421,
+   "crc": 2184089487,
+   "crc32": "822e8f8f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/KADABRA.png",
+   "taille": 2094,
+   "crc": 1743079798,
+   "crc32": "67e54976"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/KRICKETUNE_101.png",
+   "taille": 3017,
+   "crc": 3972396446,
+   "crc32": "ecc5f59e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LAIRON.png",
+   "taille": 4923,
+   "crc": 2716035627,
+   "crc32": "a1e36a2b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LAPRAS.png",
+   "taille": 1431,
+   "crc": 563900515,
+   "crc32": "219c7063"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LAPRAS_1.png",
+   "taille": 2226,
+   "crc": 785551241,
+   "crc32": "2ed28f89"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LOPUNNY.png",
+   "taille": 1621,
+   "crc": 1667014211,
+   "crc32": "635c9e43"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LOPUNNY_1.png",
+   "taille": 1906,
+   "crc": 2233940756,
+   "crc32": "85273b14"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LUXIO.png",
+   "taille": 3957,
+   "crc": 2388169755,
+   "crc32": "8e58941b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/LUXRAY.png",
+   "taille": 4124,
+   "crc": 1120556296,
+   "crc32": "42ca5508"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MACHAMP.png",
+   "taille": 1296,
+   "crc": 116740484,
+   "crc32": "06f55184"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MACHAMP_1.png",
+   "taille": 2572,
+   "crc": 2387011434,
+   "crc32": "8e46e76a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MACHOKE.png",
+   "taille": 1149,
+   "crc": 2741074800,
+   "crc32": "a3617b70"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MACHOP.png",
+   "taille": 843,
+   "crc": 2351214476,
+   "crc32": "8c24af8c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MAGNEMITE.png",
+   "taille": 1019,
+   "crc": 2804223181,
+   "crc32": "a7250ccd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MAGNETON.png",
+   "taille": 1618,
+   "crc": 3700985783,
+   "crc32": "dc988fb7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MAGNEZONE.png",
+   "taille": 1414,
+   "crc": 3856717877,
+   "crc32": "e5e0d835"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MEOWSTIC.png",
+   "taille": 1595,
+   "crc": 3275495515,
+   "crc32": "c33c185b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MEOWSTIC_1.png",
+   "taille": 1396,
+   "crc": 2183785940,
+   "crc32": "8229edd4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MEOWSTIC_2.png",
+   "taille": 1458,
+   "crc": 430982410,
+   "crc32": "19b0450a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/METAGROSS.png",
+   "taille": 1878,
+   "crc": 967494737,
+   "crc32": "39aacc51"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/METAGROSS_1.png",
+   "taille": 1936,
+   "crc": 363629899,
+   "crc32": "15ac8d4b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/METANG.png",
+   "taille": 1643,
+   "crc": 2625332403,
+   "crc32": "9c7b64b3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/METAPOD.png",
+   "taille": 723,
+   "crc": 1115724545,
+   "crc32": "42809b01"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MIGALARQUE.png",
+   "taille": 1603,
+   "crc": 594697689,
+   "crc32": "23725dd9"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MIGHTYENA.png",
+   "taille": 3661,
+   "crc": 959542039,
+   "crc32": "39317317"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MILOTIC.png",
+   "taille": 4387,
+   "crc": 2245599728,
+   "crc32": "85d921f0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MONFERNO.png",
+   "taille": 1957,
+   "crc": 4264674422,
+   "crc32": "fe31c476"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/MUNCHLAX.png",
+   "taille": 1767,
+   "crc": 3980738584,
+   "crc32": "ed454018"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NIDOKING.png",
+   "taille": 3984,
+   "crc": 2710548693,
+   "crc32": "a18fb0d5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NIDOQUEEN.png",
+   "taille": 2460,
+   "crc": 207410477,
+   "crc32": "0c5cd52d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NIDORANfE.png",
+   "taille": 1792,
+   "crc": 4046957082,
+   "crc32": "f137aa1a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NIDORANmA.png",
+   "taille": 2227,
+   "crc": 3000514661,
+   "crc32": "b2d83865"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NIDORINA.png",
+   "taille": 2022,
+   "crc": 3121587110,
+   "crc32": "ba0fa3a6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NIDORINO.png",
+   "taille": 2784,
+   "crc": 157275404,
+   "crc32": "095fd50c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/NUMEL.png",
+   "taille": 3135,
+   "crc": 2627854571,
+   "crc32": "9ca1e0eb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PALKIA.png",
+   "taille": 5207,
+   "crc": 3282855956,
+   "crc32": "c3ac6814"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PICHU.png",
+   "taille": 2883,
+   "crc": 1155075509,
+   "crc32": "44d90db5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PIKACHU.png",
+   "taille": 3252,
+   "crc": 2491031893,
+   "crc32": "947a2155"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PIKACHU_female.png",
+   "taille": 3618,
+   "crc": 266618003,
+   "crc32": "0fe44493"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PIPLUP.png",
+   "taille": 2642,
+   "crc": 595624717,
+   "crc32": "2380830d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/POLITOED.png",
+   "taille": 1977,
+   "crc": 514332216,
+   "crc32": "1ea81638"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/POLIWAG.png",
+   "taille": 1259,
+   "crc": 2018988470,
+   "crc32": "785751b6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/POLIWHIRL.png",
+   "taille": 1675,
+   "crc": 1600000054,
+   "crc32": "5f5e1036"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/POLIWRATH.png",
+   "taille": 2267,
+   "crc": 3313252647,
+   "crc32": "c57c3927"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/POOCHYENA.png",
+   "taille": 3204,
+   "crc": 3820171574,
+   "crc32": "e3b33136"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PRINPLUP.png",
+   "taille": 3899,
+   "crc": 2219935393,
+   "crc32": "845186a1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/PURUGLY_101.png",
+   "taille": 4568,
+   "crc": 2882095301,
+   "crc32": "abc948c5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/RAICHU.png",
+   "taille": 5015,
+   "crc": 3450138710,
+   "crc32": "cda4f056"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/RAICHU_2.png",
+   "taille": 3027,
+   "crc": 4007833890,
+   "crc32": "eee2b122"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/RAICHU_3.png",
+   "taille": 3297,
+   "crc": 4109438258,
+   "crc32": "f4f10d32"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/RAICHU_female.png",
+   "taille": 4945,
+   "crc": 1703151844,
+   "crc32": "658408e4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SALAMENCE.png",
+   "taille": 4484,
+   "crc": 744580963,
+   "crc32": "2c616763"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SALAMENCE_1.png",
+   "taille": 3625,
+   "crc": 2701048557,
+   "crc32": "a0febaed"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SEVIPER.png",
+   "taille": 1753,
+   "crc": 1990323456,
+   "crc32": "76a1ed00"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SHELGON.png",
+   "taille": 2554,
+   "crc": 767388838,
+   "crc32": "2dbd6ca6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SHINX.png",
+   "taille": 2995,
+   "crc": 3503572242,
+   "crc32": "d0d44512"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SKUNTANK_101.png",
+   "taille": 4929,
+   "crc": 1835017463,
+   "crc32": "6d6024f7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SLOWBRO.png",
+   "taille": 1424,
+   "crc": 933678119,
+   "crc32": "37a6cc27"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SLOWBRO_2.png",
+   "taille": 1359,
+   "crc": 2415458894,
+   "crc32": "8ff8fa4e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SLOWKING.png",
+   "taille": 1198,
+   "crc": 4182416655,
+   "crc32": "f94a9d0f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SLOWPOKE.png",
+   "taille": 890,
+   "crc": 3128580914,
+   "crc32": "ba7a5b32"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SNORLAX.png",
+   "taille": 3068,
+   "crc": 607144180,
+   "crc32": "243048f4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SPECTRALI.png",
+   "taille": 2696,
+   "crc": 1901342672,
+   "crc32": "71542fd0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/SQUIRTLE.png",
+   "taille": 1343,
+   "crc": 457638739,
+   "crc32": "1b470353"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/STARMIE_1.png",
+   "taille": 3931,
+   "crc": 2624792881,
+   "crc32": "9c732931"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/TORTERRA.png",
+   "taille": 3982,
+   "crc": 241695759,
+   "crc32": "0e67fc0f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/TORTERRA_101.png",
+   "taille": 4656,
+   "crc": 2587471025,
+   "crc32": "9a39acb1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/TOXICROAK_101.png",
+   "taille": 3068,
+   "crc": 3210449605,
+   "crc32": "bf5b92c5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/TRAPINCH.png",
+   "taille": 1344,
+   "crc": 4152446359,
+   "crc32": "f7814d97"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/TURTWIG.png",
+   "taille": 1600,
+   "crc": 13074909,
+   "crc32": "00c781dd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/VENUSAUR.png",
+   "taille": 2184,
+   "crc": 2671669572,
+   "crc32": "9f3e7144"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/VENUSAUR_1.png",
+   "taille": 2039,
+   "crc": 4144231806,
+   "crc32": "f703f57e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/VESPIQUEN.png",
+   "taille": 2636,
+   "crc": 2928265802,
+   "crc32": "ae89ca4a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/VIBRAVA.png",
+   "taille": 2204,
+   "crc": 1408525558,
+   "crc32": "53f464f6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/VOLCARTOR.png",
+   "taille": 1526,
+   "crc": 3585330470,
+   "crc32": "d5b3cd26"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/WAILMER.png",
+   "taille": 1330,
+   "crc": 4092523565,
+   "crc32": "f3eef42d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/WAILORD.png",
+   "taille": 1578,
+   "crc": 1099813841,
+   "crc32": "418dd3d1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/WARTORTLE.png",
+   "taille": 1628,
+   "crc": 2807003596,
+   "crc32": "a74f79cc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ZANGOOSE.png",
+   "taille": 1500,
+   "crc": 3441548688,
+   "crc32": "cd21dd90"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ZEBSTRIKA.png",
+   "taille": 3734,
+   "crc": 3731014541,
+   "crc32": "de62c38d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/ZUBAT.png",
+   "taille": 3549,
+   "crc": 4173240061,
+   "crc32": "f8be96fd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ABRA.png",
+   "taille": 1629,
+   "crc": 2764190387,
+   "crc32": "a4c232b3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/AGGRON.png",
+   "taille": 5001,
+   "crc": 2695311128,
+   "crc32": "a0a72f18"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/AGGRON_1.png",
+   "taille": 4654,
+   "crc": 580137396,
+   "crc32": "229431b4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ALAKAZAM.png",
+   "taille": 2269,
+   "crc": 2764563508,
+   "crc32": "a4c7e434"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ALAKAZAM_1.png",
+   "taille": 2245,
+   "crc": 1880957766,
+   "crc32": "701d2346"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ARBOK.png",
+   "taille": 4784,
+   "crc": 1055236816,
+   "crc32": "3ee5a2d0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ARON.png",
+   "taille": 2863,
+   "crc": 1711655894,
+   "crc32": "6605cbd6"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BAGON.png",
+   "taille": 2233,
+   "crc": 3674089337,
+   "crc32": "dafe2779"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BELDUM.png",
+   "taille": 1116,
+   "crc": 1156867076,
+   "crc32": "44f46404"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BLASTOISE.png",
+   "taille": 2006,
+   "crc": 2014157256,
+   "crc32": "780d99c8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BLASTOISE_1.png",
+   "taille": 2503,
+   "crc": 960841893,
+   "crc32": "394548a5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BLITZLE.png",
+   "taille": 2605,
+   "crc": 1574335466,
+   "crc32": "5dd673ea"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BUIZEL.png",
+   "taille": 1215,
+   "crc": 1911654509,
+   "crc32": "71f1886d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BULBASAUR.png",
+   "taille": 1415,
+   "crc": 1227412247,
+   "crc32": "4928d317"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BUNEARY.png",
+   "taille": 1367,
+   "crc": 1088016178,
+   "crc32": "40d9cf32"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BUTTERFREE.png",
+   "taille": 1231,
+   "crc": 2955345047,
+   "crc32": "b026fc97"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/BUTTERFREE_1.png",
+   "taille": 1753,
+   "crc": 3882976382,
+   "crc32": "e771847e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CAMERUPT.png",
+   "taille": 4570,
+   "crc": 403126180,
+   "crc32": "180737a4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CAMERUPT_1.png",
+   "taille": 4239,
+   "crc": 2338772651,
+   "crc32": "8b66d6ab"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CATERPIE.png",
+   "taille": 680,
+   "crc": 107935559,
+   "crc32": "066ef747"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CHARIZARD.png",
+   "taille": 1749,
+   "crc": 1458118733,
+   "crc32": "56e9204d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CHARIZARD_2.png",
+   "taille": 2177,
+   "crc": 4286798152,
+   "crc32": "ff835948"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CHARMANDER.png",
+   "taille": 1226,
+   "crc": 187367759,
+   "crc32": "0b2b014f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CHARMELEON.png",
+   "taille": 1580,
+   "crc": 934929885,
+   "crc32": "37b9e5dd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CHIMCHAR.png",
+   "taille": 1677,
+   "crc": 1185661334,
+   "crc32": "46abc196"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/COMBEE.png",
+   "taille": 1410,
+   "crc": 1647886871,
+   "crc32": "6238c217"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/COMBEE_female.png",
+   "taille": 1408,
+   "crc": 1428295818,
+   "crc32": "5522108a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/CROBAT.png",
+   "taille": 3542,
+   "crc": 2082385115,
+   "crc32": "7c1eacdb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/DIALGA.png",
+   "taille": 6102,
+   "crc": 2587906965,
+   "crc32": "9a405395"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/EKANS.png",
+   "taille": 3785,
+   "crc": 2731328031,
+   "crc32": "a2ccc21f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/EMPOLEON.png",
+   "taille": 5097,
+   "crc": 2199593117,
+   "crc32": "831b209d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/EMPOLEON_101.png",
+   "taille": 5887,
+   "crc": 14316013,
+   "crc32": "00da71ed"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ESPURR.png",
+   "taille": 993,
+   "crc": 2029784399,
+   "crc32": "78fc0d4f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/FLOATZEL.png",
+   "taille": 1365,
+   "crc": 3408266581,
+   "crc32": "cb260555"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/FLYGON.png",
+   "taille": 2346,
+   "crc": 1304824438,
+   "crc32": "4dc60a76"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GASTLY.png",
+   "taille": 1076,
+   "crc": 2568030510,
+   "crc32": "9911092e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GENGAR.png",
+   "taille": 1619,
+   "crc": 2738960016,
+   "crc32": "a3413690"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GENGAR_1.png",
+   "taille": 2181,
+   "crc": 1198581660,
+   "crc32": "4770e79c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GOLBAT.png",
+   "taille": 4008,
+   "crc": 3578231592,
+   "crc32": "d5477b28"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GROTLE.png",
+   "taille": 2313,
+   "crc": 556031203,
+   "crc32": "21245ce3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GYARADOS.png",
+   "taille": 4449,
+   "crc": 1347516812,
+   "crc32": "5051798c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GYARADOS_1.png",
+   "taille": 10700,
+   "crc": 771096572,
+   "crc32": "2df5fffc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/GYARADOS_female.png",
+   "taille": 4449,
+   "crc": 1347516812,
+   "crc32": "5051798c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/HAUNTER.png",
+   "taille": 1619,
+   "crc": 4021882836,
+   "crc32": "efb90fd4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/HONCHKROW_101.png",
+   "taille": 5337,
+   "crc": 4134312563,
+   "crc32": "f66c9a73"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/INFERNAPE.png",
+   "taille": 2629,
+   "crc": 3971282735,
+   "crc32": "ecb4f72f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/INFERNAPE_101.png",
+   "taille": 3692,
+   "crc": 735888514,
+   "crc32": "2bdcc482"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/IVYSAUR.png",
+   "taille": 1403,
+   "crc": 2131386933,
+   "crc32": "7f0a6235"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/KADABRA.png",
+   "taille": 2036,
+   "crc": 2967485790,
+   "crc32": "b0e03d5e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/KRICKETUNE_101.png",
+   "taille": 3015,
+   "crc": 2897367444,
+   "crc32": "acb25194"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LAIRON.png",
+   "taille": 5062,
+   "crc": 1521275815,
+   "crc32": "5aacd3a7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LAPRAS.png",
+   "taille": 1471,
+   "crc": 3479771909,
+   "crc32": "cf691b05"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LAPRAS_1.png",
+   "taille": 2302,
+   "crc": 3723519870,
+   "crc32": "ddf0677e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LOPUNNY.png",
+   "taille": 1590,
+   "crc": 758500548,
+   "crc32": "2d35ccc4"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LOPUNNY_1.png",
+   "taille": 1924,
+   "crc": 1426936610,
+   "crc32": "550d5322"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LUXIO.png",
+   "taille": 3965,
+   "crc": 3057062967,
+   "crc32": "b6371437"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/LUXRAY.png",
+   "taille": 4174,
+   "crc": 2641584726,
+   "crc32": "9d736256"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MACHAMP.png",
+   "taille": 1365,
+   "crc": 1656156951,
+   "crc32": "62b6f317"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MACHAMP_1.png",
+   "taille": 2816,
+   "crc": 3673492530,
+   "crc32": "daf50c32"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MACHOKE.png",
+   "taille": 1199,
+   "crc": 3042507370,
+   "crc32": "b558fa6a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MACHOP.png",
+   "taille": 806,
+   "crc": 3048916383,
+   "crc32": "b5bac59f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MAGNEMITE.png",
+   "taille": 1022,
+   "crc": 2797582107,
+   "crc32": "a6bfb71b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MAGNETON.png",
+   "taille": 1606,
+   "crc": 4206498932,
+   "crc32": "faba1474"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MAGNEZONE.png",
+   "taille": 1422,
+   "crc": 4149005600,
+   "crc32": "f74ccd20"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MEOWSTIC.png",
+   "taille": 1581,
+   "crc": 464931184,
+   "crc32": "1bb64970"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MEOWSTIC_1.png",
+   "taille": 1398,
+   "crc": 1745682526,
+   "crc32": "680d005e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MEOWSTIC_2.png",
+   "taille": 1540,
+   "crc": 2077347428,
+   "crc32": "7bd1ce64"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/METAGROSS.png",
+   "taille": 1851,
+   "crc": 141824303,
+   "crc32": "0874112f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/METAGROSS_1.png",
+   "taille": 2005,
+   "crc": 2406000623,
+   "crc32": "8f68a7ef"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/METANG.png",
+   "taille": 1597,
+   "crc": 3520758635,
+   "crc32": "d1da836b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/METAPOD.png",
+   "taille": 698,
+   "crc": 413476608,
+   "crc32": "18a52700"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MIGALARQUE.png",
+   "taille": 1613,
+   "crc": 3067577800,
+   "crc32": "b6d785c8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MIGHTYENA.png",
+   "taille": 3714,
+   "crc": 3448566281,
+   "crc32": "cd8cf209"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MILOTIC.png",
+   "taille": 4429,
+   "crc": 2972277876,
+   "crc32": "b1295c74"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MONFERNO.png",
+   "taille": 1954,
+   "crc": 2634826051,
+   "crc32": "9d0c4143"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/MUNCHLAX.png",
+   "taille": 1746,
+   "crc": 1933862919,
+   "crc32": "73446807"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NIDOKING.png",
+   "taille": 3819,
+   "crc": 2315203949,
+   "crc32": "89ff356d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NIDOQUEEN.png",
+   "taille": 2484,
+   "crc": 2417732898,
+   "crc32": "901bad22"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NIDORANfE.png",
+   "taille": 1787,
+   "crc": 1102606148,
+   "crc32": "41b86f44"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NIDORANmA.png",
+   "taille": 2186,
+   "crc": 4255422024,
+   "crc32": "fda49648"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NIDORINA.png",
+   "taille": 2029,
+   "crc": 54700449,
+   "crc32": "0342a9a1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NIDORINO.png",
+   "taille": 2768,
+   "crc": 3000968013,
+   "crc32": "b2df234d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/NUMEL.png",
+   "taille": 3123,
+   "crc": 2932041515,
+   "crc32": "aec3672b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PALKIA.png",
+   "taille": 5224,
+   "crc": 1901888660,
+   "crc32": "715c8494"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PICHU.png",
+   "taille": 2945,
+   "crc": 1982482863,
+   "crc32": "762a49af"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PIKACHU.png",
+   "taille": 3333,
+   "crc": 184777358,
+   "crc32": "0b037a8e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PIKACHU_female.png",
+   "taille": 3662,
+   "crc": 2225158113,
+   "crc32": "84a137e1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PIPLUP.png",
+   "taille": 2780,
+   "crc": 2233869546,
+   "crc32": "852624ea"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/POLITOED.png",
+   "taille": 2002,
+   "crc": 2931139809,
+   "crc32": "aeb5a4e1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/POLIWAG.png",
+   "taille": 1254,
+   "crc": 1227726573,
+   "crc32": "492d9eed"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/POLIWHIRL.png",
+   "taille": 1690,
+   "crc": 4180442359,
+   "crc32": "f92c7cf7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/POLIWRATH.png",
+   "taille": 2274,
+   "crc": 894971674,
+   "crc32": "35582f1a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/POOCHYENA.png",
+   "taille": 3202,
+   "crc": 2769268971,
+   "crc32": "a50fb0eb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PRINPLUP.png",
+   "taille": 4133,
+   "crc": 3711140769,
+   "crc32": "dd3383a1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/PURUGLY_101.png",
+   "taille": 4258,
+   "crc": 4207998682,
+   "crc32": "fad0f6da"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/RAICHU.png",
+   "taille": 5093,
+   "crc": 2083225831,
+   "crc32": "7c2b80e7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/RAICHU_2.png",
+   "taille": 3000,
+   "crc": 4248133217,
+   "crc32": "fd355e61"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/RAICHU_3.png",
+   "taille": 3235,
+   "crc": 2939792904,
+   "crc32": "af39ae08"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/RAICHU_female.png",
+   "taille": 5036,
+   "crc": 521668966,
+   "crc32": "1f180966"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SALAMENCE.png",
+   "taille": 4494,
+   "crc": 3306214563,
+   "crc32": "c510d4a3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SALAMENCE_1.png",
+   "taille": 3681,
+   "crc": 3271467735,
+   "crc32": "c2fea2d7"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SEVIPER.png",
+   "taille": 1611,
+   "crc": 3850046087,
+   "crc32": "e57b0a87"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SHELGON.png",
+   "taille": 2550,
+   "crc": 3067030271,
+   "crc32": "b6cf2aff"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SHINX.png",
+   "taille": 3344,
+   "crc": 1690685168,
+   "crc32": "64c5cef0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SKUNTANK_101.png",
+   "taille": 5281,
+   "crc": 1749475491,
+   "crc32": "6846e0a3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SLOWBRO.png",
+   "taille": 1412,
+   "crc": 1849302586,
+   "crc32": "6e3a1e3a"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SLOWBRO_2.png",
+   "taille": 1367,
+   "crc": 3539469779,
+   "crc32": "d2f805d3"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SLOWKING.png",
+   "taille": 1197,
+   "crc": 2324925181,
+   "crc32": "8a938afd"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SLOWPOKE.png",
+   "taille": 886,
+   "crc": 356702702,
+   "crc32": "1542d9ee"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SNORLAX.png",
+   "taille": 3066,
+   "crc": 1175093382,
+   "crc32": "460a8086"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SPECTRALI.png",
+   "taille": 2986,
+   "crc": 395661416,
+   "crc32": "17955068"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/SQUIRTLE.png",
+   "taille": 1343,
+   "crc": 1401930782,
+   "crc32": "538fc41e"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/STARMIE_1.png",
+   "taille": 3628,
+   "crc": 1671814199,
+   "crc32": "63a5dc37"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/TORTERRA.png",
+   "taille": 3991,
+   "crc": 1879095547,
+   "crc32": "7000b8fb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/TORTERRA_101.png",
+   "taille": 4649,
+   "crc": 2279906491,
+   "crc32": "87e49cbb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/TOXICROAK_101.png",
+   "taille": 3193,
+   "crc": 1342508147,
+   "crc32": "50050c73"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/TRAPINCH.png",
+   "taille": 1377,
+   "crc": 3268669557,
+   "crc32": "c2d3f075"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/TURTWIG.png",
+   "taille": 1614,
+   "crc": 129898387,
+   "crc32": "07be1793"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/VENUSAUR.png",
+   "taille": 2272,
+   "crc": 1108778827,
+   "crc32": "42169f4b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/VENUSAUR_1.png",
+   "taille": 2018,
+   "crc": 3278992049,
+   "crc32": "c37172b1"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/VESPIQUEN.png",
+   "taille": 2554,
+   "crc": 2300390461,
+   "crc32": "891d2c3d"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/VIBRAVA.png",
+   "taille": 2237,
+   "crc": 2459984640,
+   "crc32": "92a06300"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/VOLCARTOR.png",
+   "taille": 1493,
+   "crc": 3684095252,
+   "crc32": "db96d514"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/WAILMER.png",
+   "taille": 1311,
+   "crc": 3607038651,
+   "crc32": "d6ff0abb"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/WAILORD.png",
+   "taille": 1557,
+   "crc": 1481678747,
+   "crc32": "58509f9b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/WARTORTLE.png",
+   "taille": 1632,
+   "crc": 2634629014,
+   "crc32": "9d093f96"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ZANGOOSE.png",
+   "taille": 1486,
+   "crc": 1429047008,
+   "crc32": "552d86e0"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ZEBSTRIKA.png",
+   "taille": 3734,
+   "crc": 1818672616,
+   "crc32": "6c66bde8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/ZUBAT.png",
+   "taille": 3343,
+   "crc": 1893691038,
+   "crc32": "70df6e9e"
+  },
+  {
+   "chemin": "Graphics/Trainers/DAWN.png",
+   "taille": 2433,
+   "crc": 4257476662,
+   "crc32": "fdc3f036"
+  },
+  {
+   "chemin": "Graphics/Trainers/HELIOS.png",
+   "taille": 2484,
+   "crc": 22621983,
+   "crc32": "01592f1f"
+  },
+  {
+   "chemin": "Graphics/Trainers/JUPITER.png",
+   "taille": 2184,
+   "crc": 3803121105,
+   "crc32": "e2af05d1"
+  },
+  {
+   "chemin": "Graphics/Trainers/MARS.png",
+   "taille": 2066,
+   "crc": 768620777,
+   "crc32": "2dd038e9"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Banish.png",
+   "taille": 2716,
+   "crc": 2278776837,
+   "crc32": "87d36005"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Banish_back.png",
+   "taille": 11913,
+   "crc": 2796070524,
+   "crc32": "a6a8a67c"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Liam.png",
+   "taille": 2410,
+   "crc": 654619286,
+   "crc32": "2704b296"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Liam_back.png",
+   "taille": 9527,
+   "crc": 2640094357,
+   "crc32": "9d5ca495"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Nagisa.png",
+   "taille": 2675,
+   "crc": 1531073620,
+   "crc32": "5b425454"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Nagisa_back.png",
+   "taille": 12140,
+   "crc": 2989537094,
+   "crc32": "b230b746"
+  },
+  {
+   "chemin": "Graphics/Trainers/SATURNE.png",
+   "taille": 2120,
+   "crc": 3547614787,
+   "crc32": "d3744e43"
+  },
+  {
+   "chemin": "Graphics/Trainers/Z.png",
+   "taille": 2410,
+   "crc": 654619286,
+   "crc32": "2704b296"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_HELIOS.png",
+   "taille": 130750,
+   "crc": 1800948398,
+   "crc32": "6b584aae"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_JUPITER.png",
+   "taille": 130750,
+   "crc": 1800948398,
+   "crc32": "6b584aae"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_MARS.png",
+   "taille": 130750,
+   "crc": 1800948398,
+   "crc32": "6b584aae"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Banish.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Liam.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Nagisa.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_SATURNE.png",
+   "taille": 130750,
+   "crc": 1800948398,
+   "crc32": "6b584aae"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_DAWN.png",
+   "taille": 96020,
+   "crc": 1113021327,
+   "crc32": "42575b8f"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_HELIOS.png",
+   "taille": 86700,
+   "crc": 678470238,
+   "crc32": "2870a25e"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_JUPITER.png",
+   "taille": 67381,
+   "crc": 3463072068,
+   "crc32": "ce6a4944"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_MARS.png",
+   "taille": 91719,
+   "crc": 1256822622,
+   "crc32": "4ae9975e"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Asuka.png",
+   "taille": 120603,
+   "crc": 2436111556,
+   "crc32": "91341cc4"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Banish.png",
+   "taille": 131377,
+   "crc": 3650964704,
+   "crc32": "d99d4ce0"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_DPeco.png",
+   "taille": 106678,
+   "crc": 2493696630,
+   "crc32": "94a2ca76"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Darkus.png",
+   "taille": 117910,
+   "crc": 3171809013,
+   "crc32": "bd0df6f5"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Iris.png",
+   "taille": 96740,
+   "crc": 3383685145,
+   "crc32": "c9aef019"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Liam.png",
+   "taille": 7725,
+   "crc": 750406046,
+   "crc32": "2cba499e"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Nagisa.png",
+   "taille": 2578,
+   "crc": 3307580686,
+   "crc32": "c525ad0e"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Skyla.png",
+   "taille": 134050,
+   "crc": 1419946196,
+   "crc32": "54a2a8d4"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Yellow.png",
+   "taille": 87447,
+   "crc": 1210248090,
+   "crc32": "4822eb9a"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_SATURNE.png",
+   "taille": 74512,
+   "crc": 1132961146,
+   "crc32": "43879d7a"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_Z.png",
+   "taille": 113601,
+   "crc": 1041240086,
+   "crc32": "3e101016"
+  },
+  {
+   "chemin": "Graphics/UI French/Town Map/mapPlayerBanish.png",
+   "taille": 786,
+   "crc": 1773647241,
+   "crc32": "69b7b589"
+  },
+  {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Banish.png",
+   "taille": 625,
+   "crc": 1134084495,
+   "crc32": "4398c18f"
+  },
+  {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Liam.png",
+   "taille": 768,
+   "crc": 1770100581,
+   "crc32": "69819765"
+  },
+  {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Nagisa.png",
+   "taille": 658,
+   "crc": 270882824,
+   "crc32": "10255808"
+  },
+  {
+   "chemin": "Graphics/UI/Town Map/mapPlayerBanish.png",
+   "taille": 786,
+   "crc": 1773647241,
+   "crc32": "69b7b589"
+  },
+  {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Banish.png",
+   "taille": 625,
+   "crc": 1134084495,
+   "crc32": "4398c18f"
+  },
+  {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Liam.png",
+   "taille": 768,
+   "crc": 1770100581,
+   "crc32": "69819765"
+  },
+  {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Nagisa.png",
+   "taille": 658,
+   "crc": 270882824,
+   "crc32": "10255808"
+  },
+  {
    "chemin": "LISEZ-MOI.txt",
    "taille": 3279,
    "crc": 2088363477,
@@ -78,15 +8232,93 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 1637,
-   "crc": 3535109460,
-   "crc32": "d2b57d54"
+   "taille": 4220,
+   "crc": 1213572834,
+   "crc32": "4855a6e2"
+  },
+  {
+   "chemin": "PBS/abilities.txt",
+   "taille": 61099,
+   "crc": 2697436155,
+   "crc32": "a0c79bfb"
+  },
+  {
+   "chemin": "PBS/encounters.txt",
+   "taille": 32060,
+   "crc": 490411763,
+   "crc32": "1d3b16f3"
   },
   {
    "chemin": "PBS/items.txt",
-   "taille": 224736,
-   "crc": 4229625247,
-   "crc32": "fc1af59f"
+   "taille": 235119,
+   "crc": 258668265,
+   "crc32": "0f6af6e9"
+  },
+  {
+   "chemin": "PBS/metadata.txt",
+   "taille": 6473,
+   "crc": 1348385937,
+   "crc32": "505ebc91"
+  },
+  {
+   "chemin": "PBS/pokemon.txt",
+   "taille": 1584260,
+   "crc": 627812121,
+   "crc32": "256ba719"
+  },
+  {
+   "chemin": "PBS/pokemon_forms.txt",
+   "taille": 176934,
+   "crc": 835634608,
+   "crc32": "31cec5b0"
+  },
+  {
+   "chemin": "PBS/pokemon_forms_fakemon.txt",
+   "taille": 202436,
+   "crc": 2879828922,
+   "crc32": "aba6b3ba"
+  },
+  {
+   "chemin": "PBS/pokemon_metrics.txt",
+   "taille": 124514,
+   "crc": 2808320398,
+   "crc32": "a763918e"
+  },
+  {
+   "chemin": "PBS/pokemon_metrics_fakemon.txt",
+   "taille": 19226,
+   "crc": 2742154073,
+   "crc32": "a371f359"
+  },
+  {
+   "chemin": "PBS/pokemon_metrics_forms.txt",
+   "taille": 21981,
+   "crc": 885266178,
+   "crc32": "34c41702"
+  },
+  {
+   "chemin": "PBS/pokemon_metrics_gmax.txt",
+   "taille": 3655,
+   "crc": 2279129774,
+   "crc32": "87d8c2ae"
+  },
+  {
+   "chemin": "PBS/regional_dexes.txt",
+   "taille": 5409,
+   "crc": 3445006608,
+   "crc32": "cd56a110"
+  },
+  {
+   "chemin": "PBS/trainer_types.txt",
+   "taille": 27374,
+   "crc": 1748110755,
+   "crc32": "68320da3"
+  },
+  {
+   "chemin": "PBS/trainers.txt",
+   "taille": 232376,
+   "crc": 546297438,
+   "crc32": "208fd65e"
   },
   {
    "chemin": "Plugins/BW Key Items/BW Key Item.rb",
@@ -119,10 +8351,28 @@
    "crc32": "72e49ba3"
   },
   {
+   "chemin": "Plugins/Choix Personnage/choix_perso.rb",
+   "taille": 3762,
+   "crc": 1165086456,
+   "crc32": "4571cef8"
+  },
+  {
    "chemin": "Plugins/Deluxe Battle Kit/[002] Midbattle Scripting/[001] Midbattle Overwrites.rb",
    "taille": 41015,
    "crc": 2793230628,
    "crc32": "a67d5124"
+  },
+  {
+   "chemin": "Plugins/Encounter List UI/001_UI_Encounters.rb",
+   "taille": 8004,
+   "crc": 3887554556,
+   "crc32": "e7b75ffc"
+  },
+  {
+   "chemin": "Plugins/Encounter List UI/meta.txt",
+   "taille": 207,
+   "crc": 677172740,
+   "crc32": "285cd604"
   },
   {
    "chemin": "Plugins/Export to Showdown/ExportToShowdown.rb",
@@ -135,6 +8385,12 @@
    "taille": 8613,
    "crc": 1604601814,
    "crc32": "5fa447d6"
+  },
+  {
+   "chemin": "Plugins/Intro Versus/001_script_principal.rb",
+   "taille": 30224,
+   "crc": 3240092269,
+   "crc32": "c11fe26d"
   },
   {
    "chemin": "Plugins/Lycaris Erreurs/erreurs_lycaris.rb",
@@ -150,15 +8406,87 @@
   },
   {
    "chemin": "Plugins/Lycaris Nouvelle Partie/ecran_partie.rb",
-   "taille": 15964,
-   "crc": 1942956828,
-   "crc32": "73cf2b1c"
+   "taille": 20056,
+   "crc": 4150195208,
+   "crc32": "f75ef408"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/006_Encuentros_clasico.rb",
+   "taille": 5413,
+   "crc": 2185363783,
+   "crc32": "82420147"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/008_Menú de starters.rb",
+   "taille": 8945,
+   "crc": 3015073519,
+   "crc32": "b3b65eef"
   },
   {
    "chemin": "Plugins/Misc Scripts Lycaris/013_Punch Bag Minigame.rb",
    "taille": 23817,
    "crc": 149258707,
    "crc32": "08e581d3"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/016_Pokedex_Lycaris.rb",
+   "taille": 1161,
+   "crc": 4008179644,
+   "crc32": "eee7f7bc"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/017_Objets_retires.rb",
+   "taille": 2254,
+   "crc": 3151701076,
+   "crc32": "bbdb2454"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/018_Donnees_Pokedex.rb",
+   "taille": 2233,
+   "crc": 200848209,
+   "crc32": "0bf8b351"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/019_Formes_Nigirigon.rb",
+   "taille": 538,
+   "crc": 3206133403,
+   "crc32": "bf19b69b"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/020_Scenario_Galaxie.rb",
+   "taille": 30440,
+   "crc": 2647604386,
+   "crc32": "9dcf3ca2"
+  },
+  {
+   "chemin": "Plugins/Modular UI Scenes/[001] Summary UI/[003] Summary Rewrites.rb",
+   "taille": 15893,
+   "crc": 2163977632,
+   "crc32": "80fbada0"
+  },
+  {
+   "chemin": "Plugins/Monotype Challenge/000_menu.rb",
+   "taille": 20130,
+   "crc": 628976875,
+   "crc32": "257d6ceb"
+  },
+  {
+   "chemin": "Plugins/Pantalla de Título Animada/[000] Scripts/Main Class.rb",
+   "taille": 25005,
+   "crc": 414272741,
+   "crc32": "18b14ce5"
+  },
+  {
+   "chemin": "Plugins/PauseMenuDP/Script.rb",
+   "taille": 19319,
+   "crc": 557512156,
+   "crc32": "213af5dc"
+  },
+  {
+   "chemin": "Plugins/PauseMenuDP/shortcuts.rb",
+   "taille": 56584,
+   "crc": 2676606746,
+   "crc32": "9f89c71a"
   },
   {
    "chemin": "Plugins/Random Pokemon & Moves + Randomizer EX (Abilities)/001_Main.rb",
@@ -173,11 +8501,76 @@
    "crc32": "551fa1a8"
   },
   {
+   "chemin": "Plugins/Talents Ronflex Combat/001_Talents_Ronflex.rb",
+   "taille": 1428,
+   "crc": 3566409850,
+   "crc32": "d493187a"
+  },
+  {
+   "chemin": "Plugins/Talents Ronflex Combat/meta.txt",
+   "taille": 95,
+   "crc": 2179821413,
+   "crc32": "81ed6f65"
+  },
+  {
    "chemin": "Plugins/[DBK] Animated Pokémon System/[005] Pokemon Sprites.rb",
    "taille": 13492,
    "crc": 76003345,
    "crc32": "0487b811"
+  },
+  {
+   "chemin": "Plugins/[MUI] Pokedex Data Page/[005] Data Messages.rb",
+   "taille": 53928,
+   "crc": 3475106719,
+   "crc32": "cf21eb9f"
+  },
+  {
+   "chemin": "errorlog.txt",
+   "taille": 1659,
+   "crc": 3689588468,
+   "crc32": "dbeaa6f4"
+  },
+  {
+   "chemin": "espagnol_vu.txt",
+   "taille": 794,
+   "crc": 3504507133,
+   "crc32": "d0e288fd"
   }
  ],
- "supprimer": []
+ "supprimer": [
+  "Audio/SE/Cries/CHARIZARD_1.ogg",
+  "Graphics/Items/SNORLAXITE.png",
+  "Graphics/Pokemon/Back shiny/BLASTOISE_2.png",
+  "Graphics/Pokemon/Back shiny/CHARIZARD_1.png",
+  "Graphics/Pokemon/Back shiny/GENGAR_2.png",
+  "Graphics/Pokemon/Back shiny/SNORLAX_1.png",
+  "Graphics/Pokemon/Back shiny/VENUSAUR_2.png",
+  "Graphics/Pokemon/Back/BLASTOISE_2.png",
+  "Graphics/Pokemon/Back/CHARIZARD_1.png",
+  "Graphics/Pokemon/Back/GENGAR_2.png",
+  "Graphics/Pokemon/Back/SNORLAX_1.png",
+  "Graphics/Pokemon/Back/VENUSAUR_2.png",
+  "Graphics/Pokemon/Front shiny/BLASTOISE_2.png",
+  "Graphics/Pokemon/Front shiny/CHARIZARD_1.png",
+  "Graphics/Pokemon/Front shiny/GENGAR_2.png",
+  "Graphics/Pokemon/Front shiny/SNORLAX_1.png",
+  "Graphics/Pokemon/Front shiny/VENUSAUR_2.png",
+  "Graphics/Pokemon/Front/BLASTOISE_2.png",
+  "Graphics/Pokemon/Front/CHARIZARD_1.png",
+  "Graphics/Pokemon/Front/GENGAR_2.png",
+  "Graphics/Pokemon/Front/SNORLAX_1.png",
+  "Graphics/Pokemon/Front/VENUSAUR_2.png",
+  "Graphics/Pokemon/Icons shiny/BLASTOISE_2.png",
+  "Graphics/Pokemon/Icons shiny/CHARIZARD_1.png",
+  "Graphics/Pokemon/Icons shiny/CHARIZARD_3.png",
+  "Graphics/Pokemon/Icons shiny/GENGAR_2.png",
+  "Graphics/Pokemon/Icons shiny/SNORLAX_1.png",
+  "Graphics/Pokemon/Icons shiny/VENUSAUR_2.png",
+  "Graphics/Pokemon/Icons/BLASTOISE_2.png",
+  "Graphics/Pokemon/Icons/CHARIZARD_1.png",
+  "Graphics/Pokemon/Icons/CHARIZARD_3.png",
+  "Graphics/Pokemon/Icons/GENGAR_2.png",
+  "Graphics/Pokemon/Icons/SNORLAX_1.png",
+  "Graphics/Pokemon/Icons/VENUSAUR_2.png"
+ ]
 }
