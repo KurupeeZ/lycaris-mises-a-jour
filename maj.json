@@ -1,7 +1,7 @@
 {
- "version": "1.1.1",
- "date": "2026-11-10 22:30",
- "nouveautes": "- 250 animations d’attaques modernes avec leurs sons\n- Nouvel écran titre et nouvel écran de démarrage\n- Crédits de fin et intro aux couleurs Lycaris\n- Formes Lycaris plus faciles à trouver (8 % minimum)\n- Équipes compétitives de Red et Green\n- Attaques d’évolution apprises en évoluant\n- Réapprentissage des capacités à Céladopole\n- Corrections : bandes noires, textes en espagnol",
+ "version": "1.1.2",
+ "date": "2026-11-11 03:12",
+ "nouveautes": "- - Les Pokémon gagnent 50 % d'expérience en plus.\n- - La barre d'expérience se remplit niveau par niveau, sans sauter.\n- - Après un combat, le Pokémon qui vous suit se replace derrière vous.\n- - Le dresseur lance sa Poké Ball depuis la main.\n- - Les Pokémon de décor absents du Pokédex de Lycaris sont remplacés.\n- - Nosferapti, Nosferalto et Nostenfer redeviennent comme à l'origine.",
  "encodage": "base64",
  "fichiers": [
   {
@@ -54,27 +54,39 @@
   },
   {
    "chemin": "Data/Map002.rxdata",
-   "taille": 71053,
-   "crc": 1887107987,
-   "crc32": "707afb93"
+   "taille": 71088,
+   "crc": 515815875,
+   "crc32": "1ebeb9c3"
   },
   {
    "chemin": "Data/Map004.rxdata",
-   "taille": 77227,
-   "crc": 3801652133,
-   "crc32": "e2989ba5"
+   "taille": 77246,
+   "crc": 1547211731,
+   "crc32": "5c3893d3"
   },
   {
    "chemin": "Data/Map009.rxdata",
-   "taille": 80258,
-   "crc": 2185530390,
-   "crc32": "82448c16"
+   "taille": 80264,
+   "crc": 3845306866,
+   "crc32": "e532b9f2"
   },
   {
    "chemin": "Data/Map015.rxdata",
-   "taille": 107889,
-   "crc": 4137455021,
-   "crc32": "f69c8dad"
+   "taille": 107914,
+   "crc": 1337012661,
+   "crc32": "4fb131b5"
+  },
+  {
+   "chemin": "Data/Map016.rxdata",
+   "taille": 64459,
+   "crc": 2158584662,
+   "crc32": "80a96356"
+  },
+  {
+   "chemin": "Data/Map017.rxdata",
+   "taille": 48087,
+   "crc": 1878813999,
+   "crc32": "6ffc6d2f"
   },
   {
    "chemin": "Data/Map019.rxdata",
@@ -83,16 +95,82 @@
    "crc32": "53aa2fdc"
   },
   {
+   "chemin": "Data/Map020.rxdata",
+   "taille": 57679,
+   "crc": 2381334620,
+   "crc32": "8df0485c"
+  },
+  {
+   "chemin": "Data/Map027.rxdata",
+   "taille": 42767,
+   "crc": 526781818,
+   "crc32": "1f660d7a"
+  },
+  {
    "chemin": "Data/Map028.rxdata",
-   "taille": 29235,
-   "crc": 1692171151,
-   "crc32": "64dc7b8f"
+   "taille": 29248,
+   "crc": 1041512374,
+   "crc32": "3e1437b6"
   },
   {
    "chemin": "Data/Map029.rxdata",
    "taille": 105975,
    "crc": 3451426615,
    "crc32": "cdb89737"
+  },
+  {
+   "chemin": "Data/Map038.rxdata",
+   "taille": 29573,
+   "crc": 1644597663,
+   "crc32": "6206919f"
+  },
+  {
+   "chemin": "Data/Map039.rxdata",
+   "taille": 20843,
+   "crc": 4199643687,
+   "crc32": "fa517a27"
+  },
+  {
+   "chemin": "Data/Map040.rxdata",
+   "taille": 39616,
+   "crc": 1172438656,
+   "crc32": "45e1fe80"
+  },
+  {
+   "chemin": "Data/Map045.rxdata",
+   "taille": 29200,
+   "crc": 2136193333,
+   "crc32": "7f53b935"
+  },
+  {
+   "chemin": "Data/Map050.rxdata",
+   "taille": 26854,
+   "crc": 321191589,
+   "crc32": "1324fea5"
+  },
+  {
+   "chemin": "Data/Map058.rxdata",
+   "taille": 91753,
+   "crc": 2910077077,
+   "crc32": "ad744095"
+  },
+  {
+   "chemin": "Data/Map059.rxdata",
+   "taille": 84614,
+   "crc": 4251045144,
+   "crc32": "fd61cd18"
+  },
+  {
+   "chemin": "Data/Map061.rxdata",
+   "taille": 13478,
+   "crc": 1804119014,
+   "crc32": "6b88abe6"
+  },
+  {
+   "chemin": "Data/Map063.rxdata",
+   "taille": 12314,
+   "crc": 3233568223,
+   "crc32": "c0bc55df"
   },
   {
    "chemin": "Data/Map064.rxdata",
@@ -102,15 +180,21 @@
   },
   {
    "chemin": "Data/Map065.rxdata",
-   "taille": 49532,
-   "crc": 3982704160,
-   "crc32": "ed633e20"
+   "taille": 49546,
+   "crc": 2043577021,
+   "crc32": "79ce82bd"
+  },
+  {
+   "chemin": "Data/Map067.rxdata",
+   "taille": 16748,
+   "crc": 3238575702,
+   "crc32": "c108be56"
   },
   {
    "chemin": "Data/Map076.rxdata",
-   "taille": 75585,
-   "crc": 2243419725,
-   "crc32": "85b7de4d"
+   "taille": 75599,
+   "crc": 2116023774,
+   "crc32": "7e1ff5de"
   },
   {
    "chemin": "Data/Map080.rxdata",
@@ -119,28 +203,52 @@
    "crc32": "1d182d7e"
   },
   {
+   "chemin": "Data/Map081.rxdata",
+   "taille": 24839,
+   "crc": 1939738628,
+   "crc32": "739e1004"
+  },
+  {
+   "chemin": "Data/Map085.rxdata",
+   "taille": 41074,
+   "crc": 2794019735,
+   "crc32": "a6895b97"
+  },
+  {
    "chemin": "Data/Map087.rxdata",
-   "taille": 70687,
-   "crc": 2250144177,
-   "crc32": "861e79b1"
+   "taille": 70709,
+   "crc": 3388193397,
+   "crc32": "c9f3ba75"
+  },
+  {
+   "chemin": "Data/Map089.rxdata",
+   "taille": 6583,
+   "crc": 3958141779,
+   "crc32": "ebec7353"
   },
   {
    "chemin": "Data/Map091.rxdata",
-   "taille": 68403,
-   "crc": 1237663185,
-   "crc32": "49c53dd1"
+   "taille": 68409,
+   "crc": 3450165229,
+   "crc32": "cda557ed"
   },
   {
    "chemin": "Data/Map094.rxdata",
-   "taille": 73893,
-   "crc": 1824145927,
-   "crc32": "6cba4207"
+   "taille": 73951,
+   "crc": 3187780337,
+   "crc32": "be01aaf1"
   },
   {
    "chemin": "Data/Map099.rxdata",
-   "taille": 78794,
-   "crc": 1136707489,
-   "crc32": "43c0c7a1"
+   "taille": 78795,
+   "crc": 4032578172,
+   "crc32": "f05c427c"
+  },
+  {
+   "chemin": "Data/Map118.rxdata",
+   "taille": 60501,
+   "crc": 2720970938,
+   "crc32": "a22eb8ba"
   },
   {
    "chemin": "Data/Map136.rxdata",
@@ -149,10 +257,22 @@
    "crc32": "3ede77d1"
   },
   {
+   "chemin": "Data/Map138.rxdata",
+   "taille": 18991,
+   "crc": 3879650787,
+   "crc32": "e73ec5e3"
+  },
+  {
    "chemin": "Data/Map141.rxdata",
-   "taille": 34963,
-   "crc": 552899170,
-   "crc32": "20f49262"
+   "taille": 34981,
+   "crc": 4046388850,
+   "crc32": "f12efe72"
+  },
+  {
+   "chemin": "Data/Map148.rxdata",
+   "taille": 41158,
+   "crc": 1291193095,
+   "crc32": "4cf60b07"
   },
   {
    "chemin": "Data/Map150.rxdata",
@@ -186,9 +306,15 @@
   },
   {
    "chemin": "Data/Map167.rxdata",
-   "taille": 46805,
-   "crc": 1740734471,
-   "crc32": "67c18007"
+   "taille": 46827,
+   "crc": 379842832,
+   "crc32": "16a3f110"
+  },
+  {
+   "chemin": "Data/Map168.rxdata",
+   "taille": 112311,
+   "crc": 636181047,
+   "crc32": "25eb5a37"
   },
   {
    "chemin": "Data/Map173.rxdata",
@@ -197,10 +323,40 @@
    "crc32": "59da07c7"
   },
   {
+   "chemin": "Data/Map174.rxdata",
+   "taille": 147858,
+   "crc": 3711561527,
+   "crc32": "dd39ef37"
+  },
+  {
+   "chemin": "Data/Map175.rxdata",
+   "taille": 6297,
+   "crc": 3307085154,
+   "crc32": "c51e1d62"
+  },
+  {
+   "chemin": "Data/Map176.rxdata",
+   "taille": 7488,
+   "crc": 3210653571,
+   "crc32": "bf5eaf83"
+  },
+  {
+   "chemin": "Data/Map180.rxdata",
+   "taille": 31108,
+   "crc": 2014600875,
+   "crc32": "78145eab"
+  },
+  {
    "chemin": "Data/Map185.rxdata",
    "taille": 38799,
    "crc": 2335607988,
    "crc32": "8b368cb4"
+  },
+  {
+   "chemin": "Data/Map193.rxdata",
+   "taille": 13126,
+   "crc": 1111652939,
+   "crc32": "42427a4b"
   },
   {
    "chemin": "Data/Map199.rxdata",
@@ -210,9 +366,9 @@
   },
   {
    "chemin": "Data/Map202.rxdata",
-   "taille": 25938,
-   "crc": 407047371,
-   "crc32": "18430ccb"
+   "taille": 25946,
+   "crc": 2342197817,
+   "crc32": "8b9b1a39"
   },
   {
    "chemin": "Data/Map208.rxdata",
@@ -233,10 +389,22 @@
    "crc32": "b7d2f6ee"
   },
   {
+   "chemin": "Data/Map211.rxdata",
+   "taille": 25761,
+   "crc": 3500558353,
+   "crc32": "d0a64811"
+  },
+  {
    "chemin": "Data/Map216.rxdata",
    "taille": 81501,
    "crc": 2346227142,
    "crc32": "8bd895c6"
+  },
+  {
+   "chemin": "Data/Map219.rxdata",
+   "taille": 36919,
+   "crc": 2385875861,
+   "crc32": "8e359395"
   },
   {
    "chemin": "Data/PkmnAnimations.rxdata",
@@ -246,9 +414,9 @@
   },
   {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1229373,
-   "crc": 4136398834,
-   "crc32": "f68c6ff2"
+   "taille": 1231173,
+   "crc": 3411281685,
+   "crc32": "cb540715"
   },
   {
    "chemin": "Data/Scripts.rxdata",
@@ -271,8 +439,8 @@
   {
    "chemin": "Data/encounters.dat",
    "taille": 19666,
-   "crc": 930090060,
-   "crc32": "37700c4c"
+   "crc": 4077260581,
+   "crc32": "f3060f25"
   },
   {
    "chemin": "Data/items.dat",
@@ -300,9 +468,9 @@
   },
   {
    "chemin": "Data/species.dat",
-   "taille": 1315867,
-   "crc": 909159700,
-   "crc32": "3630ad14"
+   "taille": 1315687,
+   "crc": 2226192742,
+   "crc32": "84b10166"
   },
   {
    "chemin": "Data/species_metrics.dat",
@@ -1878,15 +2046,15 @@
   },
   {
    "chemin": "Graphics/Characters/041.png",
-   "taille": 14200,
-   "crc": 3036617189,
-   "crc32": "b4ff19e5"
+   "taille": 2639,
+   "crc": 1098960688,
+   "crc32": "4180cf30"
   },
   {
    "chemin": "Graphics/Characters/042.png",
-   "taille": 16985,
-   "crc": 2458175371,
-   "crc32": "9284c78b"
+   "taille": 4492,
+   "crc": 1717553008,
+   "crc32": "665fc770"
   },
   {
    "chemin": "Graphics/Characters/061.png",
@@ -2130,9 +2298,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/CROBAT.png",
-   "taille": 12637,
-   "crc": 2492633536,
-   "crc32": "949291c0"
+   "taille": 5100,
+   "crc": 93866405,
+   "crc32": "059849a5"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/DIALGA.png",
@@ -2184,9 +2352,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/GOLBAT.png",
-   "taille": 17461,
-   "crc": 4198756739,
-   "crc32": "fa43f183"
+   "taille": 4384,
+   "crc": 1560970369,
+   "crc32": "5d0a8481"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/GROTLE.png",
@@ -2610,9 +2778,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/ZUBAT.png",
-   "taille": 14128,
-   "crc": 2145947834,
-   "crc32": "7fe890ba"
+   "taille": 3121,
+   "crc": 3140645029,
+   "crc32": "bb3270a5"
   },
   {
    "chemin": "Graphics/Characters/Followers/ABRA.png",
@@ -2742,9 +2910,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/CROBAT.png",
-   "taille": 12612,
-   "crc": 2445237003,
-   "crc32": "91bf5b0b"
+   "taille": 5146,
+   "crc": 1569479066,
+   "crc32": "5d8c599a"
   },
   {
    "chemin": "Graphics/Characters/Followers/DIALGA.png",
@@ -2796,9 +2964,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/GOLBAT.png",
-   "taille": 16985,
-   "crc": 2458175371,
-   "crc32": "9284c78b"
+   "taille": 4492,
+   "crc": 1717553008,
+   "crc32": "665fc770"
   },
   {
    "chemin": "Graphics/Characters/Followers/GROTLE.png",
@@ -3222,9 +3390,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/ZUBAT.png",
-   "taille": 14200,
-   "crc": 3036617189,
-   "crc32": "b4ff19e5"
+   "taille": 3122,
+   "crc": 3215814848,
+   "crc32": "bfad70c0"
   },
   {
    "chemin": "Graphics/Characters/Nana.png",
@@ -4398,9 +4566,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/CROBAT.png",
-   "taille": 55612,
-   "crc": 1293517789,
-   "crc32": "4d1983dd"
+   "taille": 17017,
+   "crc": 2974791185,
+   "crc32": "b14fb611"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/DIALGA.png",
@@ -4470,15 +4638,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/GOLBAT.png",
-   "taille": 18321,
-   "crc": 3890560707,
-   "crc32": "e7e53ec3"
+   "taille": 5903,
+   "crc": 3660765578,
+   "crc32": "da32d98a"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/GOLBAT_female.png",
-   "taille": 32585,
-   "crc": 3214208026,
-   "crc32": "bf94ec1a"
+   "taille": 5903,
+   "crc": 3660765578,
+   "crc32": "da32d98a"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/GROTLE.png",
@@ -5052,15 +5220,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/ZUBAT.png",
-   "taille": 18996,
-   "crc": 1488687551,
-   "crc32": "58bb91bf"
+   "taille": 5430,
+   "crc": 3780990316,
+   "crc32": "e15d556c"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/ZUBAT_female.png",
-   "taille": 33640,
-   "crc": 444524519,
-   "crc32": "1a7ee7e7"
+   "taille": 5416,
+   "crc": 2201629792,
+   "crc32": "833a3460"
   },
   {
    "chemin": "Graphics/Pokemon/Back/ABRA.png",
@@ -5244,9 +5412,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back/CROBAT.png",
-   "taille": 55358,
-   "crc": 4156118054,
-   "crc32": "f7b95426"
+   "taille": 13533,
+   "crc": 1518602792,
+   "crc32": "5a840a28"
   },
   {
    "chemin": "Graphics/Pokemon/Back/DIALGA.png",
@@ -5316,15 +5484,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back/GOLBAT.png",
-   "taille": 18030,
-   "crc": 1266168192,
-   "crc32": "4b783180"
+   "taille": 6659,
+   "crc": 1330667578,
+   "crc32": "4f50603a"
   },
   {
    "chemin": "Graphics/Pokemon/Back/GOLBAT_female.png",
-   "taille": 32858,
-   "crc": 31840160,
-   "crc32": "01e5d7a0"
+   "taille": 35616,
+   "crc": 1057054964,
+   "crc32": "3f0160f4"
   },
   {
    "chemin": "Graphics/Pokemon/Back/GROTLE.png",
@@ -5898,15 +6066,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back/ZUBAT.png",
-   "taille": 19010,
-   "crc": 629028893,
-   "crc32": "257e381d"
+   "taille": 4599,
+   "crc": 1790422570,
+   "crc32": "6ab7ae2a"
   },
   {
    "chemin": "Graphics/Pokemon/Back/ZUBAT_female.png",
-   "taille": 33258,
-   "crc": 183991012,
-   "crc32": "0af77ae4"
+   "taille": 17278,
+   "crc": 2745286915,
+   "crc32": "a3a1c103"
   },
   {
    "chemin": "Graphics/Pokemon/Footprints/MIGALARQUE.png",
@@ -6108,9 +6276,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/CROBAT.png",
-   "taille": 51226,
-   "crc": 3370693597,
-   "crc32": "c8e8b3dd"
+   "taille": 19672,
+   "crc": 3083753308,
+   "crc32": "b7ce575c"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/DIALGA.png",
@@ -6180,15 +6348,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/GOLBAT.png",
-   "taille": 23669,
-   "crc": 2923285435,
-   "crc32": "ae3dcbbb"
+   "taille": 6745,
+   "crc": 3765816436,
+   "crc32": "e075cc74"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/GOLBAT_female.png",
-   "taille": 28850,
-   "crc": 1857945707,
-   "crc32": "6ebe006b"
+   "taille": 6717,
+   "crc": 1924350005,
+   "crc32": "72b34035"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/GROTLE.png",
@@ -6768,15 +6936,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/ZUBAT.png",
-   "taille": 57247,
-   "crc": 1807123406,
-   "crc32": "6bb683ce"
+   "taille": 5917,
+   "crc": 652123642,
+   "crc32": "26de9dfa"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/ZUBAT_female.png",
-   "taille": 57613,
-   "crc": 1573339329,
-   "crc32": "5dc740c1"
+   "taille": 5833,
+   "crc": 3634181783,
+   "crc32": "d89d3697"
   },
   {
    "chemin": "Graphics/Pokemon/Front/ABRA.png",
@@ -6960,9 +7128,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front/CROBAT.png",
-   "taille": 50069,
-   "crc": 3296338859,
-   "crc32": "c47a23ab"
+   "taille": 11578,
+   "crc": 1932434437,
+   "crc32": "732e9c05"
   },
   {
    "chemin": "Graphics/Pokemon/Front/DIALGA.png",
@@ -7032,15 +7200,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front/GOLBAT.png",
-   "taille": 23259,
-   "crc": 282494687,
-   "crc32": "10d686df"
+   "taille": 7345,
+   "crc": 429935477,
+   "crc32": "19a04b75"
   },
   {
    "chemin": "Graphics/Pokemon/Front/GOLBAT_female.png",
-   "taille": 30019,
-   "crc": 1159759557,
-   "crc32": "452086c5"
+   "taille": 36801,
+   "crc": 194061040,
+   "crc32": "0b9122f0"
   },
   {
    "chemin": "Graphics/Pokemon/Front/GROTLE.png",
@@ -7614,15 +7782,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front/ZUBAT.png",
-   "taille": 56320,
-   "crc": 1640575358,
-   "crc32": "61c9317e"
+   "taille": 26079,
+   "crc": 1846347983,
+   "crc32": "6e0d08cf"
   },
   {
    "chemin": "Graphics/Pokemon/Front/ZUBAT_female.png",
-   "taille": 57647,
-   "crc": 1238747622,
-   "crc32": "49d5c9e6"
+   "taille": 26079,
+   "crc": 1846347983,
+   "crc32": "6e0d08cf"
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/ABRA.png",
@@ -7788,9 +7956,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/CROBAT.png",
-   "taille": 3634,
-   "crc": 1820548814,
-   "crc32": "6c835ece"
+   "taille": 1233,
+   "crc": 2723633269,
+   "crc32": "a2575875"
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/DIALGA.png",
@@ -7854,9 +8022,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/GOLBAT.png",
-   "taille": 4142,
-   "crc": 2914366320,
-   "crc32": "adb5b370"
+   "taille": 953,
+   "crc": 3217228183,
+   "crc32": "bfc30197"
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/GROTLE.png",
@@ -8394,9 +8562,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/ZUBAT.png",
-   "taille": 3549,
-   "crc": 4173240061,
-   "crc32": "f8be96fd"
+   "taille": 962,
+   "crc": 3158987093,
+   "crc32": "bc4a5155"
   },
   {
    "chemin": "Graphics/Pokemon/Icons/ABRA.png",
@@ -8562,9 +8730,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons/CROBAT.png",
-   "taille": 3542,
-   "crc": 2082385115,
-   "crc32": "7c1eacdb"
+   "taille": 2636,
+   "crc": 1007699818,
+   "crc32": "3c10476a"
   },
   {
    "chemin": "Graphics/Pokemon/Icons/DIALGA.png",
@@ -8628,9 +8796,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons/GOLBAT.png",
-   "taille": 4008,
-   "crc": 3578231592,
-   "crc32": "d5477b28"
+   "taille": 1662,
+   "crc": 2617151243,
+   "crc32": "9bfe8f0b"
   },
   {
    "chemin": "Graphics/Pokemon/Icons/GROTLE.png",
@@ -9168,9 +9336,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons/ZUBAT.png",
-   "taille": 3343,
-   "crc": 1893691038,
-   "crc32": "70df6e9e"
+   "taille": 1853,
+   "crc": 3965310245,
+   "crc32": "ec59d525"
   },
   {
    "chemin": "Graphics/Tilesets/Creditos.png",
@@ -9480,9 +9648,9 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 5316,
-   "crc": 2571474948,
-   "crc32": "99459804"
+   "taille": 5854,
+   "crc": 1960494156,
+   "crc32": "74dac44c"
   },
   {
    "chemin": "PBS/abilities.txt",
@@ -9492,9 +9660,9 @@
   },
   {
    "chemin": "PBS/encounters.txt",
-   "taille": 31974,
-   "crc": 1127576845,
-   "crc32": "4335750d"
+   "taille": 31976,
+   "crc": 760763242,
+   "crc32": "2d58536a"
   },
   {
    "chemin": "PBS/items.txt",
@@ -9510,9 +9678,9 @@
   },
   {
    "chemin": "PBS/pokemon.txt",
-   "taille": 1584129,
-   "crc": 3407736972,
-   "crc32": "cb1df08c"
+   "taille": 1583771,
+   "crc": 111525855,
+   "crc32": "06a5bfdf"
   },
   {
    "chemin": "PBS/pokemon_forms.txt",
@@ -9647,10 +9815,22 @@
    "crc32": "5fa447d6"
   },
   {
+   "chemin": "Plugins/Following Pokemon EX/Script Additions/Refresh.rb",
+   "taille": 16459,
+   "crc": 1848461255,
+   "crc32": "6e2d47c7"
+  },
+  {
    "chemin": "Plugins/Intro Versus/001_script_principal.rb",
    "taille": 30224,
    "crc": 3240092269,
    "crc32": "c11fe26d"
+  },
+  {
+   "chemin": "Plugins/Level Caps EX/001_Main.rb",
+   "taille": 16988,
+   "crc": 1330531198,
+   "crc32": "4f4e4b7e"
   },
   {
    "chemin": "Plugins/Lycaris Erreurs/erreurs_lycaris.rb",
@@ -9723,6 +9903,12 @@
    "taille": 1910,
    "crc": 2296021144,
    "crc32": "88da8098"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/022_Lancer_Pokeball.rb",
+   "taille": 2944,
+   "crc": 319879682,
+   "crc32": "1310fa02"
   },
   {
    "chemin": "Plugins/Modular UI Scenes/[001] Summary UI/[003] Summary Rewrites.rb",
