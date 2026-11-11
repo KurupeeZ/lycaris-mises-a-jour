@@ -1,7 +1,7 @@
 {
- "version": "1.1.2",
- "date": "2026-11-11 03:12",
- "nouveautes": "- - Les Pokémon gagnent 50 % d'expérience en plus.\n- - La barre d'expérience se remplit niveau par niveau, sans sauter.\n- - Après un combat, le Pokémon qui vous suit se replace derrière vous.\n- - Le dresseur lance sa Poké Ball depuis la main.\n- - Les Pokémon de décor absents du Pokédex de Lycaris sont remplacés.\n- - Nosferapti, Nosferalto et Nostenfer redeviennent comme à l'origine.",
+ "version": "1.1.3",
+ "date": "2026-11-11 13:29",
+ "nouveautes": "- Tortipouss Plante/Électrik a de nouveaux sprites (combat, shiny, suiveur, icône).\n- Ouisticram, Simiabraz et Méga-Simiabraz : animation corrigée, la tête ne se déforme plus.\n- Les Pokémon qui vous suivent ne flottent plus au-dessus du sol : Tiplouf, Prinplouf, Pingoléon, Boskara, Torterra, Ouisticram, Chimpenfeu et Simiabraz.\n- Le portrait de DPeco (carte de dresseur) est en pixel art.",
  "encodage": "base64",
  "fichiers": [
   {
@@ -2280,9 +2280,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/CHIMCHAR.png",
-   "taille": 6679,
-   "crc": 4197380020,
-   "crc32": "fa2eefb4"
+   "taille": 6621,
+   "crc": 2544493330,
+   "crc32": "97a9e312"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/COMBEE.png",
@@ -2317,8 +2317,8 @@
   {
    "chemin": "Graphics/Characters/Followers shiny/EMPOLEON.png",
    "taille": 29124,
-   "crc": 151769726,
-   "crc32": "090bd27e"
+   "crc": 4178509634,
+   "crc32": "f90eff42"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/ESPURR.png",
@@ -2359,8 +2359,8 @@
   {
    "chemin": "Graphics/Characters/Followers shiny/GROTLE.png",
    "taille": 8553,
-   "crc": 1059258368,
-   "crc32": "3f230000"
+   "crc": 1414923647,
+   "crc32": "5456057f"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/GYARADOS.png",
@@ -2382,9 +2382,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/INFERNAPE.png",
-   "taille": 9340,
-   "crc": 3292231900,
-   "crc32": "c43b78dc"
+   "taille": 9295,
+   "crc": 781586574,
+   "crc32": "2e96108e"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/IVYSAUR.png",
@@ -2514,9 +2514,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/MONFERNO.png",
-   "taille": 25533,
-   "crc": 2965521447,
-   "crc32": "b0c24427"
+   "taille": 24834,
+   "crc": 3863682259,
+   "crc32": "e64b1cd3"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/MUNCHLAX.png",
@@ -2592,9 +2592,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/PIPLUP.png",
-   "taille": 15769,
-   "crc": 3381589513,
-   "crc32": "c98ef609"
+   "taille": 15771,
+   "crc": 3526167119,
+   "crc32": "d22d0a4f"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/POLITOED.png",
@@ -2629,8 +2629,8 @@
   {
    "chemin": "Graphics/Characters/Followers shiny/PRINPLUP.png",
    "taille": 10773,
-   "crc": 2652809506,
-   "crc32": "9e1ea922"
+   "crc": 357029852,
+   "crc32": "1547d7dc"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/RAICHU.png",
@@ -2700,9 +2700,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/TORTERRA.png",
-   "taille": 18290,
-   "crc": 271212491,
-   "crc32": "102a5fcb"
+   "taille": 18288,
+   "crc": 3204344847,
+   "crc32": "befe6c0f"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/TRAPINCH.png",
@@ -2712,9 +2712,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/TURTWIG.png",
-   "taille": 4506,
-   "crc": 9487534,
-   "crc32": "0090c4ae"
+   "taille": 3862,
+   "crc": 2951400758,
+   "crc32": "afeacd36"
   },
   {
    "chemin": "Graphics/Characters/Followers shiny/VENUSAUR.png",
@@ -2892,9 +2892,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/CHIMCHAR.png",
-   "taille": 6674,
-   "crc": 1050734051,
-   "crc32": "3ea0ede3"
+   "taille": 6568,
+   "crc": 160135560,
+   "crc32": "098b7988"
   },
   {
    "chemin": "Graphics/Characters/Followers/COMBEE.png",
@@ -2929,8 +2929,8 @@
   {
    "chemin": "Graphics/Characters/Followers/EMPOLEON.png",
    "taille": 29438,
-   "crc": 2219569694,
-   "crc32": "844bf21e"
+   "crc": 88625084,
+   "crc32": "05484fbc"
   },
   {
    "chemin": "Graphics/Characters/Followers/ESPURR.png",
@@ -2971,8 +2971,8 @@
   {
    "chemin": "Graphics/Characters/Followers/GROTLE.png",
    "taille": 8619,
-   "crc": 1630412183,
-   "crc32": "612e1d97"
+   "crc": 1958672044,
+   "crc32": "74bef6ac"
   },
   {
    "chemin": "Graphics/Characters/Followers/GYARADOS.png",
@@ -2994,9 +2994,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/INFERNAPE.png",
-   "taille": 9392,
-   "crc": 3781098729,
-   "crc32": "e15efce9"
+   "taille": 9371,
+   "crc": 1877055829,
+   "crc32": "6fe19955"
   },
   {
    "chemin": "Graphics/Characters/Followers/IVYSAUR.png",
@@ -3126,9 +3126,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/MONFERNO.png",
-   "taille": 25479,
-   "crc": 2446332429,
-   "crc32": "91d0120d"
+   "taille": 24964,
+   "crc": 1396897217,
+   "crc32": "5342f5c1"
   },
   {
    "chemin": "Graphics/Characters/Followers/MUNCHLAX.png",
@@ -3204,9 +3204,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/PIPLUP.png",
-   "taille": 15935,
-   "crc": 1430392360,
-   "crc32": "55420e28"
+   "taille": 15937,
+   "crc": 1985997962,
+   "crc32": "765fec8a"
   },
   {
    "chemin": "Graphics/Characters/Followers/POLITOED.png",
@@ -3241,8 +3241,8 @@
   {
    "chemin": "Graphics/Characters/Followers/PRINPLUP.png",
    "taille": 10631,
-   "crc": 367476688,
-   "crc32": "15e73fd0"
+   "crc": 808872141,
+   "crc32": "303668cd"
   },
   {
    "chemin": "Graphics/Characters/Followers/RAICHU.png",
@@ -3312,9 +3312,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/TORTERRA.png",
-   "taille": 18172,
-   "crc": 1507150698,
-   "crc32": "59d54b6a"
+   "taille": 18165,
+   "crc": 1364698079,
+   "crc32": "5157a3df"
   },
   {
    "chemin": "Graphics/Characters/Followers/TRAPINCH.png",
@@ -3324,9 +3324,9 @@
   },
   {
    "chemin": "Graphics/Characters/Followers/TURTWIG.png",
-   "taille": 4499,
-   "crc": 912505204,
-   "crc32": "3663b974"
+   "taille": 3858,
+   "crc": 3588469029,
+   "crc32": "d5e3b125"
   },
   {
    "chemin": "Graphics/Characters/Followers/VENUSAUR.png",
@@ -4548,9 +4548,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/CHIMCHAR.png",
-   "taille": 43219,
-   "crc": 3945741167,
-   "crc32": "eb2f3b6f"
+   "taille": 36385,
+   "crc": 3231573948,
+   "crc32": "c09de7bc"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/COMBEE.png",
@@ -4686,15 +4686,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/INFERNAPE.png",
-   "taille": 95837,
-   "crc": 1859308253,
-   "crc32": "6ed2cadd"
+   "taille": 95831,
+   "crc": 3474978913,
+   "crc32": "cf1ff861"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/INFERNAPE_101.png",
-   "taille": 301496,
-   "crc": 4087916759,
-   "crc32": "f3a8a8d7"
+   "taille": 301387,
+   "crc": 1168888958,
+   "crc32": "45abd47e"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/IVYSAUR.png",
@@ -5148,9 +5148,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/TURTWIG.png",
-   "taille": 10330,
-   "crc": 2132311543,
-   "crc32": "7f187df7"
+   "taille": 10748,
+   "crc": 3059215257,
+   "crc32": "b657eb99"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/VENUSAUR.png",
@@ -5394,9 +5394,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back/CHIMCHAR.png",
-   "taille": 43166,
-   "crc": 3262312175,
-   "crc32": "c272eeef"
+   "taille": 36362,
+   "crc": 40585840,
+   "crc32": "026b4a70"
   },
   {
    "chemin": "Graphics/Pokemon/Back/COMBEE.png",
@@ -5532,15 +5532,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back/INFERNAPE.png",
-   "taille": 99782,
-   "crc": 2234034689,
-   "crc32": "8528aa01"
+   "taille": 99775,
+   "crc": 341890290,
+   "crc32": "1460d4f2"
   },
   {
    "chemin": "Graphics/Pokemon/Back/INFERNAPE_101.png",
-   "taille": 302503,
-   "crc": 2331523924,
-   "crc32": "8af83b54"
+   "taille": 302506,
+   "crc": 2677082319,
+   "crc32": "9f9108cf"
   },
   {
    "chemin": "Graphics/Pokemon/Back/IVYSAUR.png",
@@ -5994,9 +5994,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Back/TURTWIG.png",
-   "taille": 10204,
-   "crc": 1738228600,
-   "crc32": "679b4378"
+   "taille": 10780,
+   "crc": 2605627733,
+   "crc32": "9b4eb955"
   },
   {
    "chemin": "Graphics/Pokemon/Back/VENUSAUR.png",
@@ -6258,9 +6258,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/CHIMCHAR.png",
-   "taille": 47856,
-   "crc": 3852364728,
-   "crc32": "e59e6bb8"
+   "taille": 38910,
+   "crc": 1901765113,
+   "crc32": "715aa1f9"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/COMBEE.png",
@@ -6396,15 +6396,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/INFERNAPE.png",
-   "taille": 95263,
-   "crc": 2540715789,
-   "crc32": "97703f0d"
+   "taille": 94737,
+   "crc": 279932976,
+   "crc32": "10af7030"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/INFERNAPE_101.png",
-   "taille": 431190,
-   "crc": 1867649005,
-   "crc32": "6f520fed"
+   "taille": 458674,
+   "crc": 1690914504,
+   "crc32": "64c94ec8"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/IVYSAUR.png",
@@ -6864,9 +6864,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/TURTWIG.png",
-   "taille": 10045,
-   "crc": 707141012,
-   "crc32": "2a261d94"
+   "taille": 11458,
+   "crc": 2651583151,
+   "crc32": "9e0bf2af"
   },
   {
    "chemin": "Graphics/Pokemon/Front shiny/VENUSAUR.png",
@@ -7110,9 +7110,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front/CHIMCHAR.png",
-   "taille": 48125,
-   "crc": 3578699325,
-   "crc32": "d54e9e3d"
+   "taille": 39554,
+   "crc": 972031192,
+   "crc32": "39f004d8"
   },
   {
    "chemin": "Graphics/Pokemon/Front/COMBEE.png",
@@ -7248,15 +7248,15 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front/INFERNAPE.png",
-   "taille": 92211,
-   "crc": 3873762885,
-   "crc32": "e6e4ee45"
+   "taille": 92516,
+   "crc": 3427113914,
+   "crc32": "cc459bba"
   },
   {
    "chemin": "Graphics/Pokemon/Front/INFERNAPE_101.png",
-   "taille": 434067,
-   "crc": 471021995,
-   "crc32": "1c1339ab"
+   "taille": 466765,
+   "crc": 1363721229,
+   "crc32": "5148bc0d"
   },
   {
    "chemin": "Graphics/Pokemon/Front/IVYSAUR.png",
@@ -7710,9 +7710,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Front/TURTWIG.png",
-   "taille": 9976,
-   "crc": 3173553017,
-   "crc32": "bd289379"
+   "taille": 11422,
+   "crc": 2867622724,
+   "crc32": "aaec7344"
   },
   {
    "chemin": "Graphics/Pokemon/Front/VENUSAUR.png",
@@ -8496,9 +8496,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/TURTWIG.png",
-   "taille": 1600,
-   "crc": 13074909,
-   "crc32": "00c781dd"
+   "taille": 1166,
+   "crc": 826485430,
+   "crc32": "31432ab6"
   },
   {
    "chemin": "Graphics/Pokemon/Icons shiny/VENUSAUR.png",
@@ -9270,9 +9270,9 @@
   },
   {
    "chemin": "Graphics/Pokemon/Icons/TURTWIG.png",
-   "taille": 1614,
-   "crc": 129898387,
-   "crc32": "07be1793"
+   "taille": 1168,
+   "crc": 2036792042,
+   "crc32": "7966faea"
   },
   {
    "chemin": "Graphics/Pokemon/Icons/VENUSAUR.png",
@@ -9423,6 +9423,12 @@
    "taille": 11913,
    "crc": 2796070524,
    "crc32": "a6a8a67c"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_DPeco.png",
+   "taille": 3035,
+   "crc": 726482507,
+   "crc32": "2b4d3e4b"
   },
   {
    "chemin": "Graphics/Trainers/POKEMONTRAINER_Liam.png",
@@ -9648,9 +9654,9 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 5854,
-   "crc": 1960494156,
-   "crc32": "74dac44c"
+   "taille": 6295,
+   "crc": 831591552,
+   "crc32": "31911480"
   },
   {
    "chemin": "PBS/abilities.txt",
