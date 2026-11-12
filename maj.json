@@ -1,7 +1,7 @@
 {
- "version": "1.1.3",
- "date": "2026-11-11 13:29",
- "nouveautes": "- Tortipouss Plante/Électrik a de nouveaux sprites (combat, shiny, suiveur, icône).\n- Ouisticram, Simiabraz et Méga-Simiabraz : animation corrigée, la tête ne se déforme plus.\n- Les Pokémon qui vous suivent ne flottent plus au-dessus du sol : Tiplouf, Prinplouf, Pingoléon, Boskara, Torterra, Ouisticram, Chimpenfeu et Simiabraz.\n- Le portrait de DPeco (carte de dresseur) est en pixel art.",
+ "version": "1.1.4",
+ "date": "2026-11-12 16:08",
+ "nouveautes": "- 4 nouveaux personnages jouables (nouvelle partie) : Lyca, Orion, Sieg et Kaito.\n- 90 attaques ont une nouvelle animation, plus proche des jeux officiels.\n- Attaques apprises par niveau revues pour quelques Pokémon.",
  "encodage": "base64",
  "fichiers": [
   {
@@ -408,15 +408,15 @@
   },
   {
    "chemin": "Data/PkmnAnimations.rxdata",
-   "taille": 14727312,
-   "crc": 1055407938,
-   "crc32": "3ee83f42"
+   "taille": 15616147,
+   "crc": 1687333393,
+   "crc32": "6492aa11"
   },
   {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1231173,
-   "crc": 3411281685,
-   "crc32": "cb540715"
+   "taille": 1231254,
+   "crc": 2290089004,
+   "crc32": "887ffc2c"
   },
   {
    "chemin": "Data/Scripts.rxdata",
@@ -456,9 +456,9 @@
   },
   {
    "chemin": "Data/player_metadata.dat",
-   "taille": 4656,
-   "crc": 4118692766,
-   "crc32": "f57e439e"
+   "taille": 5792,
+   "crc": 440641624,
+   "crc32": "1a43a858"
   },
   {
    "chemin": "Data/regional_dexes.dat",
@@ -468,9 +468,9 @@
   },
   {
    "chemin": "Data/species.dat",
-   "taille": 1315687,
-   "crc": 2226192742,
-   "crc32": "84b10166"
+   "taille": 1315991,
+   "crc": 1554600937,
+   "crc32": "5ca953e9"
   },
   {
    "chemin": "Data/species_metrics.dat",
@@ -480,9 +480,9 @@
   },
   {
    "chemin": "Data/trainer_types.dat",
-   "taille": 18508,
-   "crc": 4027150151,
-   "crc32": "f0096f47"
+   "taille": 18930,
+   "crc": 15571739,
+   "crc32": "00ed9b1b"
   },
   {
    "chemin": "Data/trainers.dat",
@@ -509,10 +509,22 @@
    "crc32": "b08368bb"
   },
   {
+   "chemin": "Graphics/Animations/acrobatie_moderne.png",
+   "taille": 2120,
+   "crc": 873720848,
+   "crc32": "3413ec10"
+  },
+  {
    "chemin": "Graphics/Animations/aegis_maxima_moderne.png",
    "taille": 207247,
    "crc": 511923794,
    "crc32": "1e835652"
+  },
+  {
+   "chemin": "Graphics/Animations/aeropique_moderne.png",
+   "taille": 2185,
+   "crc": 2382802925,
+   "crc32": "8e06afed"
   },
   {
    "chemin": "Graphics/Animations/affilage_moderne.png",
@@ -537,6 +549,12 @@
    "taille": 223036,
    "crc": 1943186502,
    "crc32": "73d2ac46"
+  },
+  {
+   "chemin": "Graphics/Animations/anti_air_moderne.png",
+   "taille": 3588,
+   "crc": 2167250938,
+   "crc32": "812d9ffa"
   },
   {
    "chemin": "Graphics/Animations/aqua_breche_moderne.png",
@@ -569,10 +587,34 @@
    "crc32": "08b44fb1"
   },
   {
+   "chemin": "Graphics/Animations/assurance_moderne.png",
+   "taille": 11197,
+   "crc": 609489377,
+   "crc32": "245411e1"
+  },
+  {
    "chemin": "Graphics/Animations/atrapabicho_moderne.png",
    "taille": 186775,
    "crc": 4243238632,
    "crc32": "fceaaee8"
+  },
+  {
+   "chemin": "Graphics/Animations/balayage_moderne.png",
+   "taille": 2407,
+   "crc": 423669656,
+   "crc32": "1940af98"
+  },
+  {
+   "chemin": "Graphics/Animations/ball_ombre_moderne.png",
+   "taille": 20141,
+   "crc": 1143080410,
+   "crc32": "442205da"
+  },
+  {
+   "chemin": "Graphics/Animations/balle_graine_moderne.png",
+   "taille": 1947,
+   "crc": 4095698209,
+   "crc32": "f41f6521"
   },
   {
    "chemin": "Graphics/Animations/ballon_brulant_moderne.png",
@@ -585,6 +627,12 @@
    "taille": 201908,
    "crc": 1161629022,
    "crc32": "453d0d5e"
+  },
+  {
+   "chemin": "Graphics/Animations/belier_moderne.png",
+   "taille": 189753,
+   "crc": 2661343513,
+   "crc32": "9ea0e119"
   },
   {
    "chemin": "Graphics/Animations/big_splash_moderne.png",
@@ -605,6 +653,12 @@
    "crc32": "e68cb80a"
   },
   {
+   "chemin": "Graphics/Animations/blizzard_moderne.png",
+   "taille": 21736,
+   "crc": 2183873401,
+   "crc32": "822b4379"
+  },
+  {
    "chemin": "Graphics/Animations/blocage_moderne.png",
    "taille": 16165,
    "crc": 1957857062,
@@ -621,6 +675,12 @@
    "taille": 64207,
    "crc": 2690199183,
    "crc32": "a0592e8f"
+  },
+  {
+   "chemin": "Graphics/Animations/bombe_beurk_moderne.png",
+   "taille": 9698,
+   "crc": 4153023568,
+   "crc32": "f78a1c50"
   },
   {
    "chemin": "Graphics/Animations/bond_moderne.png",
@@ -647,10 +707,34 @@
    "crc32": "55f523ad"
   },
   {
+   "chemin": "Graphics/Animations/brouhaha_moderne.png",
+   "taille": 9930,
+   "crc": 726040314,
+   "crc32": "2b467efa"
+  },
+  {
    "chemin": "Graphics/Animations/caboche_kaboum_moderne.png",
    "taille": 294406,
    "crc": 1822501532,
    "crc32": "6ca12a9c"
+  },
+  {
+   "chemin": "Graphics/Animations/calcination_moderne.png",
+   "taille": 25904,
+   "crc": 786435388,
+   "crc32": "2ee00d3c"
+  },
+  {
+   "chemin": "Graphics/Animations/calinerie_moderne.png",
+   "taille": 5444,
+   "crc": 951642681,
+   "crc32": "38b8ea39"
+  },
+  {
+   "chemin": "Graphics/Animations/canicule_moderne.png",
+   "taille": 16472,
+   "crc": 766138818,
+   "crc32": "2daa59c2"
   },
   {
    "chemin": "Graphics/Animations/canon_blinde_moderne.png",
@@ -671,10 +755,22 @@
    "crc32": "fd9f5685"
   },
   {
+   "chemin": "Graphics/Animations/canon_graine_moderne.png",
+   "taille": 3712,
+   "crc": 4292059953,
+   "crc32": "ffd3a331"
+  },
+  {
    "chemin": "Graphics/Animations/carapiege_moderne.png",
    "taille": 331198,
    "crc": 3953569401,
    "crc32": "eba6ae79"
+  },
+  {
+   "chemin": "Graphics/Animations/casse_brique_moderne.png",
+   "taille": 3020,
+   "crc": 2963512252,
+   "crc32": "b0a39bbc"
   },
   {
    "chemin": "Graphics/Animations/cataclysme_moderne.png",
@@ -725,6 +821,12 @@
    "crc32": "7e0db2e0"
   },
   {
+   "chemin": "Graphics/Animations/chant_canon_moderne.png",
+   "taille": 14188,
+   "crc": 719470057,
+   "crc32": "2ae23de9"
+  },
+  {
    "chemin": "Graphics/Animations/chant_flamboyant_moderne.png",
    "taille": 302565,
    "crc": 1804547965,
@@ -735,6 +837,12 @@
    "taille": 198927,
    "crc": 1712286690,
    "crc32": "660f6be2"
+  },
+  {
+   "chemin": "Graphics/Animations/charge_moderne.png",
+   "taille": 1735,
+   "crc": 1465063369,
+   "crc32": "575317c9"
   },
   {
    "chemin": "Graphics/Animations/choc_emotionnel_moderne.png",
@@ -773,10 +881,28 @@
    "crc32": "7faa1105"
   },
   {
+   "chemin": "Graphics/Animations/contre_moderne.png",
+   "taille": 10821,
+   "crc": 1948980481,
+   "crc32": "742b1501"
+  },
+  {
    "chemin": "Graphics/Animations/cortege_funebre_moderne.png",
    "taille": 193964,
    "crc": 722144279,
    "crc32": "2b0b0c17"
+  },
+  {
+   "chemin": "Graphics/Animations/coud_boue_moderne.png",
+   "taille": 8541,
+   "crc": 2742778211,
+   "crc32": "a37b7963"
+  },
+  {
+   "chemin": "Graphics/Animations/coup_d_boule_moderne.png",
+   "taille": 191140,
+   "crc": 414562859,
+   "crc32": "18b5ba2b"
   },
   {
    "chemin": "Graphics/Animations/coup_fulgurant_moderne.png",
@@ -839,6 +965,12 @@
    "crc32": "b361b4c0"
   },
   {
+   "chemin": "Graphics/Animations/damocles_moderne.png",
+   "taille": 191340,
+   "crc": 2347452103,
+   "crc32": "8beb46c7"
+  },
+  {
    "chemin": "Graphics/Animations/danse_aquatique_moderne.png",
    "taille": 279254,
    "crc": 2471375423,
@@ -869,6 +1001,24 @@
    "crc32": "66b8e038"
   },
   {
+   "chemin": "Graphics/Animations/deflagration_moderne.png",
+   "taille": 46728,
+   "crc": 2816184806,
+   "crc32": "a7db91e6"
+  },
+  {
+   "chemin": "Graphics/Animations/degommage_moderne.png",
+   "taille": 181255,
+   "crc": 2391419860,
+   "crc32": "8e8a2bd4"
+  },
+  {
+   "chemin": "Graphics/Animations/demi_tour_moderne.png",
+   "taille": 11161,
+   "crc": 3944925697,
+   "crc32": "eb22ca01"
+  },
+  {
    "chemin": "Graphics/Animations/derapage_moderne.png",
    "taille": 252667,
    "crc": 3700778780,
@@ -887,10 +1037,28 @@
    "crc32": "746683db"
   },
   {
+   "chemin": "Graphics/Animations/devoreve_moderne.png",
+   "taille": 39471,
+   "crc": 2345310891,
+   "crc32": "8bca9aab"
+  },
+  {
+   "chemin": "Graphics/Animations/direct_toxik_moderne.png",
+   "taille": 3151,
+   "crc": 3817871943,
+   "crc32": "e3901a47"
+  },
+  {
    "chemin": "Graphics/Animations/dissonance_psy_moderne.png",
    "taille": 248460,
    "crc": 1583813759,
    "crc32": "5e67147f"
+  },
+  {
+   "chemin": "Graphics/Animations/don_naturel_moderne.png",
+   "taille": 172196,
+   "crc": 175359360,
+   "crc32": "0a73c580"
   },
   {
    "chemin": "Graphics/Animations/double_decharge_moderne.png",
@@ -947,10 +1115,28 @@
    "crc32": "63b267a4"
   },
   {
+   "chemin": "Graphics/Animations/eboulement_moderne.png",
+   "taille": 211874,
+   "crc": 2333031466,
+   "crc32": "8b0f3c2a"
+  },
+  {
    "chemin": "Graphics/Animations/echange_force_moderne.png",
    "taille": 17004,
    "crc": 2789160472,
    "crc32": "a63f3618"
+  },
+  {
+   "chemin": "Graphics/Animations/echo_moderne.png",
+   "taille": 9930,
+   "crc": 726040314,
+   "crc32": "2b467efa"
+  },
+  {
+   "chemin": "Graphics/Animations/eclat_magique_moderne.png",
+   "taille": 12712,
+   "crc": 3900657468,
+   "crc32": "e87f4f3c"
   },
   {
    "chemin": "Graphics/Animations/eclat_spectral_moderne.png",
@@ -959,10 +1145,28 @@
    "crc32": "ed2b9428"
   },
   {
+   "chemin": "Graphics/Animations/eclate_roc_moderne.png",
+   "taille": 205813,
+   "crc": 1013422454,
+   "crc32": "3c679976"
+  },
+  {
+   "chemin": "Graphics/Animations/eco_sphere_moderne.png",
+   "taille": 17615,
+   "crc": 915695651,
+   "crc32": "36946823"
+  },
+  {
    "chemin": "Graphics/Animations/ecrous_poing_moderne.png",
    "taille": 203138,
    "crc": 832919034,
    "crc32": "31a555fa"
+  },
+  {
+   "chemin": "Graphics/Animations/effort_moderne.png",
+   "taille": 10459,
+   "crc": 507501130,
+   "crc32": "1e3fda4a"
   },
   {
    "chemin": "Graphics/Animations/electrikipik_moderne.png",
@@ -1067,10 +1271,28 @@
    "crc32": "626c20bb"
   },
   {
+   "chemin": "Graphics/Animations/exploforce_moderne.png",
+   "taille": 163044,
+   "crc": 2072445115,
+   "crc32": "7b8700bb"
+  },
+  {
    "chemin": "Graphics/Animations/extravaillance_moderne.png",
    "taille": 327487,
    "crc": 2217597342,
    "crc32": "842dd99e"
+  },
+  {
+   "chemin": "Graphics/Animations/facade_moderne.png",
+   "taille": 210202,
+   "crc": 348934574,
+   "crc32": "14cc51ae"
+  },
+  {
+   "chemin": "Graphics/Animations/fatal_foudre_moderne.png",
+   "taille": 32509,
+   "crc": 1093326995,
+   "crc32": "412ad893"
   },
   {
    "chemin": "Graphics/Animations/fertilisation_moderne.png",
@@ -1115,6 +1337,12 @@
    "crc32": "4b6c3fb8"
   },
   {
+   "chemin": "Graphics/Animations/force_moderne.png",
+   "taille": 198955,
+   "crc": 1140384278,
+   "crc32": "43f8e216"
+  },
+  {
    "chemin": "Graphics/Animations/force_mystique_moderne.png",
    "taille": 299770,
    "crc": 284802286,
@@ -1143,6 +1371,12 @@
    "taille": 183762,
    "crc": 91927688,
    "crc32": "057ab488"
+  },
+  {
+   "chemin": "Graphics/Animations/frustration_moderne.png",
+   "taille": 218256,
+   "crc": 892334124,
+   "crc32": "352ff02c"
   },
   {
    "chemin": "Graphics/Animations/fulgurayon_moderne.png",
@@ -1181,6 +1415,18 @@
    "crc32": "1a8cbd84"
   },
   {
+   "chemin": "Graphics/Animations/giga_impact_moderne.png",
+   "taille": 437092,
+   "crc": 3626573630,
+   "crc32": "d8291f3e"
+  },
+  {
+   "chemin": "Graphics/Animations/giga_sangsue_moderne.png",
+   "taille": 37213,
+   "crc": 1743849532,
+   "crc32": "67f1083c"
+  },
+  {
    "chemin": "Graphics/Animations/gladius_maximus_moderne.png",
    "taille": 201967,
    "crc": 1372038156,
@@ -1209,6 +1455,12 @@
    "taille": 12281,
    "crc": 3620371450,
    "crc32": "d7ca7bfa"
+  },
+  {
+   "chemin": "Graphics/Animations/griffe_ombre_moderne.png",
+   "taille": 6164,
+   "crc": 162837565,
+   "crc32": "09b4b43d"
   },
   {
    "chemin": "Graphics/Animations/griffes_funestes_moderne.png",
@@ -1247,6 +1499,18 @@
    "crc32": "c04a136b"
   },
   {
+   "chemin": "Graphics/Animations/hydro_queue_moderne.png",
+   "taille": 5398,
+   "crc": 2443658476,
+   "crc32": "91a744ec"
+  },
+  {
+   "chemin": "Graphics/Animations/hydrocanon_moderne.png",
+   "taille": 4347,
+   "crc": 1999792246,
+   "crc32": "77326876"
+  },
+  {
    "chemin": "Graphics/Animations/hydrovapeur_moderne.png",
    "taille": 280609,
    "crc": 3350022316,
@@ -1257,6 +1521,12 @@
    "taille": 244614,
    "crc": 321016679,
    "crc32": "13225367"
+  },
+  {
+   "chemin": "Graphics/Animations/implore_moderne.png",
+   "taille": 2913,
+   "crc": 953198920,
+   "crc32": "38d0a948"
   },
   {
    "chemin": "Graphics/Animations/indignition_moderne.png",
@@ -1325,10 +1595,28 @@
    "crc32": "05fec620"
   },
   {
+   "chemin": "Graphics/Animations/lance_soleil_moderne.png",
+   "taille": 51994,
+   "crc": 765023017,
+   "crc32": "2d995329"
+  },
+  {
+   "chemin": "Graphics/Animations/larcin_moderne.png",
+   "taille": 220069,
+   "crc": 2173567100,
+   "crc32": "818e007c"
+  },
+  {
    "chemin": "Graphics/Animations/larme_a_l_oeil_moderne.png",
    "taille": 14287,
    "crc": 2625096202,
    "crc32": "9c77ca0a"
+  },
+  {
+   "chemin": "Graphics/Animations/laser_glace_moderne.png",
+   "taille": 30255,
+   "crc": 3694656486,
+   "crc32": "dc37fbe6"
   },
   {
    "chemin": "Graphics/Animations/laser_hasard_moderne.png",
@@ -1379,6 +1667,12 @@
    "crc32": "2f32717e"
   },
   {
+   "chemin": "Graphics/Animations/machouille_moderne.png",
+   "taille": 7501,
+   "crc": 1715122190,
+   "crc32": "663ab00e"
+  },
+  {
    "chemin": "Graphics/Animations/magie_florale_moderne.png",
    "taille": 306957,
    "crc": 3255500898,
@@ -1409,6 +1703,12 @@
    "crc32": "905db6e9"
   },
   {
+   "chemin": "Graphics/Animations/megaphone_moderne.png",
+   "taille": 10631,
+   "crc": 1558448855,
+   "crc32": "5ce40ad7"
+  },
+  {
    "chemin": "Graphics/Animations/metalaser_moderne.png",
    "taille": 249476,
    "crc": 1335922333,
@@ -1421,10 +1721,22 @@
    "crc32": "b0b49161"
   },
   {
+   "chemin": "Graphics/Animations/meteores_moderne.png",
+   "taille": 140136,
+   "crc": 1700515968,
+   "crc32": "655bd080"
+  },
+  {
    "chemin": "Graphics/Animations/mimique_moderne.png",
    "taille": 20566,
    "crc": 4234811520,
    "crc32": "fc6a1880"
+  },
+  {
+   "chemin": "Graphics/Animations/mitra_poing_moderne.png",
+   "taille": 57433,
+   "crc": 1658495994,
+   "crc32": "62daa3fa"
   },
   {
    "chemin": "Graphics/Animations/moi_d_abord_moderne.png",
@@ -1437,6 +1749,12 @@
    "taille": 189613,
    "crc": 1267182687,
    "crc32": "4b87ac5f"
+  },
+  {
+   "chemin": "Graphics/Animations/morsure_moderne.png",
+   "taille": 2906,
+   "crc": 173877112,
+   "crc32": "0a5d2778"
   },
   {
    "chemin": "Graphics/Animations/mortier_matcha_moderne.png",
@@ -1487,10 +1805,22 @@
    "crc32": "81d3af54"
   },
   {
+   "chemin": "Graphics/Animations/noeud_herbe_moderne.png",
+   "taille": 3580,
+   "crc": 225242826,
+   "crc32": "0d6ceeca"
+  },
+  {
    "chemin": "Graphics/Animations/octoprise_moderne.png",
    "taille": 11536,
    "crc": 3126819463,
    "crc32": "ba5f7a87"
+  },
+  {
+   "chemin": "Graphics/Animations/onde_de_choc_moderne.png",
+   "taille": 9948,
+   "crc": 1389736063,
+   "crc32": "52d5b07f"
   },
   {
    "chemin": "Graphics/Animations/os_ombre_moderne.png",
@@ -1539,6 +1869,12 @@
    "taille": 12385,
    "crc": 1715864365,
    "crc32": "6646032d"
+  },
+  {
+   "chemin": "Graphics/Animations/pietisol_moderne.png",
+   "taille": 207279,
+   "crc": 1916301578,
+   "crc32": "7238710a"
   },
   {
    "chemin": "Graphics/Animations/pika_fracas_moderne.png",
@@ -1595,10 +1931,34 @@
    "crc32": "f12feefb"
   },
   {
+   "chemin": "Graphics/Animations/poing_boost_moderne.png",
+   "taille": 14767,
+   "crc": 2998993889,
+   "crc32": "b2c103e1"
+  },
+  {
    "chemin": "Graphics/Animations/poing_de_colere_moderne.png",
    "taille": 316438,
    "crc": 1518246228,
    "crc32": "5a7e9954"
+  },
+  {
+   "chemin": "Graphics/Animations/poing_eclair_moderne.png",
+   "taille": 5238,
+   "crc": 131431950,
+   "crc32": "07d57e0e"
+  },
+  {
+   "chemin": "Graphics/Animations/poing_feu_moderne.png",
+   "taille": 11907,
+   "crc": 1760657224,
+   "crc32": "68f17f48"
+  },
+  {
+   "chemin": "Graphics/Animations/poing_glace_moderne.png",
+   "taille": 10023,
+   "crc": 541077472,
+   "crc32": "20402fe0"
   },
   {
    "chemin": "Graphics/Animations/poing_obscur_moderne.png",
@@ -1655,10 +2015,34 @@
    "crc32": "9d10ae12"
   },
   {
+   "chemin": "Graphics/Animations/psyko_moderne.png",
+   "taille": 45653,
+   "crc": 1845844237,
+   "crc32": "6e05590d"
+  },
+  {
+   "chemin": "Graphics/Animations/psykoud_boul_moderne.png",
+   "taille": 30058,
+   "crc": 990658159,
+   "crc32": "3b0c3e6f"
+  },
+  {
+   "chemin": "Graphics/Animations/puissance_cachee_moderne.png",
+   "taille": 130552,
+   "crc": 3183174680,
+   "crc32": "bdbb6418"
+  },
+  {
    "chemin": "Graphics/Animations/purification_moderne.png",
    "taille": 38591,
    "crc": 1288065086,
    "crc32": "4cc6503e"
+  },
+  {
+   "chemin": "Graphics/Animations/queue_de_fer_moderne.png",
+   "taille": 5165,
+   "crc": 469016143,
+   "crc32": "1bf49e4f"
   },
   {
    "chemin": "Graphics/Animations/queulonage_moderne.png",
@@ -1679,6 +2063,18 @@
    "crc32": "1c54f92e"
   },
   {
+   "chemin": "Graphics/Animations/rayon_charge_moderne.png",
+   "taille": 20247,
+   "crc": 4286410221,
+   "crc32": "ff7d6ded"
+  },
+  {
+   "chemin": "Graphics/Animations/rayon_signal_moderne.png",
+   "taille": 15041,
+   "crc": 280157836,
+   "crc32": "10b2de8c"
+  },
+  {
    "chemin": "Graphics/Animations/rayon_spectral_moderne.png",
    "taille": 235874,
    "crc": 3314068852,
@@ -1697,10 +2093,40 @@
    "crc32": "a9ecd0ed"
   },
   {
+   "chemin": "Graphics/Animations/represailles_moderne.png",
+   "taille": 9450,
+   "crc": 2775583670,
+   "crc32": "a5700bb6"
+  },
+  {
+   "chemin": "Graphics/Animations/retour_moderne.png",
+   "taille": 218613,
+   "crc": 259479189,
+   "crc32": "0f775695"
+  },
+  {
+   "chemin": "Graphics/Animations/riposte_moderne.png",
+   "taille": 10787,
+   "crc": 2868565811,
+   "crc32": "aafad733"
+  },
+  {
+   "chemin": "Graphics/Animations/ronflement_moderne.png",
+   "taille": 7992,
+   "crc": 1678658675,
+   "crc32": "640e4c73"
+  },
+  {
    "chemin": "Graphics/Animations/roue_libre_moderne.png",
    "taille": 158362,
    "crc": 1206341892,
    "crc32": "47e75104"
+  },
+  {
+   "chemin": "Graphics/Animations/roulade_moderne.png",
+   "taille": 2697,
+   "crc": 198597514,
+   "crc32": "0bd65b8a"
   },
   {
    "chemin": "Graphics/Animations/ruee_or_moderne.png",
@@ -1715,6 +2141,12 @@
    "crc32": "3838b24a"
   },
   {
+   "chemin": "Graphics/Animations/sabotage_moderne.png",
+   "taille": 2881,
+   "crc": 2156543279,
+   "crc32": "808a3d2f"
+  },
+  {
    "chemin": "Graphics/Animations/salaison_moderne.png",
    "taille": 203262,
    "crc": 3380213795,
@@ -1727,16 +2159,34 @@
    "crc32": "08f2f9ee"
   },
   {
+   "chemin": "Graphics/Animations/saumure_moderne.png",
+   "taille": 6190,
+   "crc": 2089396164,
+   "crc32": "7c89a7c4"
+  },
+  {
    "chemin": "Graphics/Animations/second_souffle_moderne.png",
    "taille": 718306,
    "crc": 1431678668,
    "crc32": "5555aecc"
   },
   {
+   "chemin": "Graphics/Animations/seisme_moderne.png",
+   "taille": 44299,
+   "crc": 2915094978,
+   "crc32": "adc0d1c2"
+  },
+  {
    "chemin": "Graphics/Animations/selve_salvatrice_moderne.png",
    "taille": 32843,
    "crc": 1311126523,
    "crc32": "4e2633fb"
+  },
+  {
+   "chemin": "Graphics/Animations/siphon_moderne.png",
+   "taille": 16726,
+   "crc": 819670324,
+   "crc32": "30db2d34"
   },
   {
    "chemin": "Graphics/Animations/soin_floral_moderne.png",
@@ -1763,6 +2213,24 @@
    "crc32": "e4d5a896"
   },
   {
+   "chemin": "Graphics/Animations/surf_moderne.png",
+   "taille": 26043,
+   "crc": 1835354128,
+   "crc32": "6d654810"
+  },
+  {
+   "chemin": "Graphics/Animations/surpuissance_moderne.png",
+   "taille": 15396,
+   "crc": 1496064164,
+   "crc32": "592c20a4"
+  },
+  {
+   "chemin": "Graphics/Animations/taillade_moderne.png",
+   "taille": 3512,
+   "crc": 3763243451,
+   "crc32": "e04e89bb"
+  },
+  {
    "chemin": "Graphics/Animations/talon_marteau_moderne.png",
    "taille": 326427,
    "crc": 1180984921,
@@ -1787,6 +2255,12 @@
    "crc32": "82d2c12c"
   },
   {
+   "chemin": "Graphics/Animations/telluriforce_moderne.png",
+   "taille": 18216,
+   "crc": 3666143251,
+   "crc32": "da84e813"
+  },
+  {
    "chemin": "Graphics/Animations/tempete_de_sable_moderne.png",
    "taille": 78880,
    "crc": 2854676846,
@@ -1799,10 +2273,22 @@
    "crc32": "468f5d5f"
   },
   {
+   "chemin": "Graphics/Animations/tete_de_fer_moderne.png",
+   "taille": 2455,
+   "crc": 171307426,
+   "crc32": "0a35f1a2"
+  },
+  {
    "chemin": "Graphics/Animations/theremonie_moderne.png",
    "taille": 12656,
    "crc": 142071793,
    "crc32": "0877d7f1"
+  },
+  {
+   "chemin": "Graphics/Animations/tir_de_boue_moderne.png",
+   "taille": 6973,
+   "crc": 1058567444,
+   "crc32": "3f187514"
   },
   {
    "chemin": "Graphics/Animations/tir_de_precision_moderne.png",
@@ -1821,6 +2307,12 @@
    "taille": 15232,
    "crc": 2900707647,
    "crc32": "ace5493f"
+  },
+  {
+   "chemin": "Graphics/Animations/tomberoche_moderne.png",
+   "taille": 163268,
+   "crc": 84359242,
+   "crc32": "0507384a"
   },
   {
    "chemin": "Graphics/Animations/tonnerre_moderne.png",
@@ -1883,6 +2375,12 @@
    "crc32": "a07ed958"
   },
   {
+   "chemin": "Graphics/Animations/tunnel_moderne.png",
+   "taille": 194467,
+   "crc": 2475376619,
+   "crc32": "938b3feb"
+  },
+  {
    "chemin": "Graphics/Animations/turbo_volt_moderne.png",
    "taille": 232740,
    "crc": 1063587214,
@@ -1913,10 +2411,28 @@
    "crc32": "aeb89352"
   },
   {
+   "chemin": "Graphics/Animations/ultimapoing_moderne.png",
+   "taille": 2921,
+   "crc": 2888653555,
+   "crc32": "ac2d5af3"
+  },
+  {
+   "chemin": "Graphics/Animations/ultimawashi_moderne.png",
+   "taille": 46899,
+   "crc": 29882709,
+   "crc32": "01c7f955"
+  },
+  {
    "chemin": "Graphics/Animations/ultime_bastion_moderne.png",
    "taille": 76337,
    "crc": 2651620977,
    "crc32": "9e0c8671"
+  },
+  {
+   "chemin": "Graphics/Animations/ultralaser_moderne.png",
+   "taille": 234133,
+   "crc": 3943533004,
+   "crc32": "eb0d89cc"
   },
   {
    "chemin": "Graphics/Animations/vagues_a_lames_moderne.png",
@@ -1937,16 +2453,40 @@
    "crc32": "ece099e0"
   },
   {
+   "chemin": "Graphics/Animations/vengeance_moderne.png",
+   "taille": 7428,
+   "crc": 1420834032,
+   "crc32": "54b034f0"
+  },
+  {
+   "chemin": "Graphics/Animations/vent_glace_moderne.png",
+   "taille": 44926,
+   "crc": 3290863867,
+   "crc32": "c42698fb"
+  },
+  {
    "chemin": "Graphics/Animations/verrouillage_moderne.png",
    "taille": 13700,
    "crc": 2654544198,
    "crc32": "9e392146"
   },
   {
+   "chemin": "Graphics/Animations/vibraqua_moderne.png",
+   "taille": 11263,
+   "crc": 3283985869,
+   "crc32": "c3bda5cd"
+  },
+  {
    "chemin": "Graphics/Animations/vibrecaille_moderne.png",
    "taille": 209166,
    "crc": 1060816524,
    "crc32": "3f3ac68c"
+  },
+  {
+   "chemin": "Graphics/Animations/vibrobscur_moderne.png",
+   "taille": 21987,
+   "crc": 265536157,
+   "crc32": "0fd3c29d"
   },
   {
    "chemin": "Graphics/Animations/vif_eclair_moderne.png",
@@ -3437,6 +3977,42 @@
    "crc32": "b6e9d039"
   },
   {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Kaito.png",
+   "taille": 15521,
+   "crc": 3755753150,
+   "crc32": "dfdc3ebe"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Kaito_2.png",
+   "taille": 18386,
+   "crc": 2105942094,
+   "crc32": "7d86204e"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Kaito_bike.png",
+   "taille": 17637,
+   "crc": 707461355,
+   "crc32": "2a2b00eb"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Kaito_fish_offset.png",
+   "taille": 28533,
+   "crc": 990960097,
+   "crc32": "3b10d9e1"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Kaito_run.png",
+   "taille": 17140,
+   "crc": 2601154923,
+   "crc32": "9b0a796b"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Kaito_surf.png",
+   "taille": 17393,
+   "crc": 1406094006,
+   "crc32": "53cf4ab6"
+  },
+  {
    "chemin": "Graphics/Characters/POKEMONTRAINER_Liam.png",
    "taille": 6624,
    "crc": 377992723,
@@ -3473,6 +4049,42 @@
    "crc32": "820469e1"
   },
   {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Lyca.png",
+   "taille": 18133,
+   "crc": 1351601387,
+   "crc32": "508fcceb"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Lyca_2.png",
+   "taille": 21020,
+   "crc": 1708458114,
+   "crc32": "65d50082"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Lyca_bike.png",
+   "taille": 18263,
+   "crc": 2560736740,
+   "crc32": "98a1bde4"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Lyca_fish_offset.png",
+   "taille": 28812,
+   "crc": 3392869001,
+   "crc32": "ca3b1289"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Lyca_run.png",
+   "taille": 16748,
+   "crc": 3549086544,
+   "crc32": "d38ac350"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Lyca_surf.png",
+   "taille": 18317,
+   "crc": 2575507990,
+   "crc32": "99832216"
+  },
+  {
    "chemin": "Graphics/Characters/POKEMONTRAINER_Nagisa.png",
    "taille": 5676,
    "crc": 2903851178,
@@ -3507,6 +4119,78 @@
    "taille": 6255,
    "crc": 185338291,
    "crc32": "0b0c09b3"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Orion.png",
+   "taille": 17825,
+   "crc": 4222010573,
+   "crc32": "fba6c4cd"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Orion_2.png",
+   "taille": 19635,
+   "crc": 2537580355,
+   "crc32": "97406743"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Orion_bike.png",
+   "taille": 16136,
+   "crc": 1374370349,
+   "crc32": "51eb3a2d"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Orion_fish_offset.png",
+   "taille": 27254,
+   "crc": 3339848361,
+   "crc32": "c7120aa9"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Orion_run.png",
+   "taille": 17454,
+   "crc": 1895157440,
+   "crc32": "70f5cec0"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Orion_surf.png",
+   "taille": 15422,
+   "crc": 3105897211,
+   "crc32": "b9203afb"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Sieg.png",
+   "taille": 15312,
+   "crc": 2928060025,
+   "crc32": "ae86a679"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Sieg_2.png",
+   "taille": 18005,
+   "crc": 550123056,
+   "crc32": "20ca3630"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Sieg_bike.png",
+   "taille": 15492,
+   "crc": 3486969754,
+   "crc32": "cfd6ef9a"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Sieg_fish_offset.png",
+   "taille": 22993,
+   "crc": 3766475236,
+   "crc32": "e07fd9e4"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Sieg_run.png",
+   "taille": 15527,
+   "crc": 3066687074,
+   "crc32": "b6c9ee62"
+  },
+  {
+   "chemin": "Graphics/Characters/POKEMONTRAINER_Sieg_surf.png",
+   "taille": 15271,
+   "crc": 2914347436,
+   "crc32": "adb569ac"
   },
   {
    "chemin": "Graphics/Characters/Z.png",
@@ -9431,6 +10115,18 @@
    "crc32": "2b4d3e4b"
   },
   {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Kaito.png",
+   "taille": 3820,
+   "crc": 448580997,
+   "crc32": "1abccd85"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Kaito_back.png",
+   "taille": 26524,
+   "crc": 597663843,
+   "crc32": "239fa063"
+  },
+  {
    "chemin": "Graphics/Trainers/POKEMONTRAINER_Liam.png",
    "taille": 2410,
    "crc": 654619286,
@@ -9443,6 +10139,18 @@
    "crc32": "9d5ca495"
   },
   {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Lyca.png",
+   "taille": 4283,
+   "crc": 913278950,
+   "crc32": "366f87e6"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Lyca_back.png",
+   "taille": 23177,
+   "crc": 3027532258,
+   "crc32": "b47479e2"
+  },
+  {
    "chemin": "Graphics/Trainers/POKEMONTRAINER_Nagisa.png",
    "taille": 2675,
    "crc": 1531073620,
@@ -9453,6 +10161,30 @@
    "taille": 12140,
    "crc": 2989537094,
    "crc32": "b230b746"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Orion.png",
+   "taille": 4891,
+   "crc": 3889663897,
+   "crc32": "e7d78f99"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Orion_back.png",
+   "taille": 22029,
+   "crc": 818521346,
+   "crc32": "30c9a502"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Sieg.png",
+   "taille": 4361,
+   "crc": 3348585377,
+   "crc32": "c7975ba1"
+  },
+  {
+   "chemin": "Graphics/Trainers/POKEMONTRAINER_Sieg_back.png",
+   "taille": 21962,
+   "crc": 1409440182,
+   "crc32": "540259b6"
   },
   {
    "chemin": "Graphics/Trainers/SATURNE.png",
@@ -9491,13 +10223,37 @@
    "crc32": "f2bb6983"
   },
   {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Kaito.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
    "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Liam.png",
    "taille": 191909,
    "crc": 4072368515,
    "crc32": "f2bb6983"
   },
   {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Lyca.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
    "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Nagisa.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Orion.png",
+   "taille": 191909,
+   "crc": 4072368515,
+   "crc32": "f2bb6983"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_background_POKEMONTRAINER_Sieg.png",
    "taille": 191909,
    "crc": 4072368515,
    "crc32": "f2bb6983"
@@ -9563,16 +10319,40 @@
    "crc32": "c9aef019"
   },
   {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Kaito.png",
+   "taille": 18557,
+   "crc": 947896340,
+   "crc32": "387fc014"
+  },
+  {
    "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Liam.png",
    "taille": 7725,
    "crc": 750406046,
    "crc32": "2cba499e"
   },
   {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Lyca.png",
+   "taille": 15418,
+   "crc": 4165266935,
+   "crc32": "f844edf7"
+  },
+  {
    "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Nagisa.png",
    "taille": 2578,
    "crc": 3307580686,
    "crc32": "c525ad0e"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Orion.png",
+   "taille": 12720,
+   "crc": 2549276267,
+   "crc32": "97f2de6b"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Sieg.png",
+   "taille": 13040,
+   "crc": 654632767,
+   "crc32": "2704e73f"
   },
   {
    "chemin": "Graphics/Transitions/custom_vs_POKEMONTRAINER_Skyla.png",
@@ -9611,16 +10391,40 @@
    "crc32": "4398c18f"
   },
   {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Kaito.png",
+   "taille": 1166,
+   "crc": 918375095,
+   "crc32": "36bd4ab7"
+  },
+  {
    "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Liam.png",
    "taille": 768,
    "crc": 1770100581,
    "crc32": "69819765"
   },
   {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Lyca.png",
+   "taille": 1372,
+   "crc": 89780223,
+   "crc32": "0559efff"
+  },
+  {
    "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Nagisa.png",
    "taille": 658,
    "crc": 270882824,
    "crc32": "10255808"
+  },
+  {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Orion.png",
+   "taille": 1360,
+   "crc": 3046064135,
+   "crc32": "b58f4007"
+  },
+  {
+   "chemin": "Graphics/UI French/Town Map/player_POKEMONTRAINER_Sieg.png",
+   "taille": 1203,
+   "crc": 3318714114,
+   "crc32": "c5cf8f02"
   },
   {
    "chemin": "Graphics/UI/Town Map/mapPlayerBanish.png",
@@ -9635,16 +10439,40 @@
    "crc32": "4398c18f"
   },
   {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Kaito.png",
+   "taille": 1166,
+   "crc": 918375095,
+   "crc32": "36bd4ab7"
+  },
+  {
    "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Liam.png",
    "taille": 768,
    "crc": 1770100581,
    "crc32": "69819765"
   },
   {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Lyca.png",
+   "taille": 1372,
+   "crc": 89780223,
+   "crc32": "0559efff"
+  },
+  {
    "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Nagisa.png",
    "taille": 658,
    "crc": 270882824,
    "crc32": "10255808"
+  },
+  {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Orion.png",
+   "taille": 1360,
+   "crc": 3046064135,
+   "crc32": "b58f4007"
+  },
+  {
+   "chemin": "Graphics/UI/Town Map/player_POKEMONTRAINER_Sieg.png",
+   "taille": 1203,
+   "crc": 3318714114,
+   "crc32": "c5cf8f02"
   },
   {
    "chemin": "LISEZ-MOI.txt",
@@ -9654,9 +10482,9 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 6295,
-   "crc": 831591552,
-   "crc32": "31911480"
+   "taille": 6745,
+   "crc": 2965668274,
+   "crc32": "b0c481b2"
   },
   {
    "chemin": "PBS/abilities.txt",
@@ -9678,27 +10506,27 @@
   },
   {
    "chemin": "PBS/metadata.txt",
-   "taille": 6473,
-   "crc": 1348385937,
-   "crc32": "505ebc91"
+   "taille": 8041,
+   "crc": 2695447992,
+   "crc32": "a0a945b8"
   },
   {
    "chemin": "PBS/pokemon.txt",
-   "taille": 1583771,
-   "crc": 111525855,
-   "crc32": "06a5bfdf"
+   "taille": 1583977,
+   "crc": 3279845114,
+   "crc32": "c37e76fa"
   },
   {
    "chemin": "PBS/pokemon_forms.txt",
-   "taille": 176934,
-   "crc": 835634608,
-   "crc32": "31cec5b0"
+   "taille": 176962,
+   "crc": 2736575640,
+   "crc32": "a31cd498"
   },
   {
    "chemin": "PBS/pokemon_forms_fakemon.txt",
-   "taille": 202436,
-   "crc": 2879828922,
-   "crc32": "aba6b3ba"
+   "taille": 202435,
+   "crc": 2950264833,
+   "crc32": "afd97801"
   },
   {
    "chemin": "PBS/pokemon_metrics.txt",
@@ -9732,9 +10560,9 @@
   },
   {
    "chemin": "PBS/trainer_types.txt",
-   "taille": 27374,
-   "crc": 1748110755,
-   "crc32": "68320da3"
+   "taille": 27926,
+   "crc": 1346689192,
+   "crc32": "5044d8a8"
   },
   {
    "chemin": "PBS/trainers.txt",
@@ -9780,9 +10608,9 @@
   },
   {
    "chemin": "Plugins/Choix Personnage/choix_perso.rb",
-   "taille": 3762,
-   "crc": 1165086456,
-   "crc32": "4571cef8"
+   "taille": 3976,
+   "crc": 2606924183,
+   "crc32": "9b628197"
   },
   {
    "chemin": "Plugins/Deluxe Battle Kit/[002] Midbattle Scripting/[001] Midbattle Overwrites.rb",
@@ -9912,9 +10740,9 @@
   },
   {
    "chemin": "Plugins/Misc Scripts Lycaris/022_Lancer_Pokeball.rb",
-   "taille": 2944,
-   "crc": 319879682,
-   "crc32": "1310fa02"
+   "taille": 3088,
+   "crc": 3401108272,
+   "crc32": "cab8cb30"
   },
   {
    "chemin": "Plugins/Modular UI Scenes/[001] Summary UI/[003] Summary Rewrites.rb",
