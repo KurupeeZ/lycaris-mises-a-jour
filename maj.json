@@ -1,7 +1,7 @@
 {
- "version": "1.1.5",
- "date": "2026-11-13 20:48",
- "nouveautes": "- Toutes les attaques ont maintenant une animation moderne, plus proche des jeux officiels : plus de 500 nouvelles animations (Aqua-Jet, Explosion, Lame d'Air, Pouvoir Lunaire, Tempête Verte, Dynamo-Poing...), attaques de statut comprises.",
+ "version": "1.1.6",
+ "date": "2026-11-15 02:58",
+ "nouveautes": "- Jessie, James et Miaouss de la Team Rocket arrivent ! Comme dans Pokémon Jaune, ils te barrent la route 4 fois en combat duo : Mont Sélénite, Repaire Rocket, Tour Pokémon et Sylphe SARL.\n- Ils surgissent par surprise et récitent leur devise dans le noir. Il y a aussi leur musique, l’écran VS et la musique de combat Team Rocket de HeartGold/SoulSilver.\n- Une fois battus, la Team Rocket s’envole vers d’autres cieux !",
  "encodage": "base64",
  "fichiers": [
   {
@@ -21,6 +21,18 @@
    "taille": 515995,
    "crc": 3109140450,
    "crc32": "b951b7e2"
+  },
+  {
+   "chemin": "Audio/BGM/JessieJamesCombat.ogg",
+   "taille": 1751079,
+   "crc": 3903117542,
+   "crc32": "e8a4d8e6"
+  },
+  {
+   "chemin": "Audio/BGM/JessieJamesDevise.ogg",
+   "taille": 1180751,
+   "crc": 16094182,
+   "crc32": "00f593e6"
   },
   {
    "chemin": "Audio/BGM/VictoriaGalaxia.ogg",
@@ -69,6 +81,12 @@
    "taille": 80264,
    "crc": 3845306866,
    "crc32": "e532b9f2"
+  },
+  {
+   "chemin": "Data/Map013.rxdata",
+   "taille": 94657,
+   "crc": 851261344,
+   "crc32": "32bd37a0"
   },
   {
    "chemin": "Data/Map015.rxdata",
@@ -174,9 +192,9 @@
   },
   {
    "chemin": "Data/Map064.rxdata",
-   "taille": 92627,
-   "crc": 3493181651,
-   "crc32": "d035b8d3"
+   "taille": 95442,
+   "crc": 2775679044,
+   "crc32": "a5718044"
   },
   {
    "chemin": "Data/Map065.rxdata",
@@ -210,9 +228,9 @@
   },
   {
    "chemin": "Data/Map085.rxdata",
-   "taille": 41074,
-   "crc": 2794019735,
-   "crc32": "a6895b97"
+   "taille": 43889,
+   "crc": 2039041952,
+   "crc32": "79894fa0"
   },
   {
    "chemin": "Data/Map087.rxdata",
@@ -243,6 +261,12 @@
    "taille": 78795,
    "crc": 4032578172,
    "crc32": "f05c427c"
+  },
+  {
+   "chemin": "Data/Map100.rxdata",
+   "taille": 78501,
+   "crc": 3142885651,
+   "crc32": "bb54a113"
   },
   {
    "chemin": "Data/Map118.rxdata",
@@ -414,9 +438,9 @@
   },
   {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1231254,
-   "crc": 2290089004,
-   "crc32": "887ffc2c"
+   "taille": 1238305,
+   "crc": 2019265511,
+   "crc32": "785b8be7"
   },
   {
    "chemin": "Data/Scripts.rxdata",
@@ -480,15 +504,15 @@
   },
   {
    "chemin": "Data/trainer_types.dat",
-   "taille": 18930,
-   "crc": 15571739,
-   "crc32": "00ed9b1b"
+   "taille": 19181,
+   "crc": 137990020,
+   "crc32": "08398f84"
   },
   {
    "chemin": "Data/trainers.dat",
-   "taille": 184792,
-   "crc": 3622633222,
-   "crc32": "d7ecff06"
+   "taille": 185756,
+   "crc": 1237827195,
+   "crc32": "49c7be7b"
   },
   {
    "chemin": "Graphics/Animations/a_la_queue_moderne.png",
@@ -7235,6 +7259,18 @@
    "crc32": "692ca6fe"
   },
   {
+   "chemin": "Graphics/Characters/james.png",
+   "taille": 32859,
+   "crc": 1618303025,
+   "crc32": "60755831"
+  },
+  {
+   "chemin": "Graphics/Characters/jessie.png",
+   "taille": 27003,
+   "crc": 770084572,
+   "crc32": "2de68edc"
+  },
+  {
    "chemin": "Graphics/Characters/jupiter.png",
    "taille": 5044,
    "crc": 1986509512,
@@ -13115,6 +13151,18 @@
    "crc32": "01592f1f"
   },
   {
+   "chemin": "Graphics/Trainers/JAMES.png",
+   "taille": 3316,
+   "crc": 1330535996,
+   "crc32": "4f4e5e3c"
+  },
+  {
+   "chemin": "Graphics/Trainers/JESSIE.png",
+   "taille": 4316,
+   "crc": 2724610471,
+   "crc32": "a26641a7"
+  },
+  {
    "chemin": "Graphics/Trainers/JUPITER.png",
    "taille": 2184,
    "crc": 3803121105,
@@ -13235,6 +13283,12 @@
    "crc32": "6b584aae"
   },
   {
+   "chemin": "Graphics/Transitions/custom_background_JESSIE_JAMES.png",
+   "taille": 120749,
+   "crc": 3955295651,
+   "crc32": "ebc105a3"
+  },
+  {
    "chemin": "Graphics/Transitions/custom_background_JUPITER.png",
    "taille": 130750,
    "crc": 1800948398,
@@ -13305,6 +13359,12 @@
    "taille": 86700,
    "crc": 678470238,
    "crc32": "2870a25e"
+  },
+  {
+   "chemin": "Graphics/Transitions/custom_vs_JESSIE_JAMES.png",
+   "taille": 174898,
+   "crc": 3564706232,
+   "crc32": "d47919b8"
   },
   {
    "chemin": "Graphics/Transitions/custom_vs_JUPITER.png",
@@ -13512,9 +13572,9 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 7013,
-   "crc": 2184379935,
-   "crc32": "8232fe1f"
+   "taille": 7498,
+   "crc": 514930640,
+   "crc32": "1eb137d0"
   },
   {
    "chemin": "PBS/abilities.txt",
@@ -13590,15 +13650,15 @@
   },
   {
    "chemin": "PBS/trainer_types.txt",
-   "taille": 27926,
-   "crc": 1346689192,
-   "crc32": "5044d8a8"
+   "taille": 28297,
+   "crc": 830671505,
+   "crc32": "31830a91"
   },
   {
    "chemin": "PBS/trainers.txt",
-   "taille": 241464,
-   "crc": 3147098243,
-   "crc32": "bb94e883"
+   "taille": 242685,
+   "crc": 2607979260,
+   "crc32": "9b729afc"
   },
   {
    "chemin": "Plugins/999_AWN_Correctifs FR 01/001_Correctifs_FR_01.rb",
@@ -13773,6 +13833,12 @@
    "taille": 3088,
    "crc": 3401108272,
    "crc32": "cab8cb30"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/023_Jessie_James.rb",
+   "taille": 19316,
+   "crc": 2717743007,
+   "crc32": "a1fd779f"
   },
   {
    "chemin": "Plugins/Modular UI Scenes/[001] Summary UI/[003] Summary Rewrites.rb",
