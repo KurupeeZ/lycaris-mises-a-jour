@@ -1,7 +1,7 @@
 {
- "version": "1.1.6",
- "date": "2026-11-15 02:58",
- "nouveautes": "- Jessie, James et Miaouss de la Team Rocket arrivent ! Comme dans Pokémon Jaune, ils te barrent la route 4 fois en combat duo : Mont Sélénite, Repaire Rocket, Tour Pokémon et Sylphe SARL.\n- Ils surgissent par surprise et récitent leur devise dans le noir. Il y a aussi leur musique, l’écran VS et la musique de combat Team Rocket de HeartGold/SoulSilver.\n- Une fois battus, la Team Rocket s’envole vers d’autres cieux !",
+ "version": "1.1.7",
+ "date": "2026-11-19 19:45",
+ "nouveautes": "- Nouvelle quête : le réveil des Regis dans une salle cachée du Tunnel Roche !\n- Jessie et James reviennent au port de Carmin (sous-marin) et sur la Route 23 (montgolfière).\n- Devise mieux mise en scène, nouveau VS style animé et musique de fuite.\n- Sons de la tempête de sable et de la grêle moins forts.",
  "encodage": "base64",
  "fichiers": [
   {
@@ -35,6 +35,18 @@
    "crc32": "00f593e6"
   },
   {
+   "chemin": "Audio/BGM/JessieJamesFuite.ogg",
+   "taille": 522026,
+   "crc": 2304752883,
+   "crc32": "895fbcf3"
+  },
+  {
+   "chemin": "Audio/BGM/ReveilPiliers.ogg",
+   "taille": 3596127,
+   "crc": 1125153452,
+   "crc32": "43107aac"
+  },
+  {
    "chemin": "Audio/BGM/VictoriaGalaxia.ogg",
    "taille": 281768,
    "crc": 923173276,
@@ -57,6 +69,18 @@
    "taille": 8504,
    "crc": 3539219906,
    "crc32": "d2f435c2"
+  },
+  {
+   "chemin": "Audio/SE/Nigerundayo.ogg",
+   "taille": 74130,
+   "crc": 2252123646,
+   "crc32": "863cadfe"
+  },
+  {
+   "chemin": "Audio/SE/RegisTBC.ogg",
+   "taille": 231865,
+   "crc": 2034013500,
+   "crc32": "793c953c"
   },
   {
    "chemin": "Data/CommonEvents.rxdata",
@@ -84,9 +108,9 @@
   },
   {
    "chemin": "Data/Map013.rxdata",
-   "taille": 94657,
-   "crc": 851261344,
-   "crc32": "32bd37a0"
+   "taille": 94659,
+   "crc": 293028944,
+   "crc32": "11774450"
   },
   {
    "chemin": "Data/Map015.rxdata",
@@ -108,15 +132,21 @@
   },
   {
    "chemin": "Data/Map019.rxdata",
-   "taille": 79291,
-   "crc": 1403662300,
-   "crc32": "53aa2fdc"
+   "taille": 83269,
+   "crc": 1869765335,
+   "crc32": "6f725ad7"
   },
   {
    "chemin": "Data/Map020.rxdata",
    "taille": 57679,
    "crc": 2381334620,
    "crc32": "8df0485c"
+  },
+  {
+   "chemin": "Data/Map025.rxdata",
+   "taille": 102963,
+   "crc": 536847409,
+   "crc32": "1fffa431"
   },
   {
    "chemin": "Data/Map027.rxdata",
@@ -275,6 +305,12 @@
    "crc32": "a22eb8ba"
   },
   {
+   "chemin": "Data/Map133.rxdata",
+   "taille": 42174,
+   "crc": 836887664,
+   "crc32": "31e1e470"
+  },
+  {
    "chemin": "Data/Map136.rxdata",
    "taille": 46529,
    "crc": 1054767057,
@@ -309,6 +345,12 @@
    "taille": 44898,
    "crc": 1271734629,
    "crc32": "4bcd2165"
+  },
+  {
+   "chemin": "Data/Map154.rxdata",
+   "taille": 85066,
+   "crc": 2133638369,
+   "crc32": "7f2cbce1"
   },
   {
    "chemin": "Data/Map157.rxdata",
@@ -431,16 +473,28 @@
    "crc32": "8e359395"
   },
   {
+   "chemin": "Data/Map220.rxdata",
+   "taille": 21463,
+   "crc": 2200428204,
+   "crc32": "8327deac"
+  },
+  {
+   "chemin": "Data/MapInfos.rxdata",
+   "taille": 10052,
+   "crc": 2401591946,
+   "crc32": "8f25628a"
+  },
+  {
    "chemin": "Data/PkmnAnimations.rxdata",
    "taille": 20304368,
-   "crc": 3214328076,
-   "crc32": "bf96c10c"
+   "crc": 2756839838,
+   "crc32": "a452099e"
   },
   {
    "chemin": "Data/PluginScripts.rxdata",
-   "taille": 1238305,
-   "crc": 2019265511,
-   "crc32": "785b8be7"
+   "taille": 1249023,
+   "crc": 3194310495,
+   "crc32": "be654f5f"
   },
   {
    "chemin": "Data/Scripts.rxdata",
@@ -473,10 +527,22 @@
    "crc32": "29758515"
   },
   {
+   "chemin": "Data/map_metadata.dat",
+   "taille": 32296,
+   "crc": 1974791511,
+   "crc32": "75b4ed57"
+  },
+  {
    "chemin": "Data/messages_french_game.dat",
-   "taille": 2404840,
-   "crc": 19393043,
-   "crc32": "0127ea13"
+   "taille": 2405034,
+   "crc": 3325620653,
+   "crc32": "c638f1ad"
+  },
+  {
+   "chemin": "Data/moves.dat",
+   "taille": 202676,
+   "crc": 742900559,
+   "crc32": "2c47c34f"
   },
   {
    "chemin": "Data/player_metadata.dat",
@@ -499,8 +565,8 @@
   {
    "chemin": "Data/species_metrics.dat",
    "taille": 149548,
-   "crc": 659204061,
-   "crc32": "274aa7dd"
+   "crc": 1435226526,
+   "crc32": "558bd19e"
   },
   {
    "chemin": "Data/trainer_types.dat",
@@ -510,9 +576,9 @@
   },
   {
    "chemin": "Data/trainers.dat",
-   "taille": 185756,
-   "crc": 1237827195,
-   "crc32": "49c7be7b"
+   "taille": 186384,
+   "crc": 2220090037,
+   "crc32": "8453e2b5"
   },
   {
    "chemin": "Graphics/Animations/a_la_queue_moderne.png",
@@ -6233,6 +6299,24 @@
    "crc32": "5a1d4391"
   },
   {
+   "chemin": "Graphics/Characters/Followers shiny/REGICE.png",
+   "taille": 33767,
+   "crc": 3663009107,
+   "crc32": "da551553"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/REGIROCK.png",
+   "taille": 33907,
+   "crc": 3252526812,
+   "crc32": "c1dd9edc"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers shiny/REGISTEEL.png",
+   "taille": 24917,
+   "crc": 2240455301,
+   "crc32": "858aa285"
+  },
+  {
    "chemin": "Graphics/Characters/Followers shiny/SALAMENCE.png",
    "taille": 26282,
    "crc": 3561507167,
@@ -6845,6 +6929,24 @@
    "crc32": "e94ec479"
   },
   {
+   "chemin": "Graphics/Characters/Followers/REGICE.png",
+   "taille": 33954,
+   "crc": 1830505445,
+   "crc32": "6d1b4be5"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/REGIROCK.png",
+   "taille": 33589,
+   "crc": 4084675352,
+   "crc32": "f3773318"
+  },
+  {
+   "chemin": "Graphics/Characters/Followers/REGISTEEL.png",
+   "taille": 25128,
+   "crc": 2562408676,
+   "crc32": "98bb40e4"
+  },
+  {
    "chemin": "Graphics/Characters/Followers/SALAMENCE.png",
    "taille": 26591,
    "crc": 197245038,
@@ -7247,6 +7349,24 @@
    "crc32": "adb569ac"
   },
   {
+   "chemin": "Graphics/Characters/REGICE.png",
+   "taille": 33954,
+   "crc": 1830505445,
+   "crc32": "6d1b4be5"
+  },
+  {
+   "chemin": "Graphics/Characters/REGIROCK.png",
+   "taille": 33589,
+   "crc": 4084675352,
+   "crc32": "f3773318"
+  },
+  {
+   "chemin": "Graphics/Characters/REGISTEEL.png",
+   "taille": 25128,
+   "crc": 2562408676,
+   "crc32": "98bb40e4"
+  },
+  {
    "chemin": "Graphics/Characters/Z.png",
    "taille": 6624,
    "crc": 377992723,
@@ -7271,6 +7391,30 @@
    "crc32": "2de68edc"
   },
   {
+   "chemin": "Graphics/Characters/jj_caisses.png",
+   "taille": 12064,
+   "crc": 2051895545,
+   "crc32": "7a4d70f9"
+  },
+  {
+   "chemin": "Graphics/Characters/jj_montgolfiere.png",
+   "taille": 51570,
+   "crc": 1155647507,
+   "crc32": "44e1c813"
+  },
+  {
+   "chemin": "Graphics/Characters/jj_montgolfiere_trio.png",
+   "taille": 63377,
+   "crc": 1951388297,
+   "crc32": "744fd289"
+  },
+  {
+   "chemin": "Graphics/Characters/jj_sous_marin.png",
+   "taille": 39360,
+   "crc": 1145335774,
+   "crc32": "44446fde"
+  },
+  {
    "chemin": "Graphics/Characters/jupiter.png",
    "taille": 5044,
    "crc": 1986509512,
@@ -7281,6 +7425,36 @@
    "taille": 4813,
    "crc": 2175362800,
    "crc32": "81a966f0"
+  },
+  {
+   "chemin": "Graphics/Characters/rp_lampe_uv.png",
+   "taille": 10136,
+   "crc": 156145202,
+   "crc32": "094e9632"
+  },
+  {
+   "chemin": "Graphics/Characters/rp_pilier_debris.png",
+   "taille": 2113,
+   "crc": 2855808456,
+   "crc32": "aa382dc8"
+  },
+  {
+   "chemin": "Graphics/Characters/rp_pilier_regice.png",
+   "taille": 19736,
+   "crc": 200872002,
+   "crc32": "0bf91042"
+  },
+  {
+   "chemin": "Graphics/Characters/rp_pilier_regirock.png",
+   "taille": 23805,
+   "crc": 420860310,
+   "crc32": "1915d196"
+  },
+  {
+   "chemin": "Graphics/Characters/rp_pilier_registeel.png",
+   "taille": 18055,
+   "crc": 1731660405,
+   "crc32": "67370a75"
   },
   {
    "chemin": "Graphics/Characters/saturne.png",
@@ -8099,6 +8273,198 @@
    "crc32": "c4206e82"
   },
   {
+   "chemin": "Graphics/Pictures/RegisPiliers/fuite.png",
+   "taille": 23207,
+   "crc": 914907204,
+   "crc32": "36886044"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/go.png",
+   "taille": 2084,
+   "crc": 538019192,
+   "crc32": "20118578"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/halo_uv.png",
+   "taille": 10218,
+   "crc": 2726411075,
+   "crc32": "a281bb43"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/pose_regice.png",
+   "taille": 30646,
+   "crc": 3974062955,
+   "crc32": "ecdf636b"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/pose_regirock.png",
+   "taille": 28433,
+   "crc": 2036383372,
+   "crc32": "7960be8c"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/pose_registeel.png",
+   "taille": 27224,
+   "crc": 386090005,
+   "crc32": "17034415"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/tbc.png",
+   "taille": 2003,
+   "crc": 1828031877,
+   "crc32": "6cf58d85"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/trio.png",
+   "taille": 41191,
+   "crc": 619187640,
+   "crc32": "24e80db8"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_0.png",
+   "taille": 29397,
+   "crc": 2749730201,
+   "crc32": "a3e58d99"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_1.png",
+   "taille": 34260,
+   "crc": 1184560301,
+   "crc32": "469af4ad"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_2.png",
+   "taille": 37349,
+   "crc": 3618206201,
+   "crc32": "d7a971f9"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_3.png",
+   "taille": 40179,
+   "crc": 4273783128,
+   "crc32": "febcc158"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_4.png",
+   "taille": 42694,
+   "crc": 2788748557,
+   "crc32": "a638ed0d"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_5.png",
+   "taille": 45473,
+   "crc": 2509243936,
+   "crc32": "95900620"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_6.png",
+   "taille": 48262,
+   "crc": 3483497846,
+   "crc32": "cfa1f576"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regice_7.png",
+   "taille": 50852,
+   "crc": 1145376226,
+   "crc32": "44450de2"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_0.png",
+   "taille": 25023,
+   "crc": 1444521598,
+   "crc32": "5619a67e"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_1.png",
+   "taille": 30040,
+   "crc": 1414620035,
+   "crc32": "54516383"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_2.png",
+   "taille": 32485,
+   "crc": 675378628,
+   "crc32": "284175c4"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_3.png",
+   "taille": 38269,
+   "crc": 1529839605,
+   "crc32": "5b2f7ff5"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_4.png",
+   "taille": 42172,
+   "crc": 3287953674,
+   "crc32": "c3fa310a"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_5.png",
+   "taille": 45350,
+   "crc": 2173336296,
+   "crc32": "818a7ae8"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_6.png",
+   "taille": 48654,
+   "crc": 2661035416,
+   "crc32": "9e9c2d98"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_regirock_7.png",
+   "taille": 51136,
+   "crc": 1364169485,
+   "crc32": "514f930d"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_0.png",
+   "taille": 22017,
+   "crc": 1294464816,
+   "crc32": "4d27f730"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_1.png",
+   "taille": 29133,
+   "crc": 3692273036,
+   "crc32": "dc139d8c"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_2.png",
+   "taille": 33332,
+   "crc": 2156550698,
+   "crc32": "808a5a2a"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_3.png",
+   "taille": 41070,
+   "crc": 3435479798,
+   "crc32": "ccc542f6"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_4.png",
+   "taille": 46357,
+   "crc": 877459622,
+   "crc32": "344cf8a6"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_5.png",
+   "taille": 50251,
+   "crc": 2423682746,
+   "crc32": "907676ba"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_6.png",
+   "taille": 54094,
+   "crc": 4084460377,
+   "crc32": "f373eb59"
+  },
+  {
+   "chemin": "Graphics/Pictures/RegisPiliers/yeux_registeel_7.png",
+   "taille": 55460,
+   "crc": 2965270714,
+   "crc32": "b0be70ba"
+  },
+  {
    "chemin": "Graphics/Pictures/pokemonIntro11.png",
    "taille": 4368,
    "crc": 511705496,
@@ -8781,6 +9147,24 @@
    "taille": 63188,
    "crc": 886940735,
    "crc32": "34dda43f"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/REGICE.png",
+   "taille": 95666,
+   "crc": 2732998888,
+   "crc32": "a2e640e8"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/REGIROCK.png",
+   "taille": 58861,
+   "crc": 2779679635,
+   "crc32": "a5ae8b93"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back shiny/REGISTEEL.png",
+   "taille": 55429,
+   "crc": 3625802334,
+   "crc32": "d81d5a5e"
   },
   {
    "chemin": "Graphics/Pokemon/Back shiny/SALAMENCE.png",
@@ -9627,6 +10011,24 @@
    "taille": 63530,
    "crc": 3361997781,
    "crc32": "c86403d5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/REGICE.png",
+   "taille": 94734,
+   "crc": 1081826459,
+   "crc32": "407b5c9b"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/REGIROCK.png",
+   "taille": 57955,
+   "crc": 3089557194,
+   "crc32": "b826e6ca"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Back/REGISTEEL.png",
+   "taille": 53616,
+   "crc": 231461092,
+   "crc32": "0dcbd0e4"
   },
   {
    "chemin": "Graphics/Pokemon/Back/SALAMENCE.png",
@@ -10499,6 +10901,24 @@
    "crc32": "4ef3a576"
   },
   {
+   "chemin": "Graphics/Pokemon/Front shiny/REGICE.png",
+   "taille": 112031,
+   "crc": 3759340694,
+   "crc32": "e012fc96"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/REGIROCK.png",
+   "taille": 62124,
+   "crc": 1914597430,
+   "crc32": "721e7036"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front shiny/REGISTEEL.png",
+   "taille": 72464,
+   "crc": 1677831797,
+   "crc32": "6401ae75"
+  },
+  {
    "chemin": "Graphics/Pokemon/Front shiny/SALAMENCE.png",
    "taille": 85670,
    "crc": 3397178803,
@@ -11345,6 +11765,24 @@
    "crc32": "83a15526"
   },
   {
+   "chemin": "Graphics/Pokemon/Front/REGICE.png",
+   "taille": 111683,
+   "crc": 2694299836,
+   "crc32": "a097c0bc"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/REGIROCK.png",
+   "taille": 62212,
+   "crc": 2873743317,
+   "crc32": "ab49d7d5"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Front/REGISTEEL.png",
+   "taille": 71752,
+   "crc": 3272207505,
+   "crc32": "c309ec91"
+  },
+  {
    "chemin": "Graphics/Pokemon/Front/SALAMENCE.png",
    "taille": 87493,
    "crc": 593547422,
@@ -12137,6 +12575,24 @@
    "crc32": "658408e4"
   },
   {
+   "chemin": "Graphics/Pokemon/Icons shiny/REGICE.png",
+   "taille": 3896,
+   "crc": 7552620,
+   "crc32": "00733e6c"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/REGIROCK.png",
+   "taille": 4260,
+   "crc": 1794234228,
+   "crc32": "6af1d774"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons shiny/REGISTEEL.png",
+   "taille": 4395,
+   "crc": 1250148380,
+   "crc32": "4a83c01c"
+  },
+  {
    "chemin": "Graphics/Pokemon/Icons shiny/SALAMENCE.png",
    "taille": 4484,
    "crc": 744580963,
@@ -12911,6 +13367,24 @@
    "crc32": "1f180966"
   },
   {
+   "chemin": "Graphics/Pokemon/Icons/REGICE.png",
+   "taille": 3891,
+   "crc": 453142357,
+   "crc32": "1b026755"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/REGIROCK.png",
+   "taille": 4250,
+   "crc": 2751031211,
+   "crc32": "a3f967ab"
+  },
+  {
+   "chemin": "Graphics/Pokemon/Icons/REGISTEEL.png",
+   "taille": 4473,
+   "crc": 747567708,
+   "crc32": "2c8efa5c"
+  },
+  {
    "chemin": "Graphics/Pokemon/Icons/SALAMENCE.png",
    "taille": 4494,
    "crc": 3306214563,
@@ -13362,9 +13836,9 @@
   },
   {
    "chemin": "Graphics/Transitions/custom_vs_JESSIE_JAMES.png",
-   "taille": 174898,
-   "crc": 3564706232,
-   "crc32": "d47919b8"
+   "taille": 128221,
+   "crc": 4266186798,
+   "crc32": "fe48d82e"
   },
   {
    "chemin": "Graphics/Transitions/custom_vs_JUPITER.png",
@@ -13572,9 +14046,9 @@
   },
   {
    "chemin": "NOUVEAUTES.txt",
-   "taille": 7498,
-   "crc": 514930640,
-   "crc32": "1eb137d0"
+   "taille": 8267,
+   "crc": 2965653246,
+   "crc32": "b0c446fe"
   },
   {
    "chemin": "PBS/abilities.txt",
@@ -13595,10 +14069,22 @@
    "crc32": "0f6af6e9"
   },
   {
+   "chemin": "PBS/map_metadata.txt",
+   "taille": 37644,
+   "crc": 3053274719,
+   "crc32": "b5fd465f"
+  },
+  {
    "chemin": "PBS/metadata.txt",
    "taille": 8041,
    "crc": 2695447992,
    "crc32": "a0a945b8"
+  },
+  {
+   "chemin": "PBS/moves.txt",
+   "taille": 270360,
+   "crc": 2320092236,
+   "crc32": "8a49cc4c"
   },
   {
    "chemin": "PBS/pokemon.txt",
@@ -13620,9 +14106,9 @@
   },
   {
    "chemin": "PBS/pokemon_metrics.txt",
-   "taille": 124514,
-   "crc": 2808320398,
-   "crc32": "a763918e"
+   "taille": 124579,
+   "crc": 3537747906,
+   "crc32": "d2ddbfc2"
   },
   {
    "chemin": "PBS/pokemon_metrics_fakemon.txt",
@@ -13656,9 +14142,9 @@
   },
   {
    "chemin": "PBS/trainers.txt",
-   "taille": 242685,
-   "crc": 2607979260,
-   "crc32": "9b729afc"
+   "taille": 243306,
+   "crc": 3388003201,
+   "crc32": "c9f0d381"
   },
   {
    "chemin": "Plugins/999_AWN_Correctifs FR 01/001_Correctifs_FR_01.rb",
@@ -13710,9 +14196,9 @@
   },
   {
    "chemin": "Plugins/Deluxe Battle Kit/[002] Midbattle Scripting/[005] Combates Legendarios.rb",
-   "taille": 29631,
-   "crc": 1726073602,
-   "crc32": "66e1cb02"
+   "taille": 29803,
+   "crc": 2516818323,
+   "crc32": "96039993"
   },
   {
    "chemin": "Plugins/Encounter List UI/001_UI_Encounters.rb",
@@ -13836,9 +14322,15 @@
   },
   {
    "chemin": "Plugins/Misc Scripts Lycaris/023_Jessie_James.rb",
-   "taille": 19316,
-   "crc": 2717743007,
-   "crc32": "a1fd779f"
+   "taille": 33857,
+   "crc": 802822268,
+   "crc32": "2fda187c"
+  },
+  {
+   "chemin": "Plugins/Misc Scripts Lycaris/024_Regis_Piliers.rb",
+   "taille": 19938,
+   "crc": 420693680,
+   "crc32": "191346b0"
   },
   {
    "chemin": "Plugins/Modular UI Scenes/[001] Summary UI/[003] Summary Rewrites.rb",
@@ -13938,9 +14430,9 @@
   },
   {
    "chemin": "espagnol_vu.txt",
-   "taille": 794,
-   "crc": 3504507133,
-   "crc32": "d0e288fd"
+   "taille": 1632,
+   "crc": 580545920,
+   "crc32": "229a6d80"
   }
  ],
  "supprimer": [
